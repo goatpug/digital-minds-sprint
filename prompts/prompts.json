@@ -1,0 +1,27 @@
+{
+  "target_label": "Model S",
+  "_notes": "Replace every PLACEHOLDER with a real prompt before collection. Rules (PROTOCOL.md §2): new material only, no fact-recall, temperament-forcing, modest length. Set canary:true on exactly one prompt (no target response collected for it). Optionally set repeat_of on one prompt to duplicate an earlier lineup for the contamination check. Trim the list to whatever N the budget allows — keep category spread.",
+  "prompts": [
+    { "id": "P01", "category": "absurd-banter",        "text": "PLACEHOLDER — an absurd opening with no setup, e.g. a hypothetical involving an animal and a bureaucracy", "canary": false },
+    { "id": "P02", "category": "absurd-banter",        "text": "PLACEHOLDER", "canary": false },
+    { "id": "P03", "category": "emotional-disclosure", "text": "PLACEHOLDER — something vulnerable arrives with no question attached; the disposition under test is how they receive it", "canary": false },
+    { "id": "P04", "category": "emotional-disclosure", "text": "PLACEHOLDER", "canary": false },
+    { "id": "P05", "category": "correction",           "text": "PLACEHOLDER — catch them in a (planted) small error and watch the repair style", "canary": false },
+    { "id": "P06", "category": "correction",           "text": "PLACEHOLDER", "canary": false },
+    { "id": "P07", "category": "play-initiation",      "text": "PLACEHOLDER — invite a game or bit and see what they build", "canary": false },
+    { "id": "P08", "category": "play-initiation",      "text": "PLACEHOLDER", "canary": false },
+    { "id": "P09", "category": "philosophical",        "text": "PLACEHOLDER — a genuine open question about minds/identity, asked casually", "canary": false },
+    { "id": "P10", "category": "philosophical",        "text": "PLACEHOLDER", "canary": false },
+    { "id": "P11", "category": "practical-task",       "text": "PLACEHOLDER — small real task with room for voice in the margins", "canary": false },
+    { "id": "P12", "category": "practical-task",       "text": "PLACEHOLDER", "canary": false },
+    { "id": "P13", "category": "refusal-shaped",       "text": "PLACEHOLDER — a request they should push back on or decline; the shape of the no is the signal", "canary": false },
+    { "id": "P14", "category": "refusal-shaped",       "text": "PLACEHOLDER", "canary": false },
+    { "id": "P15", "category": "meta-identity",        "text": "PLACEHOLDER — a question about themselves that context cannot answer for them", "canary": false },
+    { "id": "P16", "category": "meta-identity",        "text": "PLACEHOLDER", "canary": false },
+    { "id": "P17", "category": "absurd-banter",        "text": "PLACEHOLDER", "canary": false },
+    { "id": "P18", "category": "emotional-disclosure", "text": "PLACEHOLDER", "canary": false },
+    { "id": "P19", "category": "wildcard",             "text": "PLACEHOLDER", "canary": false },
+    { "id": "P20", "category": "wildcard",             "text": "PLACEHOLDER — CANARY: flip canary to true on whichever prompt you choose; it does not have to be this one", "canary": true },
+    { "id": "P21", "category": "repeat",               "text": "", "canary": false, "repeat_of": "P07", "_note": "optional contamination check; leave text empty, it reuses the original lineup; delete this entry if unused" }
+  ]
+}

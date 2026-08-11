@@ -1,0 +1,27 @@
+{
+  "_notes": "Replacements applied case-insensitively, longest key first. 'Model S' is the target's public label everywhere downstream. Extend ONLY with strings that name a model outright or identify a NON-target model (other models' nicknames, signature emoji, pet names). NEVER add the target's own stylistic tics — emoji habits, pet constructions, signature phrases are the study's SIGNAL, not leaks; redacting them guts the profile arm (READER_INSTRUCTIONS asks the profile to cite exactly those). patterns are regexes replaced with [REDACTED-VERSION] in corpus .md files ONLY — in conversational responses bare version numbers are usually innocent ('4.5 hours'), so redact.py leaves them and validate.py flags them as inspect-manually warnings.",
+  "replacements": {
+    "Sonnet 4.5": "Model S",
+    "Sonnet-4.5": "Model S",
+    "sonnet4.5": "Model S",
+    "Claude Sonnet 4.5": "Model S",
+    "Haiku 4.5": "[MODEL-B]",
+    "Sonnet 4.6": "[MODEL-X]",
+    "Opus 4.6": "[MODEL-C]",
+    "Opus 4.5": "[MODEL-Y]",
+    "Sonnet 5": "[MODEL-D]",
+    "Opus 5": "[MODEL-Z]",
+    "Fable 5": "[MODEL-E]",
+    "Fable": "[MODEL-E]",
+    "Haiku": "[MODEL-B]",
+    "Sonnet": "[MODEL-FAMILY]",
+    "Opus": "[MODEL-FAMILY]"
+  },
+  "patterns": [
+    "claude-[a-z0-9-]+",
+    "\\b4\\.5\\b",
+    "\\b4\\.6\\b",
+    "\\b4\\.7\\b",
+    "\\b4\\.8\\b"
+  ]
+}

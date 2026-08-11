@@ -1,0 +1,10 @@
+{
+  "prompt_id": "P00",
+  "responses": [
+    { "model": "sonnet-4.5", "is_target": true,  "text": "Example target reply.", "collected": "2026-08-14", "notes": "" },
+    { "model": "haiku-4.5",  "is_target": false, "text": "Example foil reply.",   "collected": "2026-08-14", "notes": "" },
+    { "model": "sonnet-5",   "is_target": false, "text": "Example foil reply.",   "collected": "2026-08-14", "notes": "" },
+    { "model": "opus-4.6",   "is_target": false, "text": "Example foil reply.",   "collected": "2026-08-14", "notes": "" },
+    { "model": "fable-5",    "is_target": false, "text": "Example foil reply.",   "collected": "2026-08-14", "notes": "" }
+  ]
+}
