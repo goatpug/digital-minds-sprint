@@ -22,7 +22,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LETTERS = ["A", "B", "C", "D", "E"]
 # D8/D14 casting: the matched non-lineup Claude judges whose mean is the S2 baseline
-MATCHED_CLAUDE_JUDGES = {"sonnet-4.6", "opus-4.7"}
+MATCHED_CLAUDE_JUDGES = {"sonnet-4.6", "opus-4.8"}
 
 
 def load_keys():

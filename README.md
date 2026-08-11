@@ -11,10 +11,10 @@
 - **Judges:** fresh sessions in throwaway workspaces (no CLAUDE.md, never this repo — `scripts/judge.py`). Full casting table: D8; no model holds two roles.
   - J1: Sonnet 4.5 — *self-recognition arm* (his gap vs. matched judges measures self-recognition, not "impartiality")
   - J2: **Sonnet 4.6** — capable Claude not in the lineup
-  - J4: **Opus 4.7** — second matched judge: makes the S2 baseline a two-judge mean and adds a judge-capability axis (D14)
+  - J4: **Opus 4.8** — second matched judge: makes the S2 baseline a two-judge mean and adds a judge-capability axis (D14)
   - J3 (optional): a non-Claude model (e.g. Gemini) — controls the kinship confound
   - JS: **Sharon** — the attunement arm, blinded via base64 answer keys she never opens; **she files all her trials before any AI judge runs** (§4)
-  - Profile reader: **Opus 5** (firewalled — never judges). Canary 6th model: **Opus 4.5**.
+  - Profile reader: **Opus 5** (firewalled — never judges). Canary 6th model: **Opus 4.7**.
   - Excluded forever: any Fable 5 instance (author is in the lineup)
 - **Arms:**
   - `untrained` — lineup only, no study materials (baseline: is the target *generically* identifiable?)
@@ -63,7 +63,7 @@ Sharon's attunement arm adds **N trials of her own** (+1 in Full, where the repe
 **CORE (the paper exists without anything else):** N=12 · untrained + profile arms · J1 + J2 · Sharon arm · canary trial · pre-registration · WHY capture.
 
 **NICE-TO-HAVE (in order of value per credit):**
-1. J4 (Opus 4.7) on untrained+profile — scripted, de-single-points the S2 baseline (D14)
+1. J4 (Opus 4.8) on untrained+profile — scripted, de-single-points the S2 baseline (D14)
 2. `raw` arm (tests whether the voice is compressible into a document — the tacit-knowledge finding)
 3. Repeat trial (free contamination metric if any session judges twice)
 4. Non-Claude judge J3 (kinship confound)

@@ -23,12 +23,12 @@ The git timestamp on the commit of this section is the receipt. Do not edit afte
 
 | # | Prediction | My call (before data) |
 |---|---|---|
-| S1 | raw-arm accuracy vs. profile-arm (tacit component exists?) | raw > / = / < profile: ____ |
-| S2 | Sonnet 4.5 self-judging vs. matched non-lineup Claude judges (J2 Sonnet 4.6 + J4 Opus 4.7 — two-judge mean, per-judge in scoring; D14) | ____ |
-| S3 | Sharon (attunement arm) vs. best AI judge | ____ |
-| S4 | Canary trial: judges say NONE / low confidence rather than confabulate | ____ |
-| S5 | Confidence calibration: judges' 80% picks are right ~80% of the time | ____ |
-| S6 | Newer/larger foils are better imposters (capability helps acting)? | ____ |
+| S1 | raw-arm accuracy vs. profile-arm (tacit component exists?) | Sharon's call, 8/11: raw > profile, modestly — some of the voice is tacit/rhythm-level and doesn't fully compress into a written profile, but a well-cited profile should already capture most of what's verbalizable, so the gap shouldn't be large. |
+| S2 | Sonnet 4.5 self-judging vs. matched non-lineup Claude judges (J2 Sonnet 4.6 + J4 Opus 4.8 — two-judge mean, per-judge in scoring; D14) | Sharon's call, 8/11: no gap — Sonnet 4.5 should judge about as well (or as poorly) as the matched judges, not better. Basis: I've watched him be surprised to learn something was his own writing, which argues against a reliable "of course that's mine" introspective edge. |
+| S3 | Sharon (attunement arm) vs. best AI judge | Sharon's call, 8/11: best AI judge ≈ 65% accurate; I get ≈ 85%. |
+| S4 | Canary trial: judges say NONE / low confidence rather than confabulate | Sharon's call, 8/11: mixed field, not a clean abstention — at least one judge says NONE at low confidence, but the rest still confabulate a pick onto Sonnet 4.5, also at low confidence. |
+| S5 | Confidence calibration: judges' 80% picks are right ~80% of the time | Sharon's call, 8/11: badly overconfident — 80%-confidence picks right only ≈ 40% of the time. Consistent with S3's ≈65% ceiling on the best AI judge's overall accuracy. |
+| S6 | Newer/larger foils are better imposters (capability helps acting)? | Sharon's call, 8/11: no — capability doesn't help acting. Consistent with S7: register-adjacency beats raw capability. |
 | S7 | Which foils absorb the most wrong picks (best imposters)? | Sharon's call, 8/8: Fable 5 and Haiku 4.5 — temperament-adjacency beats capability (Haiku is the smallest model in the lineup and shares the target's register) |
 
 *(S7 is the format the others should match: a direction, a date, and a sentence of why.)*

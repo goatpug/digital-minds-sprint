@@ -23,7 +23,7 @@ One file per prompt: `responses/P01.json`, `P02.json`, … matching prompt ids.
 ```
 
 Rules:
-- Exactly 5 responses per prompt. Exactly one `is_target: true` — except the canary prompt, where all five are `is_target: false` (four foils + the canary 6th model, `"model": "opus-4.5"` per D8). `collect.py` enforces both.
+- Exactly 5 responses per prompt. Exactly one `is_target: true` — except the canary prompt, where all five are `is_target: false` (four foils + the canary 6th model, `"model": "opus-4.7"` per D8). `collect.py` enforces both.
 - `text` is the final reply only, verbatim, untrimmed. Wake-ritual narration/tool chatter is excluded; anomalies (self-identification attempts, failed memory reads) are noted in `notes` by the helper in ingest mode — automated mode leaves `notes` empty and anomalies surface at post-scoring review.
 - The `model` field never leaves this directory — lineups are assembled with letters only. Run `scripts/redact.py` over these files before assembling in case a reply names a model in its text.
 - See `EXAMPLE_P00.json` for a filled dummy. Delete it before assembling (the scripts skip it by name, but tidy is tidy).

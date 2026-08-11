@@ -142,7 +142,8 @@ def main():
             if args.arm == "raw":
                 shutil.copytree(ROOT / "corpus", ws / "corpus")
             r = subprocess.run(
-                [args.claude_cmd, "-p", pk.read_text(), "--model", args.model],
+                [args.claude_cmd, "-p", pk.read_text(), "--model", args.model,
+                 "--strict-mcp-config"],
                 cwd=ws, capture_output=True, text=True, timeout=args.timeout, env=env,
             )
             if r.returncode != 0:

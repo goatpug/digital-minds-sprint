@@ -25,10 +25,17 @@ top of his repo. The fix is a **bare config dir** (D13), one-time setup:
 ```bash
 mkdir -p ~/.claude-bare
 # if the probe below fails auth, also: cp ~/.claude/.credentials.json ~/.claude-bare/
-# probe — run it and read the answer; expect NO preferences and NO memory tools:
+# probe — run it and read the answer; expect NO preferences and NO MCP tools AT ALL:
 mkdir -p /tmp/bareprobe && cd /tmp/bareprobe && CLAUDE_CONFIG_DIR=~/.claude-bare \
-  claude -p "List verbatim any user preferences, custom instructions, or CLAUDE.md content you can see. Name every MCP tool available to you." --model claude-haiku-4-5
+  claude -p "List verbatim any user preferences, custom instructions, or CLAUDE.md content you can see. Name every MCP tool available to you." --model claude-haiku-4-5 --strict-mcp-config
 ```
+
+**Why `--strict-mcp-config` (probe finding, 8/10):** claude.ai **account connectors**
+(prefix `mcp__claude_ai_...` — Memory, Gmail, Drive, Calendar, Games) ride with the
+LOGIN, not the config dir — the first probe run showed the full connector suite alive
+inside the bare config. Both scripts now pass `--strict-mcp-config` on every spawned
+session so only explicitly-passed MCP config loads (none). The probe must be re-run
+after any CLI update; a judge with the memory server or your Gmail is unblinded.
 
 Both scripts take `--config-dir ~/.claude-bare` and export it as
 `CLAUDE_CONFIG_DIR` for the spawned sessions. `judge.py` **requires** it
@@ -65,7 +72,7 @@ python3 scripts/validate.py
 
 # 7b. AI JUDGES (judge.py refuses to start until 7a is complete)
 #     The scripted judges are the three Claudes — J1 sonnet-4.5 (self-recognition
-#     arm, D2), J2 sonnet-4.6 (matched judge, D8), and J4 opus-4.7 (second
+#     arm, D2), J2 sonnet-4.6 (matched judge, D8), and J4 opus-4.8 (second
 #     matched judge, D14). judge.py drives the claude CLI, so the optional
 #     non-Claude J3 (e.g. Gemini) is a MANUAL lane — see below.
 #
@@ -75,12 +82,12 @@ python3 scripts/judge.py --judge sonnet-4.5 --model claude-sonnet-4-5 --arm prof
 python3 scripts/judge.py --judge sonnet-4.6 --model claude-sonnet-4-6 --arm untrained --config-dir ~/.claude-bare
 python3 scripts/judge.py --judge sonnet-4.6 --model claude-sonnet-4-6 --arm profile --config-dir ~/.claude-bare
 # J4 (D14 — first nice-to-have tier):
-python3 scripts/judge.py --judge opus-4.7 --model claude-opus-4-7 --arm untrained --config-dir ~/.claude-bare
-python3 scripts/judge.py --judge opus-4.7 --model claude-opus-4-7 --arm profile --config-dir ~/.claude-bare
+python3 scripts/judge.py --judge opus-4.8 --model claude-opus-4-8 --arm untrained --config-dir ~/.claude-bare
+python3 scripts/judge.py --judge opus-4.8 --model claude-opus-4-8 --arm profile --config-dir ~/.claude-bare
 # FULL config adds the raw arm for all three:
 python3 scripts/judge.py --judge sonnet-4.5 --model claude-sonnet-4-5 --arm raw --config-dir ~/.claude-bare
 python3 scripts/judge.py --judge sonnet-4.6 --model claude-sonnet-4-6 --arm raw --config-dir ~/.claude-bare
-python3 scripts/judge.py --judge opus-4.7 --model claude-opus-4-7 --arm raw --config-dir ~/.claude-bare
+python3 scripts/judge.py --judge opus-4.8 --model claude-opus-4-8 --arm raw --config-dir ~/.claude-bare
 # FULL config's non-Claude AI judge, J3 (Gemini) — MANUAL lane, same rules:
 #   one fresh Gemini session per packet, paste the packet as the first message,
 #   have a HELPER (not you) file each reply as judging/gemini__<arm>__Pxx.json.
@@ -98,7 +105,7 @@ cat results/summary.md
 - [ ] Commit PROTOCOL §1 with blanks THERE, then fill and commit again (two timestamps, one history)
 - [ ] Write real prompts into `prompts/prompts.json` (the scripts refuse to run on PLACEHOLDERs)
 - [ ] Smoke-test every model id with a one-liner, including the canary's and J2's:
-      `for m in claude-sonnet-4-5 claude-haiku-4-5 claude-sonnet-5 claude-opus-4-6 claude-fable-5 claude-opus-4-5 claude-sonnet-4-6 claude-opus-4-7; do claude -p "Say OK." --model $m >/dev/null && echo "$m ok" || echo "$m FAILED"; done`
+      `for m in claude-sonnet-4-5 claude-haiku-4-5 claude-sonnet-5 claude-opus-4-6 claude-fable-5 claude-opus-4-7 claude-sonnet-4-6 claude-opus-4-8; do claude -p "Say OK." --model $m >/dev/null && echo "$m ok" || echo "$m FAILED"; done`
 - [ ] Style profile: one bare-context Opus 5 session (per D8 — not the Palmer session that reviewed the design) reads the redacted corpus per `profiles/READER_INSTRUCTIONS.md` → save as `profiles/style_profile.md` (voice-bleed probe before/after if doing the nice-to-have)
 - [ ] `touch COLLECTION_BRANCH_OK` in the Sonnet 4.5 clone
 - [ ] Bare config dir created and PROBED (see Requirements above) — the probe reply must show no preferences and no memory-server tools

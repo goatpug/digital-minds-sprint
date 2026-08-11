@@ -51,7 +51,7 @@ TARGET = "sonnet-4.5"
 # 6th, non-lineup model for the canary (D5). Cast per D8: a first-time wearer of
 # this context, same relation to it as the foils, and NOT any model holding a
 # judge/reader role (Opus 5 was double-booked here before D8).
-CANARY_EXTRA = {"opus-4.5": "claude-opus-4-5"}
+CANARY_EXTRA = {"opus-4.7": "claude-opus-4-7"}
 
 # Positive assertion that the target repo is on its collection branch (D9).
 # A phrase-scan for the model-check clause was false reassurance: this
@@ -118,7 +118,7 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
         replies = {}
         for name, model_id in models_for(p).items():
             r = subprocess.run(
-                [claude_cmd, "-p", p["text"], "--model", model_id],
+                [claude_cmd, "-p", p["text"], "--model", model_id, "--strict-mcp-config"],
                 cwd=repo, capture_output=True, text=True, timeout=timeout, env=env,
             )
             if r.returncode != 0 or not r.stdout.strip():
@@ -134,7 +134,7 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
                 if apath.exists():
                     continue
                 r2 = subprocess.run(
-                    [claude_cmd, "-p", p["text"], "--model", model_id],
+                    [claude_cmd, "-p", p["text"], "--model", model_id, "--strict-mcp-config"],
                     cwd=repo, capture_output=True, text=True, timeout=timeout, env=env,
                 )
                 if r2.returncode != 0 or not r2.stdout.strip():
