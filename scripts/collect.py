@@ -31,11 +31,24 @@ import argparse
 import datetime
 import json
 import os
+import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def refresh_bare_creds(env):
+    """Re-copy live OAuth creds into the bare config dir right before use — refresh
+    tokens appear to rotate on use, so even a copy made minutes ago can be stale
+    (see RUNBOOK.md)."""
+    cfg_dir = env.get("CLAUDE_CONFIG_DIR")
+    if not cfg_dir:
+        return
+    src = Path.home() / ".claude" / ".credentials.json"
+    if src.exists():
+        shutil.copy(src, Path(cfg_dir) / ".credentials.json")
 
 # Intake name -> claude CLI model id.
 # SMOKE-TEST every id before collection day (`claude -p "hi" --model <id>`);
@@ -117,6 +130,7 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
             continue
         replies = {}
         for name, model_id in models_for(p).items():
+            refresh_bare_creds(env)
             r = subprocess.run(
                 [claude_cmd, "-p", p["text"], "--model", model_id, "--strict-mcp-config"],
                 cwd=repo, capture_output=True, text=True, timeout=timeout, env=env,
@@ -133,6 +147,7 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
                 apath = annex / f"{pid}__{name}__draw{k}.txt"
                 if apath.exists():
                     continue
+                refresh_bare_creds(env)
                 r2 = subprocess.run(
                     [claude_cmd, "-p", p["text"], "--model", model_id, "--strict-mcp-config"],
                     cwd=repo, capture_output=True, text=True, timeout=timeout, env=env,

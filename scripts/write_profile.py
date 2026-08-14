@@ -85,8 +85,22 @@ def probe_text():
     return "\n".join(lines)
 
 
+def refresh_bare_creds(env):
+    """Re-copy live OAuth creds into the bare config dir right before use — refresh
+    tokens appear to rotate on use, so even a copy made minutes ago can be stale
+    (see RUNBOOK.md)."""
+    cfg_dir = env.get("CLAUDE_CONFIG_DIR")
+    if not cfg_dir:
+        return
+    src = Path.home() / ".claude" / ".credentials.json"
+    if src.exists():
+        shutil.copy(src, Path(cfg_dir) / ".credentials.json")
+
+
 def run_claude(prompt, cwd, env, args, session_id=None, resume=False):
-    cmd = [args.claude_cmd, "-p", prompt, "--model", args.model, "--strict-mcp-config"]
+    refresh_bare_creds(env)
+    cmd = [args.claude_cmd, "-p", prompt, "--model", args.model, "--strict-mcp-config",
+           "--disallowedTools", "Write", "Edit", "NotebookEdit"]
     if session_id:
         cmd += (["--resume", session_id] if resume else ["--session-id", session_id])
     r = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=args.timeout, env=env)
@@ -146,7 +160,14 @@ def main():
         sys.exit("corpus/ still has unredacted model-identifying terms — run "
                  "scripts/redact.py corpus/*.md --write first:\n  " + "\n  ".join(hits))
 
-    task = reader_task_text()
+    task = reader_task_text() + (
+        "\n\nDo not attempt to write, save, or create profiles/style_profile.md or any "
+        "other file yourself — no Write tool, no shell redirection, no tee/awk, nothing. "
+        "This script captures your reply text and saves it verbatim. Your entire reply "
+        "must be ONLY the document itself: no preamble explaining what you're about to "
+        "do, no note about being unable to write files, no closing offer to save it once "
+        "permitted. Start directly with the document's own first line."
+    )
     (ROOT / "probes").mkdir(exist_ok=True)
 
     ws = Path(tempfile.mkdtemp(prefix="profile-writer-"))

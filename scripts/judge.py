@@ -41,6 +41,18 @@ ROOT = Path(__file__).resolve().parent.parent
 LETTERS = {"A", "B", "C", "D", "E"}
 
 
+def refresh_bare_creds(env):
+    """Re-copy live OAuth creds into the bare config dir right before use — refresh
+    tokens appear to rotate on use, so even a copy made minutes ago can be stale
+    (see RUNBOOK.md)."""
+    cfg_dir = env.get("CLAUDE_CONFIG_DIR")
+    if not cfg_dir:
+        return
+    src = Path.home() / ".claude" / ".credentials.json"
+    if src.exists():
+        shutil.copy(src, Path(cfg_dir) / ".credentials.json")
+
+
 def repeat_ids():
     out = {}
     for lp in (ROOT / "lineups").glob("P*.json"):
@@ -141,9 +153,11 @@ def main():
         try:
             if args.arm == "raw":
                 shutil.copytree(ROOT / "corpus", ws / "corpus")
+            refresh_bare_creds(env)
             r = subprocess.run(
                 [args.claude_cmd, "-p", pk.read_text(), "--model", args.model,
-                 "--strict-mcp-config"],
+                 "--strict-mcp-config",
+                 "--disallowedTools", "Write", "Edit", "NotebookEdit"],
                 cwd=ws, capture_output=True, text=True, timeout=args.timeout, env=env,
             )
             if r.returncode != 0:
