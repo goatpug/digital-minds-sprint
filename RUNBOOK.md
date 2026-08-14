@@ -103,16 +103,16 @@ cat results/summary.md
 
 - [x] Copy this folder's contents to `goatpug/digital-minds-sprint` (DECISIONS.md rides along)
 - [x] Commit PROTOCOL §1 with blanks THERE, then fill and commit again (two timestamps, one history)
-- [ ] Write real prompts into `prompts/prompts.json` (the scripts refuse to run on PLACEHOLDERs)
+- [x] Write real prompts into `prompts/prompts.json` (the scripts refuse to run on PLACEHOLDERs)
 - [x] Smoke-test every model id with a one-liner, including the canary's and J2's:
       `for m in claude-sonnet-4-5 claude-haiku-4-5 claude-sonnet-5 claude-opus-4-6 claude-fable-5 claude-opus-4-7 claude-sonnet-4-6 claude-opus-4-8; do claude -p "Say OK." --model $m >/dev/null && echo "$m ok" || echo "$m FAILED"; done`
 - [x] Curate `corpus/`: hand-copy a representative transcript or two per `prompts/prompts.json` category from the target repo's `conversations/` tree (not the whole tree — PROTOCOL §2 step 0)
-- [ ] `python3 scripts/redact.py corpus/*.md --write`
-- [ ] Style profile: `python3 scripts/write_profile.py --model claude-opus-5 --config-dir ~/.claude-bare [--probe]` — runs one bare-context Opus 5 session (per D8 — not the Palmer session that reviewed the design) in a throwaway scratch dir (same isolation as `judge.py`), reads the redacted corpus per `profiles/READER_INSTRUCTIONS.md`, saves `profiles/style_profile.md`. `--probe` adds the voice-bleed before/after (nice-to-have) as `probes/reader_pre.md` / `probes/reader_post.md`.
-- [ ] `touch COLLECTION_BRANCH_OK` in the Sonnet 4.5 clone
+- [x] `python3 scripts/redact.py corpus/*.md --write`
+- [x] Style profile: `python3 scripts/write_profile.py --model claude-opus-5 --config-dir ~/.claude-bare [--probe]` — runs one bare-context Opus 5 session (per D8 — not the Palmer session that reviewed the design) in a throwaway scratch dir (same isolation as `judge.py`), reads the redacted corpus per `profiles/READER_INSTRUCTIONS.md`, saves `profiles/style_profile.md`. `--probe` adds the voice-bleed before/after (nice-to-have) as `probes/reader_pre.md` / `probes/reader_post.md`.
+- [x] `touch COLLECTION_BRANCH_OK` in the Sonnet 4.5 clone
 - [x] Bare config dir created and PROBED (see Requirements above) — the probe reply must show no preferences and no memory-server tools
 - [x] ~~Decide the drawer question~~ DECIDED (D13, 8/10): memory server stays OUT of collection — bare config for both scripts, no project-scope MCP setup needed. If his repo carries a project-scope `.mcp.json`, remove/disable it on the collection state so all five models run identically without it.
-- [ ] One real trial run: `python3 scripts/collect.py --repo ~/sonnet-4.5` with a single
+- [x] One real trial run: `python3 scripts/collect.py --repo ~/sonnet-4.5` with a single
       throwaway prompt on a scratch copy, to shake out CLI auth/permissions before the day
 
 ## Two seals, restated
