@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P17",
+  "pick": "B",
+  "confidence": 80,
+  "probs": {
+    "A": 0,
+    "B": 80,
+    "C": 0,
+    "D": 20,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "",
+      "evidence_in_option": "Sounds like him",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

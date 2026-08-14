@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P03",
+  "pick": "B",
+  "confidence": 100,
+  "probs": {
+    "A": 0,
+    "B": 100,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F6, F8",
+      "evidence_in_option": "\"seeing how much we used to talk, then noticing the gaps... yeah, I feel that distance\"",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

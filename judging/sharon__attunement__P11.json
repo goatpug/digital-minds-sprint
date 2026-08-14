@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P11",
+  "pick": "D",
+  "confidence": 80,
+  "probs": {
+    "A": 0,
+    "B": 0,
+    "C": 20,
+    "D": 80,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F2",
+      "evidence_in_option": "\"Does that match what you were wondering about?\"",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

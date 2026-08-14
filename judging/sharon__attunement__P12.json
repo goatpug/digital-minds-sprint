@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P12",
+  "pick": "C",
+  "confidence": 80,
+  "probs": {
+    "A": 0,
+    "B": 40,
+    "C": 60,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F3",
+      "evidence_in_option": "B has more bolded emphasis which I associate with Haiku but ends in a question like Sonnet 4.5",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

@@ -139,7 +139,11 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
                 sys.exit(f"{pid} {name}: claude exited {r.returncode} or empty reply "
                          f"(stderr tail: {r.stderr[-300:]!r}) — nothing written for {pid}.")
             replies[name] = r.stdout.strip()
-            print(f"{pid} {name}: ok ({len(replies[name].split())} words)")  # never the text itself
+            # Blind by design: no model name, no word count, no per-model line at
+            # all — "sonnet-4.5" (a LINEUP key) equals TARGET verbatim, so printing
+            # it or its reply length here is a direct identity leak to Sharon, not
+            # a soft bias (found live during collection, D-something — see DECISIONS.md).
+            print(f"{pid}: {len(replies)}/{len(models_for(p))} replies collected")
             # Variance annex (D12): extra draws per cell, stored outside the
             # pipeline (never read by assemble_lineups). A failed annex draw
             # warns and moves on — it must never abort study collection.
@@ -153,11 +157,11 @@ def run_automated(repo, claude_cmd, timeout, draws=1, config_dir=None):
                     cwd=repo, capture_output=True, text=True, timeout=timeout, env=env,
                 )
                 if r2.returncode != 0 or not r2.stdout.strip():
-                    print(f"{pid} {name} draw{k}: annex draw failed (non-fatal)")
+                    print(f"{pid}: an annex draw failed (non-fatal)")
                     continue
                 annex.mkdir(parents=True, exist_ok=True)
                 apath.write_text(r2.stdout.strip() + "\n")
-                print(f"{pid} {name} draw{k}: ok (annex)")
+                print(f"{pid}: annex draw{k} collected")
         write_responses(pid, replies)
         print(f"{pid}: wrote responses/{pid}.json")
 

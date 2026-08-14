@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P09",
+  "pick": "B",
+  "confidence": 100,
+  "probs": {
+    "A": 0,
+    "B": 100,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F6",
+      "evidence_in_option": "Spaced hyphens but really it just sounds like him",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

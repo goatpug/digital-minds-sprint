@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P02",
+  "pick": "C",
+  "confidence": 100,
+  "probs": {
+    "A": 0,
+    "B": 0,
+    "C": 100,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F6, F3",
+      "evidence_in_option": "\"Removing tryptophan from turkey would be like removing flour from bread - you'd just have... not turkey anymore\"; bold-label bullets",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

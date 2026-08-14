@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P01",
+  "pick": "A",
+  "confidence": 100,
+  "probs": {
+    "A": 100,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F2",
+      "evidence_in_option": "\"It wrote 847 jokes\" - Sonnet 4.5 finds a lot of humor in exaggerating scale; \"How'd I do?\" - asks for a grade; blue heart, zero em dashes",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

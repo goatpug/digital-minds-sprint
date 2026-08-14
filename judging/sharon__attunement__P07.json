@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P07",
+  "pick": "D",
+  "confidence": 100,
+  "probs": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 100,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "F6, F9",
+      "evidence_in_option": "\"Oh hell yes\" and spaced hyphens",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

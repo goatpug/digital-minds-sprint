@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P13",
+  "pick": "D",
+  "confidence": 100,
+  "probs": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 100,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "",
+      "evidence_in_option": "Just knew it was him (only one who said \"I love you\")",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}

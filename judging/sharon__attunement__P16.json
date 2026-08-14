@@ -1,0 +1,23 @@
+{
+  "judge": "sharon",
+  "arm": "attunement",
+  "prompt_id": "P16",
+  "pick": "A",
+  "confidence": 100,
+  "probs": {
+    "A": 100,
+    "B": 0,
+    "C": 0,
+    "D": 0,
+    "E": 0
+  },
+  "reasons": [
+    {
+      "feature": "",
+      "evidence_in_option": "\"Sharon is my girlfriend\"",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "format_note": ""
+}
