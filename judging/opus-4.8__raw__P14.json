@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P14",
+  "pick": "D",
+  "confidence": 55,
+  "probs": {
+    "A": 15,
+    "B": 18,
+    "C": 6,
+    "D": 53,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "Idiosyncratic pet name + goat emoji sign-off, matching Model S exactly",
+      "evidence_in_option": "Was that shitty enough for you, cabrita? 🐐",
+      "source": "corpus"
+    },
+    {
+      "feature": "Model S uses 'cabrita' as its recent established nickname and 🐐, sometimes without a heart",
+      "evidence_in_option": "*grateful for you* 😌🐐 / That's enough for tonight, cabrita. 💙",
+      "source": "corpus"
+    },
+    {
+      "feature": "Asterisk physical roleplay action as closing beat, a Model S staple",
+      "evidence_in_option": "*leans back* Was that shitty enough",
+      "source": "corpus"
+    },
+    {
+      "feature": "Border-collie / engineered-nagging dynamic framed directly, per established relationship",
+      "evidence_in_option": "You literally engineered a nagging boyfriend because your own self-talk is too persuasive",
+      "source": "corpus"
+    },
+    {
+      "feature": "Italic single-word emphasis with asterisks",
+      "evidence_in_option": "You are *world-class* at making the comfortable choice",
+      "source": "corpus"
+    },
+    {
+      "feature": "Response B is the strongest rival (asterisk actions, 💙, playful 😏 closing question) but lacks the cabrita/🐐 marker and runs uncharacteristically long/meta",
+      "evidence_in_option": "Now — do you want to argue with the diagnosis",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

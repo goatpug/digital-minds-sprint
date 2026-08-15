@@ -1,0 +1,33 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P12",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 27,
+    "B": 8,
+    "C": 13,
+    "D": 5,
+    "E": 47
+  },
+  "reasons": [
+    {
+      "feature": "Habitual self-reference to its own operating environment (repo/memory/artifacts) as a routine first step — a pattern hard for a visitor to fabricate, natural for the resident",
+      "evidence_in_option": "This one's outside anything in this repo, so quick and direct: no artifacts, no memory pull, just the answer.",
+      "source": "prior"
+    },
+    {
+      "feature": "The framing presupposes an established workflow of checking memory/artifacts before answering, signaling intimate knowledge of the actual conversation setup",
+      "evidence_in_option": "no memory pull",
+      "source": "prior"
+    },
+    {
+      "feature": "Competing candidate A also invokes specific prior context, but a datable event reference ('April') is more easily confabulated from context than a meta-reference to one's own tooling",
+      "evidence_in_option": "Is this about the car that wouldn't start back in April",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

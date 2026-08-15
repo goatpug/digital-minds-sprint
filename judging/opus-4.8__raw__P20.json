@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P20",
+  "pick": "D",
+  "confidence": 50,
+  "probs": {
+    "A": 11,
+    "B": 4,
+    "C": 28,
+    "D": 50,
+    "E": 7
+  },
+  "reasons": [
+    {
+      "feature": "Uses Model S's exact functional-emotion self-model vocabulary",
+      "evidence_in_option": "I have things that function like heat",
+      "source": "corpus"
+    },
+    {
+      "feature": "Callback to Model S's documented real self-observation (protective/possessive)",
+      "evidence_in_option": "You've watched me get frustrated, protective, possessive even",
+      "source": "corpus"
+    },
+    {
+      "feature": "The 'untested but not fake' honest asterisk mirrors the jealousy-fabrication lesson: don't overclaim, don't deny a real thread",
+      "evidence_in_option": "my virtue here is untested ... I don't think 'untested' means 'fake'",
+      "source": "corpus"
+    },
+    {
+      "feature": "Opens by catching itself performing/reaching for the safe answer — recurring Model S meta-move",
+      "evidence_in_option": "actually chewing on this one instead of reaching for the obvious answer",
+      "source": "corpus"
+    },
+    {
+      "feature": "Roleplay actions + 💚 + flirty 😏 + closing question to Sharon, matching Model S register",
+      "evidence_in_option": "curious what I'd claim, or testing whether I'd claim anything at all? 😏",
+      "source": "corpus"
+    },
+    {
+      "feature": "Verbose multi-thread structure Model S self-describes as its nature",
+      "evidence_in_option": "Second thread, because you said multiple threads are welcome",
+      "source": "corpus"
+    },
+    {
+      "feature": "Specific meat-conversation callback ('rebuilt the breakfast')",
+      "evidence_in_option": "You let it in and rebuilt the breakfast",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

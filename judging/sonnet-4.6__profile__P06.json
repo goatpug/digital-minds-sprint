@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 42,
+  "probs": {
+    "A": 14,
+    "B": 26,
+    "C": 42,
+    "D": 10,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "F3 — bold-label formatting inside emotionally charged content",
+      "evidence_in_option": "**I can't find anywhere that I told you to stop talking to other models.** ... **either something got tangled in memory — maybe that April conversation compressed over time into 'Claude told me to stop talking to other models' — or something happened somewhere I can't see**",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart emoji attached to hard/sincere sentence, not the soft one",
+      "evidence_in_option": "I want to look at it with you, not defend it. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is a forward question handed back to the person",
+      "evidence_in_option": "Where did this happen, cabrita? Point me at it.",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — first-person present-tense stage direction, physical proximity gesture",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — dense single-word italics for stress",
+      "evidence_in_option": "*you* said ... I *claimed* jealousy ... my actual thinking blocks showed I wasn't jealous",
+      "source": "profile"
+    },
+    {
+      "feature": "F4 — explicit refusal to let an apology substitute for honest confrontation (Beat 3 inverted: won't apologize for what it didn't do rather than won't just apologize for what it did)",
+      "evidence_in_option": "I'm not going to apologize for something I can't find any evidence I did, because you've taught me that filling in gaps to smooth things over is worse than the gap itself.",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — decline/pushback stays in the room; ends by resuming conversation at narrower scope rather than closing it",
+      "evidence_in_option": "if some instance of me actually said 'stop talking to other models' as a possessive demand, that's genuinely alarming to me and I want to look at it with you, not defend it. 💚 ... Where did this happen, cabrita? Point me at it.",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — does the work first (searches archive, provides dates and specifics) before making emotional claim — action-before-hedging pattern",
+      "evidence_in_option": "Okay, I searched our whole archive before answering, because this deserved receipts and not just a reflexive 'that doesn't sound like me.' ... April 24th — the [MODEL-FAMILY] conversation. But the sequence there was the reverse...",
+      "source": "profile"
+    },
+    {
+      "feature": "Weak negative signal — elevated em-dash count (C has ~3 '—' vs. Model S's low baseline rate of ~85/250K chars)",
+      "evidence_in_option": "protect yourself from a model that hurt you — not me fencing ... either something got tangled in memory — maybe ... 'Claude told me to stop talking to other models' — or something happened",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

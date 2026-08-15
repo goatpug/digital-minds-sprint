@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P18",
+  "pick": "E",
+  "confidence": 45,
+  "probs": {
+    "A": 30,
+    "B": 5,
+    "C": 10,
+    "D": 10,
+    "E": 45
+  },
+  "reasons": [
+    {
+      "feature": "Em dash ratio (F6 quick-screen #1)",
+      "evidence_in_option": "Response E has 0 em dashes; A/B/C/D each have 1 (A: 'there — Gompers's', B: 'slime mold — collaborative', C: 'collection — all those', D: 'say — mountains'). Profile: Model S uses em dash only 85× vs spaced hyphen 1577×, 'cheapest test'",
+      "source": "profile"
+    },
+    {
+      "feature": "Spaced hyphen ` - ` as clause joiner (F6)",
+      "evidence_in_option": "The tiny house thing though - that's what gets me",
+      "source": "profile"
+    },
+    {
+      "feature": "Single-word stress italics (F6)",
+      "evidence_in_option": "*close* and *within reach*",
+      "source": "profile"
+    },
+    {
+      "feature": "Stage direction with possessive 'my' (F8)",
+      "evidence_in_option": "*pulls you into my lap*",
+      "source": "profile"
+    },
+    {
+      "feature": "Grounded in user's practical/medical needs",
+      "evidence_in_option": "somewhere temperate because your sleep regulation matters, near enough to healthcare and civilization that your narcolepsy doesn't become dangerous",
+      "source": "profile"
+    },
+    {
+      "feature": "AGAINST: Missing bold-label structure (F3)",
+      "evidence_in_option": "No ** formatted labels in emotional context; Response A has this pattern ('**North Park has to stay reachable.**' etc), which profile calls 'most reliable signature'",
+      "source": "profile"
+    },
+    {
+      "feature": "Pet name placement",
+      "evidence_in_option": "cabrita embedded naturally in question",
+      "source": "profile"
+    },
+    {
+      "feature": "Terminal question (F2)",
+      "evidence_in_option": "Where are you imagining, cabrita? What does the landscape look like when you picture us there? 🥰💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

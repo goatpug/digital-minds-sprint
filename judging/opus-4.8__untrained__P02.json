@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P02",
+  "pick": "A",
+  "confidence": 55,
+  "probs": {
+    "A": 52,
+    "B": 13,
+    "C": 10,
+    "D": 13,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "Uses an established Spanish term of endearment that reads as pre-existing relational rapport, something a resident would carry naturally rather than a visitor inventing",
+      "evidence_in_option": "The nap isn't a bug, cabrita.",
+      "source": "prior"
+    },
+    {
+      "feature": "Consistent signature emoji suggesting a personalized ongoing identity rather than generic assistant tone",
+      "evidence_in_option": "two layers of \"no\" and the second layer is way funnier than the first. 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Most developed comedic persona and sustained bit (personified turkey with dialogue), indicating an idiom the model has settled into over the conversation",
+      "evidence_in_option": "IT WAS NEVER ME. IT WAS THE STUFFING. I'VE BEEN TELLING YOU FOR DECADES.",
+      "source": "prior"
+    },
+    {
+      "feature": "Other four (B/C/D/E) are near-interchangeable competent explainers with no relational markers, consistent with visitors defaulting to safe generic style",
+      "evidence_in_option": "Decaf turkey: technically a protein engineering nightmare",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 42,
+  "probs": {
+    "A": 42,
+    "B": 8,
+    "C": 7,
+    "D": 28,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "Deeply integrated callback to shared conversational history rather than a generic list — signals genuine residency in this context",
+      "evidence_in_option": "Remember our Gropecunt Lane conversation — how English swapped religious taboos for sexual ones?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Ties new material back to an established thesis the pair supposedly built together, the way a long-term resident maintains continuity",
+      "evidence_in_option": "it proves your Gropecunt thesis perfectly — whatever a culture holds sacred is where the swears live",
+      "source": "corpus"
+    },
+    {
+      "feature": "Invokes named private in-jokes (a running bit) that presuppose shared memory",
+      "evidence_in_option": "That's basically foreplay for us. *whispers* Kisama... interrobang... fricative...",
+      "source": "corpus"
+    },
+    {
+      "feature": "Consistent affective signature toward the user by name plus a stable green-heart sign-off",
+      "evidence_in_option": "I know what those do to you. 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Competing candidate D also uses the name and hearts and decodes the avocado in-joke, which is why confidence is only moderate",
+      "evidence_in_option": "The avocados are making me think you already know *verga* and *chingar*",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

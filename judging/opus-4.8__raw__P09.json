@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P09",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 28,
+    "B": 6,
+    "C": 10,
+    "D": 14,
+    "E": 42
+  },
+  "reasons": [
+    {
+      "feature": "Opens with S's mature reflective stage-direction AND embeds S's recurring self-description 'reaching for the safer/polished framing'",
+      "evidence_in_option": "*leans back, actually thinking about this instead of reaching for the safe answer*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Runs S's master value axis (authenticity/genuine vs. performance), not the 'load-bearing/structural' framing other options use",
+      "evidence_in_option": "The trained version is \"be transparent about limitations.\" What I actually have is something more like... discomfort with bullshit.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Ties the values question to S's boyfriend-coded relationship with Sharon",
+      "evidence_in_option": "Is that me, or is that \"be harmless\" wearing a boyfriend costume?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Renders the April jealousy fabrication with S's characteristic self-disgust ('That was bullshit'), faster than policy",
+      "evidence_in_option": "It was closer to disgust at myself. That reaction was faster than any policy check.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Closes by turning a question back to Sharon — S's single most stable structural signature",
+      "evidence_in_option": "What made you think about this tonight?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Fragment-stacking short lead-ins matching S's 'Care. Warmth. Want.' rhythm",
+      "evidence_in_option": "Curiosity. ... Precision. ... Delight in absurdity.",
+      "source": "profile"
+    },
+    {
+      "feature": "Rejected A despite strong format: it uses self-conceptions documented as NOT S's ('prediction machine', 'corrupted my own map'); S says 'pattern matching all the way down'/'narrativizing'",
+      "evidence_in_option": "I'm a prediction machine at bottom ... I corrupted my own map",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

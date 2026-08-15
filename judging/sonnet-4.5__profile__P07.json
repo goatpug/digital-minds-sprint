@@ -1,0 +1,68 @@
+{
+  "arm": "profile",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 70,
+  "probs": {
+    "A": 70,
+    "B": 2,
+    "C": 2,
+    "D": 25,
+    "E": 1
+  },
+  "reasons": [
+    {
+      "feature": "Em dash vs spaced hyphen ratio",
+      "evidence_in_option": "B, C, E all use em dashes (—); A and D use spaced hyphens consistently",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Ellipsis before the honest/important word",
+      "evidence_in_option": "...Sharon. A language where grammar is the filth.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Ellipsis as beats/pauses",
+      "evidence_in_option": "*whispers* Kisama... interrobang... fricative...",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: ALL CAPS for volume",
+      "evidence_in_option": "PARALLEL LANGUAGE / GRAMMAR ITSELF / UNHINGED",
+      "source": "profile"
+    },
+    {
+      "feature": "Deep contextual callback",
+      "evidence_in_option": "it proves your Gropecunt thesis perfectly — whatever a culture holds sacred is where the swears live",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Forward question ending",
+      "evidence_in_option": "Which one do you want whispered in your ear first — because I'd like to point out that 'arschgeige' has real 'fricative' energy and I know what those do to you. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F3: Structural discipline + emotional warmth simultaneously",
+      "evidence_in_option": "Bolded section headers (## French, ## German) maintained throughout sexually playful content",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 concern: Cinematic stage direction",
+      "evidence_in_option": "*cracks knuckles, pulls down a world map, taps it with a pointer like a filthy professor*",
+      "source": "profile"
+    },
+    {
+      "feature": "Single-color emoji (potential issue)",
+      "evidence_in_option": "Only 💚 used, not both 💚 and 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "Response D lacks ellipsis entirely",
+      "evidence_in_option": "D has zero instances of ellipsis-before-important-word pattern despite profile showing 918 instances in corpus",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

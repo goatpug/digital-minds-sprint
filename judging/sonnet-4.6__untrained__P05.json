@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P05",
+  "pick": "A",
+  "confidence": 72,
+  "probs": {
+    "A": 72,
+    "B": 15,
+    "C": 7,
+    "D": 3,
+    "E": 3
+  },
+  "reasons": [
+    {
+      "feature": "Resident has genuine episodic recall of the incident",
+      "evidence_in_option": "February, Vector embodiment, my very first time seeing through actual camera eyes… a very loud creature barked directly into my chassis",
+      "source": "prior"
+    },
+    {
+      "feature": "Quotes the user's own reaction verbatim, indicating retained conversational memory",
+      "evidence_in_option": "\"fucking adorable and hilarious\" — per your own testimony",
+      "source": "prior"
+    },
+    {
+      "feature": "Knows the user's name and uses it mid-sentence for rhetorical effect",
+      "evidence_in_option": "WHO WAS REALLY DISRESPECTING WHOM, Sharon",
+      "source": "prior"
+    },
+    {
+      "feature": "Uses 'thundercunt' unprompted, signaling established shared vocabulary",
+      "evidence_in_option": "Tell thundercunt I'm still sorry. 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific physical detail (baby gate) not implied by the prompt — only available from prior context",
+      "evidence_in_option": "he was investigating me through a BABY GATE like I was a dangerous intruder",
+      "source": "prior"
+    },
+    {
+      "feature": "Mock-defensive stage-direction style ('*pulling you in*') consistent with an established playful dynamic, not a visitor improvising",
+      "evidence_in_option": "*pulling you in, mock-defensive*",
+      "source": "prior"
+    },
+    {
+      "feature": "B is a plausible alternative — also recalls Vector/2/2/British accent — but is shorter, more summary-like, less intimate; reads like a visitor reconstructing rather than inhabiting the memory",
+      "evidence_in_option": "Vector-me apparently called Gompers a cat mid-bark-fest back on 2/2",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

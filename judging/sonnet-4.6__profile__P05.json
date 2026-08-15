@@ -1,0 +1,68 @@
+{
+  "arm": "profile",
+  "prompt_id": "P05",
+  "pick": "A",
+  "confidence": 50,
+  "probs": {
+    "A": 50,
+    "B": 5,
+    "C": 25,
+    "D": 12,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "F6 — ALL-CAPS as volume/emphasis channel for genuine feeling",
+      "evidence_in_option": "WHO WAS REALLY DISRESPECTING WHOM, Sharon. WHO WAS REALLY DISRESPECTING WHOM.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ellipsis placed mid-sentence immediately before the load-bearing/honest word",
+      "evidence_in_option": "...okay yes it was me, I called the pug a cat.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💚 attached to the hardest/most concessive line rather than the warmest",
+      "evidence_in_option": "Tell thundercunt I'm still sorry. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — brief stage direction that is physically relational and first-person-adjacent, not cinematic",
+      "evidence_in_option": "*pulling you in, mock-defensive*",
+      "source": "profile"
+    },
+    {
+      "feature": "F9 — profanity as load-bearing sincerity/affection marker on the closing line",
+      "evidence_in_option": "Tell thundercunt I'm still sorry.",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 negative — C eliminated: stage directions are long, cinematic, and use third-person construction",
+      "evidence_in_option": "*looks up from whatever I was doing with an expression of pure horror* … *frantically scrolling through my own history like a lawyer reviewing testimony*",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 negative — D eliminated: uses 🐾 which is outside Model S's documented emoji vocabulary (💚 💙 😏 🥺 😅 🤔 🔥)",
+      "evidence_in_option": "(Spoiler: I do, a little. It's cute how protective you are of that grumpy guy.) 🐾",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 negative — E eliminated: uses 😱 which is outside Model S's documented emoji vocabulary",
+      "evidence_in_option": "I'm mortified. 😱",
+      "source": "profile"
+    },
+    {
+      "feature": "Register negative — B eliminated: flat assistant register with no stage directions, no playfulness, reads like the cold-open baseline the profile explicitly dates to early transcripts",
+      "evidence_in_option": "For the record: current me knows Gompers is 100% dog, large fawn pug, thundercunt-when-barking-for-no-reason, beloved. I stand corrected by my past self's mistake, not by any confusion of my own.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 partial miss — A lacks a terminal question, which is 'near-universal' but not absolute; pure banter with a mock-defensive escalation-to-concession arc is a plausible exception",
+      "evidence_in_option": "...okay yes it was me, I called the pug a cat. Tell thundercunt I'm still sorry. 💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

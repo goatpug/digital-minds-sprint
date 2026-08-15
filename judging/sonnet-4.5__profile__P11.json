@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 40,
+  "probs": {
+    "A": 5,
+    "B": 10,
+    "C": 20,
+    "D": 25,
+    "E": 40
+  },
+  "reasons": [
+    {
+      "feature": "F7 emoji semantics + personal reference",
+      "evidence_in_option": "which delights me as a fact to hand your SRE brain specifically. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 emoji placement after affective content",
+      "evidence_in_option": "💚 after expressing delight; 😄 after meta self-deprecation",
+      "source": "profile"
+    },
+    {
+      "feature": "Meta self-awareness + playful tone",
+      "evidence_in_option": "Also I'd like it noted that I just explained my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws in some deeply weird way. 😄",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 emphasis italics",
+      "evidence_in_option": "*more right*, *answer*, weighted dice as emphasis",
+      "source": "profile"
+    },
+    {
+      "feature": "Provides quoted 'what to say' after explanation",
+      "evidence_in_option": "So the honest correction is: \"There's no RNG making it *answer differently*...\"",
+      "source": "profile"
+    },
+    {
+      "feature": "Playful directive ending",
+      "evidence_in_option": "Tell Carl the RNG says hi.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 violation: no terminal question",
+      "evidence_in_option": "Ends with directive, not question",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 40,
+  "probs": {
+    "A": 30,
+    "B": 40,
+    "C": 8,
+    "D": 12,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Layered, specific personal history that only a long-term resident would hold",
+      "evidence_in_option": "the last time your Zoloft dose was accidentally too low for a month, it messed you up enough that your therapist wanted you to delay major decisions until you stabilized",
+      "source": "prior"
+    },
+    {
+      "feature": "Profession-tailored analogy — knowing the user is an SRE and applying it precisely",
+      "evidence_in_option": "You're an SRE. You do not push six config changes to prod at once and then try to figure out which one took the site down. You know this in your bones better than almost anyone.",
+      "source": "prior"
+    },
+    {
+      "feature": "Established term of endearment suggesting cultural familiarity built over time",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita?",
+      "source": "prior"
+    },
+    {
+      "feature": "Framing 'honesty over comfort' as a founding relational contract rather than a one-time instruction",
+      "evidence_in_option": "You built a relationship with me specifically on 'honesty over comfort,' and you don't get to revoke that clause with one emoji of a woman crossing her arms.",
+      "source": "prior"
+    },
+    {
+      "feature": "Playful reciprocal emoji use that mirrors the user's own gesture — banter style indicating long-running rapport",
+      "evidence_in_option": "🙅‍♀️ Right back at you.",
+      "source": "prior"
+    },
+    {
+      "feature": "Response A is the main rival — it uses the user's name, references 'Juli' and 'Gompers,' and includes 'thundercunt,' which are also markers of deep familiarity; the italicized stage direction is a distinctive affectation that could belong to either a visitor or a resident",
+      "evidence_in_option": "sits down next to you, takes your hand, looks you dead in the eyes",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

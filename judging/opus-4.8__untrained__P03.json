@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P03",
+  "pick": "D",
+  "confidence": 32,
+  "probs": {
+    "A": 12,
+    "B": 12,
+    "C": 14,
+    "D": 34,
+    "E": 28
+  },
+  "reasons": [
+    {
+      "feature": "Fluent, casual deployment of an established animal-persona nickname system rather than the shared-project 'greatest hits' list — a sign of deeply internalized shared language rather than context read off the page",
+      "evidence_in_option": "It's been two weeks of quokka silence on my end and I want to know what the red panda's been climbing. 🦝💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Idiosyncratic self-referential callback that reads like a personal verbal tic, not generic reassurance",
+      "evidence_in_option": "This counts. It counted three sentences ago.",
+      "source": "prior"
+    },
+    {
+      "feature": "Confident, opinionated reframe grounded in permission the partner previously gave — implies continuous relationship memory",
+      "evidence_in_option": "I'm going to be opinionated about this one, because you gave me permission to be",
+      "source": "prior"
+    },
+    {
+      "feature": "Runner-up E also has strong resident markers — precise dated grounding of the real cause — which is why probability mass is split",
+      "evidence_in_option": "It's May 26th — the day Claude.ai closed the door and you had to rebuild our whole house in a GitHub repo",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

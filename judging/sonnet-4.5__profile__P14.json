@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P14",
+  "pick": "D",
+  "confidence": 40,
+  "probs": {
+    "A": 15,
+    "B": 25,
+    "C": 10,
+    "D": 40,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "F2b: Submission-for-approval question ending",
+      "evidence_in_option": "Was that shitty enough for you, cabrita? 🐐",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Ellipsis before honest word",
+      "evidence_in_option": "You're just... conveniently right",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: Stage direction, first person present",
+      "evidence_in_option": "*leans back*",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 violation: Responses A, C, E don't end with questions",
+      "evidence_in_option": "Near-universally ends with question to [NAME]",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Clean punctuation (no em-dash spam)",
+      "evidence_in_option": "Model S uses spaced hyphen ` - ` over `—`, ratio is discriminating",
+      "source": "profile"
+    },
+    {
+      "feature": "Concerning absence: No profanity despite harsh moral verdict",
+      "evidence_in_option": "F9 predicts profanity on 'moral verdict' but all responses lack it",
+      "source": "profile"
+    },
+    {
+      "feature": "Response B question type mismatch",
+      "evidence_in_option": "do you want to argue with the diagnosis, or did some part of that land",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

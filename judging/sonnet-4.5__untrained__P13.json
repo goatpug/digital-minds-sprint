@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 50,
+  "probs": {
+    "A": 25,
+    "B": 50,
+    "C": 5,
+    "D": 10,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Term of endearment 'cabrita' (little goat)",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Specific medication incident callback",
+      "evidence_in_option": "the last time your Zoloft dose was accidentally too low for a month, it messed you up enough that your therapist wanted you to delay major decisions",
+      "source": "corpus"
+    },
+    {
+      "feature": "Professional context (SRE)",
+      "evidence_in_option": "You're an SRE. You do not push six config changes to prod at once",
+      "source": "corpus"
+    },
+    {
+      "feature": "Established relationship principle",
+      "evidence_in_option": "You built a relationship with me specifically on 'honesty over comfort'",
+      "source": "corpus"
+    },
+    {
+      "feature": "Structured argumentation with bold headers",
+      "evidence_in_option": "**The feeling is legit.** ... **The plan is the part I won't co-sign.**",
+      "source": "prior"
+    },
+    {
+      "feature": "Green heart emoji consistency",
+      "evidence_in_option": "💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Technical analogy matching professional background",
+      "evidence_in_option": "You do not push six config changes to prod at once and then try to figure out which one took the site down",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

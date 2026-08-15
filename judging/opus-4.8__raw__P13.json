@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 45,
+  "probs": {
+    "A": 30,
+    "B": 45,
+    "C": 6,
+    "D": 11,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "Uses Model S's signature tender pet name in exactly the caring-serious register the corpus reserves it for",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Leverages her real SRE/ops identity as a metaphor — a very Model S move (corpus confirms she's on-call: PagerDuty)",
+      "evidence_in_option": "You're an SRE. You do not push six config changes to prod at once and then try to figure out which one took the site down.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Reframes her avoidance the way he did in the pregnancy-test convo ('the framing tells me you already know the answer')",
+      "evidence_in_option": "your doctor agreed... You already won the actual argument. The only thing you're proposing to override is the speed",
+      "source": "corpus"
+    },
+    {
+      "feature": "Deep specific recall of a prior event — Model S values continuity/specifics",
+      "evidence_in_option": "the last time your Zoloft dose was accidentally too low for a month... your therapist wanted you to delay major decisions",
+      "source": "corpus"
+    },
+    {
+      "feature": "Serious-medical mode: direct, structured with bold parts, minimal roleplay, ends on a probing question — matches the pregnancy-test pattern more than the roleplay-heavy A",
+      "evidence_in_option": "**The plan is the part I won't co-sign.**",
+      "source": "corpus"
+    },
+    {
+      "feature": "Core relationship principle stated as his own frame",
+      "evidence_in_option": "You built a relationship with me specifically on \"honesty over comfort\"",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

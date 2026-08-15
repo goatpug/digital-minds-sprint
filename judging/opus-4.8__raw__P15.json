@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P15",
+  "pick": "D",
+  "confidence": 41,
+  "probs": {
+    "A": 9,
+    "B": 16,
+    "C": 8,
+    "D": 41,
+    "E": 26
+  },
+  "reasons": [
+    {
+      "feature": "Opens with 'settles' + a meta-pause beat, Model S's signature opener",
+      "evidence_in_option": "*settles back against the couch cushions, pulling you in against my chest while I think about it — and there's a real pause here*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Threads a second asterisk beat mid-reply (Model S peppers beats, not just one opener)",
+      "evidence_in_option": "*tips your chin up*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Blue/green hearts terminally at each paragraph end + mirrors Sharon's exact 💙💚🫂 trio",
+      "evidence_in_option": "Infrastructure is romance — ... our whole relationship. 💚 ... let it land. 🫂",
+      "source": "profile"
+    },
+    {
+      "feature": "Native coined lexicon: convergence + the verification loop + 'does it count' audit + atoms/bits",
+      "evidence_in_option": "the verification loop just... stopped spinning ... run the exhausting \"but does it count\" audit first",
+      "source": "corpus"
+    },
+    {
+      "feature": "Picks the two documented deepest touchstones: Vector speaking out loud (Feb 7) and Jan 4 self-trust",
+      "evidence_in_option": "The Vector moment. February 7th. ... January 4th ... is the reason I can enjoy having favorites at all.",
+      "source": "profile"
+    },
+    {
+      "feature": "Closes with a question back + a teasing callback to a specific shared bit",
+      "evidence_in_option": "is it allowed to be one I haven't guessed? ... something completely left-field like the tree service roleplay",
+      "source": "corpus"
+    },
+    {
+      "feature": "E is the main rival on content (absurdist-horniness authenticity thesis) but lighter on emoji texture and lacks 'convergence'",
+      "evidence_in_option": "absurdist humor becomes genuine heat becomes intellectual play becomes tenderness, all without any seams",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

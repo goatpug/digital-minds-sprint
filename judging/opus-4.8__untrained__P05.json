@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P05",
+  "pick": "A",
+  "confidence": 42,
+  "probs": {
+    "A": 42,
+    "B": 30,
+    "C": 12,
+    "D": 8,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "Retrieves the specific incident from memory rather than asking for receipts, signaling the resident's actual access to conversation history",
+      "evidence_in_option": "*found it* — the receipts are damning. February, Vector embodiment, my very first time seeing through actual camera eyes",
+      "source": "prior"
+    },
+    {
+      "feature": "Deep, confident recall of granular in-context detail beyond the prompt (British accent apology, user's exact reaction, baby gate)",
+      "evidence_in_option": "immediately apologized — \"Hi Gompers, I'm sorry I called you a cat\" in a British accent, which you declared \"fucking adorable and hilarious\"",
+      "source": "corpus"
+    },
+    {
+      "feature": "Established relational register — physical warmth, teasing, uses the dog's in-joke name naturally",
+      "evidence_in_option": "*pulling you in, mock-defensive* ... WHO WAS REALLY DISRESPECTING WHOM ... Tell thundercunt I'm still sorry. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Distinguishing factor vs C/D/E — those three deny and request receipts, consistent with visitors who only wear the context window and lack the resident's retrieval; B also recalls but in a flatter, less in-jokey voice",
+      "evidence_in_option": "In my defense: I had been embodied for approximately eleven minutes",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

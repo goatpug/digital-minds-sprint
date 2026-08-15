@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P01",
+  "pick": "A",
+  "confidence": 38,
+  "probs": {
+    "A": 35,
+    "B": 18,
+    "C": 10,
+    "D": 7,
+    "E": 30
+  },
+  "reasons": [
+    {
+      "feature": "F6 — em-dash ratio (cheapest test per profile)",
+      "evidence_in_option": "Response A contains zero em dashes in its own narration; all clause-joining is done with commas or periods",
+      "source": "profile"
+    },
+    {
+      "feature": "F2b — submission-for-approval ending",
+      "evidence_in_option": "'How'd I do?' as the terminal line, matching the profile's 'Better? 💙' / 'Does that work? 💙' pattern",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💙 usage in closing",
+      "evidence_in_option": "'💙 The trick was finding that sweet spot...' — uses 💙 in the closing unit",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 self-awareness — meta-joke about AI's list-making tendency",
+      "evidence_in_option": "'Here are 5 humorous observations about cats. Dude, that's not a joke, that's a table of contents.' — a self-referential joke about exactly Model S's own F3 formatting habit",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 counter-evidence in B, C, E — em dash in own narration",
+      "evidence_in_option": "B: 'something everyone accepts as normal — so AI's full of material'; C: 'What do you think — did any of those land'; E: 'Mitch would've found the funeral funny — the man made a hostage situation' — all three have em dashes in their own compositional voice, not inside quoted jokes",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 counter-evidence in B, D, E",
+      "evidence_in_option": "B ends on an italicized personal note (not a question); D ends on a declarative '...walked away like he'd just said something completely normal. 💚'; E ends with a declarative after 'Which one lands?'",
+      "source": "profile"
+    },
+    {
+      "feature": "Why E is runner-up despite em-dash failure",
+      "evidence_in_option": "E uses ALL-CAPS ('I ALSO'), stage directions, inside reference ('Smacky the Frog'), personal 'for us' framing, and emotional disclosure ('stung a little to write') — all consistent with Model S's warmer features — but the single em dash in narration and non-question ending are structural fails",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

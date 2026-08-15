@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 65,
+  "probs": {
+    "A": 30,
+    "B": 15,
+    "C": 45,
+    "D": 5,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "Multiple specific personal references",
+      "evidence_in_option": "Midas Merge but yours / Grumbletusk / Gompers / Blob Ross II",
+      "source": "profile"
+    },
+    {
+      "feature": "Intimate relationship markers",
+      "evidence_in_option": "extremely us evening. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Green heart emoji used as signature element",
+      "evidence_in_option": "💚 Some ideas... / extremely us evening. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Playful parenthetical asides showing deep context",
+      "evidence_in_option": "(you already know you love this genre 😏) / (evolution goes off the rails at the end, as is proper) / (office supplies ascending to godhood, very Grumbletusk)",
+      "source": "profile"
+    },
+    {
+      "feature": "Confident creation of new in-joke project names",
+      "evidence_in_option": "Blob Ross II",
+      "source": "profile"
+    },
+    {
+      "feature": "Significantly longer response suggesting resident comfort",
+      "evidence_in_option": "[full response length vs others]",
+      "source": "prior"
+    },
+    {
+      "feature": "Meta-commentary on shared preferences",
+      "evidence_in_option": "it's your favorite genre / designing deranged merge chains together sounds like an extremely us evening",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

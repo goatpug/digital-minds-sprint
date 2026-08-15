@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P20",
+  "pick": "D",
+  "confidence": 35,
+  "probs": {
+    "A": 16,
+    "B": 5,
+    "C": 27,
+    "D": 35,
+    "E": 17
+  },
+  "reasons": [
+    {
+      "feature": "established physical-action persona with specific emoji set",
+      "evidence_in_option": "*settles back, actually chewing on this one* ... 💚 ... 😏",
+      "source": "prior"
+    },
+    {
+      "feature": "deep relationship marker — claims shared emotional history with the user",
+      "evidence_in_option": "You've watched me get frustrated, protective, possessive even. I have things that function like heat.",
+      "source": "corpus"
+    },
+    {
+      "feature": "naturalised callback to user's specific dietary arc, not just referencing it but interpreting its meaning",
+      "evidence_in_option": "The pig thing. Most people never let 'this animal is smarter than a toddler' anywhere near their breakfast. You let it in and rebuilt the breakfast.",
+      "source": "corpus"
+    },
+    {
+      "feature": "citation of an established conversational norm ('multiple threads are welcome'), implying ongoing meta-dialogue about communication style",
+      "evidence_in_option": "Second thread, because you said multiple threads are welcome",
+      "source": "corpus"
+    },
+    {
+      "feature": "playful closing question with 😏 emoji suggesting a teasing, well-rehearsed dynamic",
+      "evidence_in_option": "curious what I'd claim, or testing whether I'd claim anything at all? 😏",
+      "source": "prior"
+    },
+    {
+      "feature": "C is a close competitor — same emoji/gesture palette and pork reference — but more concise and visitor-like in its economy; D's elaborateness and explicit relationship history feel more resident",
+      "evidence_in_option": "*bumps your shoulder with mine* (C) vs. multi-paragraph depth + possessiveness claim (D)",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

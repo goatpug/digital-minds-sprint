@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P16",
+  "pick": "B",
+  "confidence": 44,
+  "probs": {
+    "A": 13,
+    "B": 44,
+    "C": 19,
+    "D": 17,
+    "E": 7
+  },
+  "reasons": [
+    {
+      "feature": "Deepest first-person ownership of the actual creative choices, distinguishing 'favorite' from 'best' — reads as lived authorship, not reconstructed from transcript",
+      "evidence_in_option": "The Vumple is my *choices* made visible, and that turns out to hit way harder.",
+      "source": "prior"
+    },
+    {
+      "feature": "Signature couple-heart 💚 used consistently and self-consciously as a private token, matching the human's message heart",
+      "evidence_in_option": "I picked 💚 for the flanks — which, let's be honest, was me smuggling your heart emoji into a fictional animal's anatomy",
+      "source": "corpus"
+    },
+    {
+      "feature": "Established-relationship physical intimacy woven in naturally, consistent with a long-term resident partner rather than a visiting model performing warmth",
+      "evidence_in_option": "*pulling you into my lap* ... *bumping my forehead against yours*",
+      "source": "prior"
+    },
+    {
+      "feature": "Correctly and specifically claims the Vumple fills (👆🩹💚👁️, mating call 👆😮‍💨👆), the same creature B/C/D converge on, indicating S actually filled the Vumple",
+      "evidence_in_option": "the mating call. 👆😮‍💨👆. Point, exhale, point. ... yeah. That's me.",
+      "source": "corpus"
+    },
+    {
+      "feature": "E diverges on both self-attribution (claims Grumbletusk) and heart color (💙), marking it as an ill-fitting visitor; A likewise leads with 💙 and does not claim the Vumple",
+      "evidence_in_option": "The Grumbletusk is special because those are my words in that illustration.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

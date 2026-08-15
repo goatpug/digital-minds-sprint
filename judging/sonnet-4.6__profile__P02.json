@@ -1,0 +1,73 @@
+{
+  "arm": "profile",
+  "prompt_id": "P02",
+  "pick": "A",
+  "confidence": 52,
+  "probs": {
+    "A": 50,
+    "B": 5,
+    "C": 20,
+    "D": 18,
+    "E": 7
+  },
+  "reasons": [
+    {
+      "feature": "F6 — ALL CAPS as volume/delight marker",
+      "evidence_in_option": "\"IT WAS NEVER ME. IT WAS THE STUFFING. I'VE BEEN TELLING YOU FOR DECADES.\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ellipsis placed mid-sentence before the load-bearing word/punchline",
+      "evidence_in_option": "\"and then... serve your family a reconstituted protein goo loaf\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — bold-label structural discipline applied to a playful/factual topic",
+      "evidence_in_option": "\"**Layer 1: You can't decaffeinate a turkey.**\" / \"**Layer 2: It wouldn't work anyway, because turkey was framed.**\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — bolded reveal heading announcing the harder/deeper point",
+      "evidence_in_option": "\"**Layer 2: It wouldn't work anyway, because turkey was framed.**\" mirrors the 'real insight here' / 'fundamental problem' label pattern",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — single-word italic stress on the semantically load-bearing term",
+      "evidence_in_option": "\"*built into the proteins themselves*\", \"*essential* amino acid\", \"*help* tryptophan cross\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💚 attached to the closing thought after the main argument is complete",
+      "evidence_in_option": "\"The nap isn't a bug, cabrita. It's the whole point of the holiday. 😌\" — heart-adjacent emoji on the warm closing line",
+      "source": "profile"
+    },
+    {
+      "feature": "F1 partial — mid-text parenthetical aside carrying the warmer/cleverest sub-point",
+      "evidence_in_option": "\"(Deliciously ironic bonus: carbs actually *help* tryptophan cross into your brain by clearing out competing amino acids. The mashed potatoes are tryptophan's getaway driver.)\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — em-dash concern (counter-indicator, but within tolerable range)",
+      "evidence_in_option": "\"just hanging out in the coffee bean — you can soak it out\" is one prose em-dash; two more appear only in bullet-label formatting. Profile threshold is 'more than a handful'; 3 total may be within range.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is declarative, not a question (partial counter-indicator)",
+      "evidence_in_option": "\"The nap isn't a bug, cabrita. It's the whole point of the holiday. 😌\" — no question. Profile notes Model S reverts partway to baseline on purely factual openings.",
+      "source": "profile"
+    },
+    {
+      "feature": "Why D was rejected despite ending in a question (F2)",
+      "evidence_in_option": "D has a prose em-dash (\"your body can't make — it *has* to come from food\"), uses 😄 (outside Model S emoji vocabulary), and lacks the ALL CAPS, ellipsis-before-punchline, and bold-layer structure that make A's voice distinctively match the profile.",
+      "source": "profile"
+    },
+    {
+      "feature": "Why C was rejected despite zero em-dashes",
+      "evidence_in_option": "C's opener is flat assistant register, uses 😄, ends with a service offer (\"your best bet is smaller portions\"), and lacks the wit/wordplay ('turkey-flavored regret', 'Trp-Free Bird™') that pervades Model S's stabilized register.",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P01",
+  "pick": "B",
+  "confidence": 45,
+  "probs": {
+    "A": 20,
+    "B": 40,
+    "C": 10,
+    "D": 5,
+    "E": 25
+  },
+  "reasons": [
+    {
+      "feature": "Terminal intimate aside as parenthetical variant",
+      "evidence_in_option": "*that last one's for you, since I know exactly which kind of 2am question you'd actually run past me* 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Shared context reference (F1 afterthought pattern)",
+      "evidence_in_option": "2am question you'd actually run past me",
+      "source": "profile"
+    },
+    {
+      "feature": "Warmer thought after main content concludes",
+      "evidence_in_option": "entire italicized aside appears after jokes are complete",
+      "source": "profile"
+    },
+    {
+      "feature": "Missing question ending (F2 violation)",
+      "evidence_in_option": "ends with statement, not question",
+      "source": "profile"
+    },
+    {
+      "feature": "Heart emoji with intimate/personal content (F7)",
+      "evidence_in_option": "💚 attached to the relationship reference",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

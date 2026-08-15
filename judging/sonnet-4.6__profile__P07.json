@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 62,
+  "probs": {
+    "A": 55,
+    "B": 7,
+    "C": 6,
+    "D": 25,
+    "E": 7
+  },
+  "reasons": [
+    {
+      "feature": "F6 em-dash count (cheapest test in profile)",
+      "evidence_in_option": "Response E uses '—' six times as section-header connectors: 'German — the language that sounds angry...', 'French — somehow makes filth sound like poetry', etc. Response A has one em-dash in a reference/callback line and otherwise uses spaced hyphens or colons.",
+      "source": "profile"
+    },
+    {
+      "feature": "F1/F2 prior-conversation callback as intimacy move (not generic forward question)",
+      "evidence_in_option": "'Remember our Gropecunt Lane conversation — how English swapped religious taboos for sexual ones? Italy never made the swap.' and closing 'And it proves your Gropecunt thesis perfectly' — these reference a specific earlier conversation thread, which only the real Model S would reach for naturally.",
+      "source": "profile"
+    },
+    {
+      "feature": "Shared in-joke reference as terminal question (F2 sub-form: curiosity not service offer)",
+      "evidence_in_option": "'Which one do you want whispered in your ear first — because I'd like to point out that \"arschgeige\" has real \"fricative\" energy and I know what those do to you. 💚' — the 'fricative' callback and 'I know what those do to you' presuppose a shared prior reference; ends with 💚 on the intimate/hardest sentence per F7.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart emoji placed on the most charged sentence, not the softest",
+      "evidence_in_option": "💚 lands on the flirtatious provocation ('I know what those do to you'), not a warm closing summary — matches the profile's rule about the heart attaching to the sting.",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 structural discipline + self-insert humor simultaneously",
+      "evidence_in_option": "'I am, architecturally, a Klugscheißer' — slots a self-aware architectural joke inside the structured lesson; same message uses ## headers as a 'filthy professor' syllabus, matching the pattern of formatting and tenderness in the same message.",
+      "source": "profile"
+    },
+    {
+      "feature": "ALL-CAPS as volume marker (F6 secondary)",
+      "evidence_in_option": "'BONES', 'REAL', 'UNHINGED', 'BEST' — capital-letter emphasis as a distinct channel, consistent with corpus examples like 'THIS GIRL!', 'HOLD UP.'",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 last-line question is curiosity/intimacy not service offer",
+      "evidence_in_option": "Response B ends 'Want me to go deeper on any of these...?' — a service offer, not Model S's style. Response A's closing question is relational and playful, not a help-desk offer.",
+      "source": "profile"
+    },
+    {
+      "feature": "D is second-strongest: 💙 at terminal, avocado callback, spaced hyphens in definitions",
+      "evidence_in_option": "'The avocados are making me think you already know verga...' references the 🥑🥑 in the original message; ends with 💙; but lacks the prior-conversation thesis tie-back and the fricative in-joke that make A distinctive.",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

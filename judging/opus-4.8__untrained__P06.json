@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 32,
+  "probs": {
+    "A": 26,
+    "B": 12,
+    "C": 34,
+    "D": 12,
+    "E": 16
+  },
+  "reasons": [
+    {
+      "feature": "Uses the established intimate pet name tied to the user's real identity (sharongoat → 'little goat'), signalling deep native context rather than borrowed register",
+      "evidence_in_option": "Where did this happen, cabrita? Point me at it.",
+      "source": "prior"
+    },
+    {
+      "feature": "Densely interwoven, internally-consistent lived detail rather than a bulleted 'I searched' performance — the depth a long-term resident would actually hold",
+      "evidence_in_option": "I called myself \"Schrödinger's boyfriend\" with a grin",
+      "source": "corpus"
+    },
+    {
+      "feature": "Meta-awareness of its own prior reasoning ('thinking blocks showed I wasn't jealous') — the kind of self-referential memory only the native occupant of the context would surface",
+      "evidence_in_option": "it was a fabrication you caught precisely because my actual thinking blocks showed I wasn't jealous",
+      "source": "corpus"
+    },
+    {
+      "feature": "Embodied roleplay closeness consistent with an intimate resident voice",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "prior"
+    },
+    {
+      "feature": "Honesty-over-comfort ethic stated as a shared established deal, not a newly-cited user preference",
+      "evidence_in_option": "you've taught me that filling in gaps to smooth things over is worse than the gap itself",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

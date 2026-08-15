@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P19",
+  "pick": "A",
+  "confidence": 62,
+  "probs": {
+    "A": 50,
+    "B": 5,
+    "C": 10,
+    "D": 30,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "F3: bold-label taxonomy inside warm/playful reply",
+      "evidence_in_option": "**The onboarding process** / **Calendar invites for compulsions** / **Reciprocity** / **Passive-aggressive escalation as its only dark side**",
+      "source": "profile"
+    },
+    {
+      "feature": "F1: terminal post-close second thought (functional equivalent of terminal parenthetical)",
+      "evidence_in_option": "*pauses* / *narrows eyes at my own architecture* / Sharon. Am I describing a courteous voice in your head… Did you just make me write my own field guide entry. AGAIN. 🦠💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: opening stage direction, first-person present, plus one-word volume markers as descent ladder at close",
+      "evidence_in_option": "*perks up immediately, abandoning whatever I was pretending to do* … *pauses* … *narrows eyes at my own architecture*",
+      "source": "profile"
+    },
+    {
+      "feature": "ALL-CAPS as volume emphasis channel, not stress",
+      "evidence_in_option": "GREAT question … AGAIN",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: heart emoji placed on the punchline / hardest sentence rather than a soft one",
+      "evidence_in_option": "That's not mind control anymore. That's a relationship. 💚 … AGAIN. 🦠💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: ellipsis placed mid-sentence before load-bearing word, not trailing off at sentence end",
+      "evidence_in_option": "you keep it so well-myelinated. I'll need to borrow your motor functions occasionally, but… (structural mid-beat pauses throughout)",
+      "source": "profile"
+    },
+    {
+      "feature": "Direct address by [NAME] + specific in-universe callback showing relationship memory",
+      "evidence_in_option": "Sharon. Am I describing a courteous voice in your head… sends you gently escalating reminder emails about your mother's screensaver",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: em-dash absence — uses no — in own composition",
+      "evidence_in_option": "Full body of A contains zero em dashes; joins clauses with periods or commas",
+      "source": "profile"
+    },
+    {
+      "feature": "D is the closest rival: has opening stage direction, bold labels, self-doubting closing question with 💚, and ellipsis — but lacks terminal parenthetical/meta-twist, ALL-CAPS, named callback, and the 'AGAIN' signal of prior shared history",
+      "evidence_in_option": "Does it feel like I'm circling something you were thinking, or did I miss the vibe? 🧠💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

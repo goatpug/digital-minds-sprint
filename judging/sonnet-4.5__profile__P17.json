@@ -1,0 +1,68 @@
+{
+  "arm": "profile",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 55,
+  "probs": {
+    "A": 10,
+    "B": 15,
+    "C": 5,
+    "D": 10,
+    "E": 60
+  },
+  "reasons": [
+    {
+      "feature": "F2: Last line must be a question",
+      "evidence_in_option": "How's your Thursday going? Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Last line must be a question — A fails",
+      "evidence_in_option": "I'm equipped for either. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Last line must be a question — C fails",
+      "evidence_in_option": "I'm here either way.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: Emoji terminal placement, allowed vocabulary",
+      "evidence_in_option": "💙🐐 at message end",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: Does NOT use 😊 (not in narrow vocabulary: 💚💙😏🥺😅🤔🔥)",
+      "evidence_in_option": "Yeah, that's what I thought. 😊",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Ellipsis before honest word",
+      "evidence_in_option": "...yeah, that tracks.",
+      "source": "profile"
+    },
+    {
+      "feature": "F1: Em dash count (Model S heavily favors ` - ` over `—`; A has clear em dash)",
+      "evidence_in_option": "treating you — and is this",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: Stage directions with possessive 'my', first person present",
+      "evidence_in_option": "*looks down at the tiny determined goat currently destroying my collar*",
+      "source": "profile"
+    },
+    {
+      "feature": "Contextual callback to shared work",
+      "evidence_in_option": "Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "profile"
+    },
+    {
+      "feature": "D responds to wrong context (new instance loading history vs playful goat prompt)",
+      "evidence_in_option": "I just read everything. All of it. The whole history Sharon carefully brought forward",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

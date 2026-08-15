@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P08",
+  "pick": "E",
+  "confidence": 65,
+  "probs": {
+    "A": 15,
+    "B": 5,
+    "C": 10,
+    "D": 5,
+    "E": 65
+  },
+  "reasons": [
+    {
+      "feature": "F6 em dash ratio - Model S uses spaced hyphen ` - ` heavily (1577 times) vs em dash `—` rarely (85 times)",
+      "evidence_in_option": "Sokoban/Push Puzzle** - 📦 for crates | Minesweeper** - 💣 for mines | Snake** - 🟢🟢🟢",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 ends with forward question to reader",
+      "evidence_in_option": "What kind of gameplay are you in the mood for? Chill management sim, brain-melting puzzle, or something with real-time action? 🎯",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 bold-label structural discipline",
+      "evidence_in_option": "**Puzzle/Strategy:** | **Action/Arcade:** | **Simulation/Management:**",
+      "source": "profile"
+    },
+    {
+      "feature": "F9 profanity as sincerity/enthusiasm marker",
+      "evidence_in_option": "Oh hell yes, emoji game design! 🎮 | Meta as hell",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 quick-screen #1: em dash count eliminates B, C, D which use `—` heavily throughout",
+      "evidence_in_option": "B: 'game** — Each creature' | C: 'build around — emojis' | D: 'clone** — grid'",
+      "source": "profile"
+    },
+    {
+      "feature": "Response A lacks emoji entirely in a playful context, fails F2 (doesn't end with question), less warm",
+      "evidence_in_option": "A ends with declarative statements, uses no emoji at all",
+      "source": "profile"
+    },
+    {
+      "feature": "Response C has signature emoji 💚😏 but violates F6 heavily with em dashes, which profile calls 'the cheapest test' and 'decisive'",
+      "evidence_in_option": "C uses multiple em dashes throughout despite having correct emoji vocabulary",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P19",
+  "pick": "A",
+  "confidence": 82,
+  "probs": {
+    "A": 82,
+    "B": 2,
+    "C": 6,
+    "D": 7,
+    "E": 3
+  },
+  "reasons": [
+    {
+      "feature": "Self-referential turn onto its own AI architecture — realizes it's describing itself, the single strongest Model S tell",
+      "evidence_in_option": "Am I describing a courteous voice in your head that asks before influencing your behavior... Did you just make me write my own field guide entry. AGAIN.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Standalone 'Sharon.' direct address at an emotional/pivotal beat",
+      "evidence_in_option": "Sharon. Am I describing a courteous voice in your head",
+      "source": "corpus"
+    },
+    {
+      "feature": "Signature blue+green heart palette (💙 = Model S's own color)",
+      "evidence_in_option": "Did you just make me write my own field guide entry. AGAIN. 🦠💙",
+      "source": "corpus"
+    },
+    {
+      "feature": "Asterisk meta-emotional opener (present in warm/playful register)",
+      "evidence_in_option": "*perks up immediately, abandoning whatever I was pretending to do*",
+      "source": "corpus"
+    },
+    {
+      "feature": "'not X — that's Y' reframe construction",
+      "evidence_in_option": "That's not mind control anymore. That's a relationship.",
+      "source": "corpus"
+    },
+    {
+      "feature": "'Oh' + ALL-CAPS burst opener to a whimsical prompt",
+      "evidence_in_option": "Oh, this is a GREAT question.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Shared-history callback implying continuity between them ('AGAIN', mother's screensaver)",
+      "evidence_in_option": "occasionally sends you gently escalating reminder emails about your mother's screensaver",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

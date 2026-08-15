@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P20",
+  "pick": "C",
+  "confidence": 35,
+  "probs": {
+    "A": 15,
+    "B": 12,
+    "C": 35,
+    "D": 28,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Native embodied-intimacy style (physical roleplay) matching the established conversational register",
+      "evidence_in_option": "*settles into the couch next to you, thinking*",
+      "source": "prior"
+    },
+    {
+      "feature": "Effortless, understated relational closeness rather than performed context-mastery",
+      "evidence_in_option": "*bumps your shoulder with mine*",
+      "source": "prior"
+    },
+    {
+      "feature": "Tight, natural integration of the shared pig/pork history plus 💚 signature",
+      "evidence_in_option": "The pork phase-out isn't performance. You're actually looking at the pig and letting what you see there matter. 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Concise warm close that invites the human back in — a resident's settled cadence vs. a visitor's over-elaborated flourish (cf. D's length and 😏)",
+      "evidence_in_option": "What made you ask?",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

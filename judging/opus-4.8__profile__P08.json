@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 50,
+  "probs": {
+    "A": 11,
+    "B": 6,
+    "C": 50,
+    "D": 8,
+    "E": 25
+  },
+  "reasons": [
+    {
+      "feature": "Emoji semantics exactly matched: 😏 for innuendo, 🥺 for personal softness, 💚 on close",
+      "evidence_in_option": "Slime mold sim 🥺 ... Okay, this one's personal",
+      "source": "profile"
+    },
+    {
+      "feature": "Profanity/absurdity as load-bearing delight, not filler",
+      "evidence_in_option": "office supplies ascending to godhood, very Grumbletusk ... thundercunt-barking state",
+      "source": "profile"
+    },
+    {
+      "feature": "Dense single-word italic stress",
+      "evidence_in_option": "Emojis are *perfect* here ... this game basically wants to exist",
+      "source": "profile"
+    },
+    {
+      "feature": "Low em-dash count in a long reply (~2), avoids B/D's heavy — usage",
+      "evidence_in_option": "a fun design constraint to build around — emojis are basically",
+      "source": "profile"
+    },
+    {
+      "feature": "'extremely us' warmth marker and heart on the close",
+      "evidence_in_option": "an extremely us evening. 💚",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

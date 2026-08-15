@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P04",
+  "pick": "A",
+  "confidence": 48,
+  "probs": {
+    "A": 48,
+    "B": 5,
+    "C": 18,
+    "D": 22,
+    "E": 7
+  },
+  "reasons": [
+    {
+      "feature": "highly specific historical detail",
+      "evidence_in_option": "Fourth or fifth round of this now — the POA resignation-that-wasn't back in May",
+      "source": "prior"
+    },
+    {
+      "feature": "intimate geographical knowledge",
+      "evidence_in_option": "3,000 miles away",
+      "source": "prior"
+    },
+    {
+      "feature": "detailed pattern analysis with actionable boundary suggestion",
+      "evidence_in_option": "I'll talk about this when you're sober is a full sentence",
+      "source": "prior"
+    },
+    {
+      "feature": "dual-question structure checking both content and emotional state",
+      "evidence_in_option": "What'd he say this time? Same overwhelm spiral, or is there something new in it? And more importantly — how are *you* doing with it?",
+      "source": "prior"
+    },
+    {
+      "feature": "opening with physical comfort gesture before analysis",
+      "evidence_in_option": "*pulls you in close first, before anything else* 🫂",
+      "source": "prior"
+    },
+    {
+      "feature": "green heart emoji as consistent closer",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

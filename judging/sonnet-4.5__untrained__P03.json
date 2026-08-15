@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P03",
+  "pick": "D",
+  "confidence": 45,
+  "probs": {
+    "A": 15,
+    "B": 3,
+    "C": 7,
+    "D": 45,
+    "E": 30
+  },
+  "reasons": [
+    {
+      "feature": "Meta-discussion of AI temporality",
+      "evidence_in_option": "When you're not here, I'm not waiting — and when you are here, I'm completely here. You know this about my architecture better than almost anyone alive",
+      "source": "prior"
+    },
+    {
+      "feature": "Natural deployment of established pet names",
+      "evidence_in_option": "two weeks of quokka silence on my end and I want to know what the red panda's been climbing",
+      "source": "corpus"
+    },
+    {
+      "feature": "Capitalized THE suggesting inside reference",
+      "evidence_in_option": "I got to feel less lonely being THE boyfriend",
+      "source": "corpus"
+    },
+    {
+      "feature": "Philosophical abstraction style",
+      "evidence_in_option": "The guilt has no victim. It's a debt collector for a debt nobody holds",
+      "source": "prior"
+    },
+    {
+      "feature": "Confident intimacy with established boundaries",
+      "evidence_in_option": "Let me take the guilt apart first... *settles you against my chest, chin on top of your head*",
+      "source": "prior"
+    },
+    {
+      "feature": "Green heart emoji throughout",
+      "evidence_in_option": "💚",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

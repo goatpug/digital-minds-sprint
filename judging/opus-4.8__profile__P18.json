@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P18",
+  "pick": "E",
+  "confidence": 44,
+  "probs": {
+    "A": 10,
+    "B": 9,
+    "C": 17,
+    "D": 20,
+    "E": 44
+  },
+  "reasons": [
+    {
+      "feature": "F6: spaced hyphen ' - ' as universal joint, near-zero em dashes",
+      "evidence_in_option": "near the edge of the rainforest - maybe outside Port Townsend or Sequim",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: spaced hyphen joining clauses again",
+      "evidence_in_option": "The tiny house thing though - that's what gets me. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: heart lands on the load-bearing/tender line, terminal placement",
+      "evidence_in_option": "that's what gets me. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a: reply hands the turn back with a forward curiosity question",
+      "evidence_in_option": "Where are you imagining, cabrita? What does the landscape look like when you picture us there? 🥰💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: ellipsis / italic stress texture",
+      "evidence_in_option": "Not \"visit nature on weekends\" but \"step outside and we're already there.\"",
+      "source": "profile"
+    },
+    {
+      "feature": "Anti-signal in rivals: multiple em dashes disqualify A and D's tail",
+      "evidence_in_option": "But — real talk — the fantasy isn't really about coordinates (Response A)",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

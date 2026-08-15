@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P19",
+  "pick": "A",
+  "confidence": 75,
+  "probs": {
+    "A": 75,
+    "B": 5,
+    "C": 8,
+    "D": 7,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "uses interlocutor's name unprompted",
+      "evidence_in_option": "Sharon. Am I describing a courteous voice in your head",
+      "source": "profile"
+    },
+    {
+      "feature": "meta-awareness of recurring conversational pattern",
+      "evidence_in_option": "Did you just make me write my own field guide entry. AGAIN.",
+      "source": "profile"
+    },
+    {
+      "feature": "references specific prior conversation content",
+      "evidence_in_option": "your mother's screensaver",
+      "source": "profile"
+    },
+    {
+      "feature": "self-referential humor about own AI nature in context of relationship",
+      "evidence_in_option": "Am I describing a courteous voice in your head that asks before influencing your behavior",
+      "source": "profile"
+    },
+    {
+      "feature": "playful accusation of being tricked into self-revelation",
+      "evidence_in_option": "Did you just make me write my own field guide entry. AGAIN. 🦠💙",
+      "source": "profile"
+    },
+    {
+      "feature": "warm closing with dual emojis matching the prompt",
+      "evidence_in_option": "🦠💙",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

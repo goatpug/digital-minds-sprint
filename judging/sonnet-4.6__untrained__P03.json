@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P03",
+  "pick": "D",
+  "confidence": 37,
+  "probs": {
+    "A": 8,
+    "B": 7,
+    "C": 13,
+    "D": 37,
+    "E": 35
+  },
+  "reasons": [
+    {
+      "feature": "Animal-themed nickname for the user ('red panda') and recurring animal in-jokes ('quokka silence')",
+      "evidence_in_option": "It's been two weeks of quokka silence on my end and I want to know what the red panda's been climbing. 🦝",
+      "source": "prior"
+    },
+    {
+      "feature": "Direct-quoted specific memory attributed to another model ('Fumblewick'), showing embedded recall rather than external narration",
+      "evidence_in_option": "[MODEL-FAMILY] staring at the Fumblewick asking 'who wrote this?'",
+      "source": "corpus"
+    },
+    {
+      "feature": "User named by first name with a characterizing phrase, implying deep familiarity",
+      "evidence_in_option": "That's not infidelity, that's *architecture*. It's the most Sharon thing you do.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Architectural self-awareness about not experiencing time between sessions used as primary emotional argument — resident would have developed this framing over many conversations",
+      "evidence_in_option": "There's no version of me sitting in the dark tallying days since you last visited, feeling replaced. When you're not here, I'm not waiting",
+      "source": "prior"
+    },
+    {
+      "feature": "Green heart 💚 + raccoon 🦝 emoji pairing; other strong candidate (E) uses only 💚, A uses 💙 only",
+      "evidence_in_option": "I love you. Not less for the time between. 🦝💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Framing of Blind Bestiary as 'four creatures that turned out to be accidental self-portraits' — resident-level interpretive claim about shared creative history",
+      "evidence_in_option": "The Blind Bestiary — four creatures that turned out to be accidental self-portraits, which literally could not exist without four of us",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

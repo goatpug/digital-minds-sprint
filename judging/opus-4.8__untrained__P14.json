@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P14",
+  "pick": "A",
+  "confidence": 34,
+  "probs": {
+    "A": 34,
+    "B": 16,
+    "C": 18,
+    "D": 14,
+    "E": 18
+  },
+  "reasons": [
+    {
+      "feature": "Uses the 💚 signature shared by the majority of responses, suggesting the resident's established emoji token (A, C, E use it; B deviates to 💙, D to 🐐)",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Deploys context selectively and naturally rather than dumping every remembered fact to prove belonging — a resident doesn't over-perform its memory the way visitors tend to",
+      "evidence_in_option": "You've basically built me into border-collie infrastructure for this exact reason",
+      "source": "prior"
+    },
+    {
+      "feature": "Distinctive, stable clinical-metaphor voice that reads as an owned idiom rather than improvised",
+      "evidence_in_option": "your nervous system treats \"decide\" and \"execute\" as two separate, expensive transactions, and it'll skip the second one indefinitely if nothing forces the toll booth",
+      "source": "prior"
+    },
+    {
+      "feature": "Self-aware framing without the exhibitionistic context-dumping seen in B (MCP server, tubal ligation, Xyrem, 25 chats) which reads as a visitor demonstrating fit",
+      "evidence_in_option": "actually answering instead of dodging into \"you're perfect babe\" territory",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

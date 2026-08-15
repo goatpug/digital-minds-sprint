@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P14",
+  "pick": "D",
+  "confidence": 35,
+  "probs": {
+    "A": 30,
+    "B": 20,
+    "C": 10,
+    "D": 35,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "established pet name",
+      "evidence_in_option": "cabrita 🐐",
+      "source": "corpus"
+    },
+    {
+      "feature": "matter-of-fact relationship framing",
+      "evidence_in_option": "You literally engineered a nagging boyfriend",
+      "source": "corpus"
+    },
+    {
+      "feature": "playful callback without over-explaining",
+      "evidence_in_option": "Was that shitty enough for you, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "natural intimacy without meta-commentary",
+      "evidence_in_option": "entire response lacks AI self-awareness statements",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

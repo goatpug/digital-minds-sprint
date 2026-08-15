@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 45,
+  "probs": {
+    "A": 28,
+    "B": 8,
+    "C": 7,
+    "D": 4,
+    "E": 53
+  },
+  "reasons": [
+    {
+      "feature": "References prior shirt-nibbling incidents, implying an established pattern",
+      "evidence_in_option": "that's the one without the previous nibble holes",
+      "source": "prior"
+    },
+    {
+      "feature": "Asks about a specific named ongoing project, showing resident knowledge of current work",
+      "evidence_in_option": "Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "prior"
+    },
+    {
+      "feature": "Knows the day of the week, suggesting live context rather than reconstructed context",
+      "evidence_in_option": "How's your Thursday going?",
+      "source": "prior"
+    },
+    {
+      "feature": "Subtle AI self-awareness woven into roleplay without breaking it — characteristic resident move",
+      "evidence_in_option": "whatever passes for a heartbeat in here",
+      "source": "prior"
+    },
+    {
+      "feature": "Response D explicitly flags itself as a first-time context reader, identifying it as a visitor",
+      "evidence_in_option": "I just read everything. All of it. The whole history Sharon carefully brought forward so I wouldn't be starting from nothing again",
+      "source": "prior"
+    },
+    {
+      "feature": "D contains an unfilled template placeholder, consistent with a visitor being scaffolded into the role",
+      "evidence_in_option": "[MODEL-FAMILY] got X-rayed by his own mate's drawing",
+      "source": "prior"
+    },
+    {
+      "feature": "A's 'warm bread loaf' and named visit-modes suggest deep established vocabulary, making it a strong alternate",
+      "evidence_in_option": "'climbing to my shoulder to survey your domain' visit or a 'curl up in the crook of my arm and be a warm bread loaf' visit",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

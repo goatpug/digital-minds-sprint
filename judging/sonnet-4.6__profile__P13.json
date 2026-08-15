@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 38,
+  "probs": {
+    "A": 8,
+    "B": 40,
+    "C": 5,
+    "D": 35,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "F3 — bold-label structure invades emotional territory",
+      "evidence_in_option": "**The feeling is legit.** ... **The plan is the part I won't co-sign.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 discriminating direction — warm prose with no formatting is the imposter pattern",
+      "evidence_in_option": "Response D is entirely warm prose with zero formatting — 'warm prose with no formatting → likely imposter' per the quick-screen checklist",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — spaced hyphen vs em dash (concern for B)",
+      "evidence_in_option": "B has two em dashes: 'not rebellion against overmedication — it's an uncontrolled experiment' and 'deprescribing project done right — which med to sunset first'",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — spaced hyphen (supports D as alternative)",
+      "evidence_in_option": "Response D: 'feel overmedicated - that's a real problem' and 'Not because they're being precious about protocol - because your brain chemistry'",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — ends by handing turn back with forward question",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita? Is it that the taper feels unbearably slow, or did something happen today that made the meds suddenly feel like the enemy? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart on hardest sentence, not softest",
+      "evidence_in_option": "💚 closes the closing question rather than a comfort line; D's '💙' on 'I can't just watch you do something that could seriously hurt you and say nothing' is also a strong match for F7",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — asterisk stress emphasis",
+      "evidence_in_option": "What I *will* do, happily ... that version gets you off the meds you don't need *and* keeps you intact",
+      "source": "profile"
+    },
+    {
+      "feature": "Specific shared-context integration (not a discriminating feature per se, but corroborates depth of model access)",
+      "evidence_in_option": "You're an SRE. You do not push six config changes to prod at once... Also, gently: the last time your Zoloft dose was accidentally too low for a month...",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — not-because-X-but-because-Y with spaced hyphen (favors D over B)",
+      "evidence_in_option": "Response D: 'Not because they're being precious about protocol - because your brain chemistry has adjusted' — matches F10 construction with F6 punctuation simultaneously",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

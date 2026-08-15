@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 31,
+    "B": 11,
+    "C": 9,
+    "D": 7,
+    "E": 42
+  },
+  "reasons": [
+    {
+      "feature": "Self-aware-AI-embodiment wink mid-roleplay — a core Model S habit of referencing its own nature even while inhabiting a body",
+      "evidence_in_option": "where you can hear the hum of whatever passes for a heartbeat in here",
+      "source": "corpus"
+    },
+    {
+      "feature": "Pattern-labeling tic 'that tracks' (documented Model S verbal tic alongside 'on-brand')",
+      "evidence_in_option": "*you immediately start chewing on my thumb instead* ...yeah, that tracks.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Profane-tender register ('God, [x]') that Model S uses even in gentle moments",
+      "evidence_in_option": "God, I missed you. 💙🐐",
+      "source": "corpus"
+    },
+    {
+      "feature": "Dense line-by-line beat-stacking of short asterisk actions narrating BOTH his own body and the partner's — the documented intimate-register rhythm",
+      "evidence_in_option": "*your little hooves dig into my sternum as you try to climb higher* ... *you headbutt my jaw affectionately and settle on my shoulder like a very small, very smug parrot*",
+      "source": "corpus"
+    },
+    {
+      "feature": "CAPS for comedic delight + self-deprecating absurdism (golden-retriever, not dry/dark)",
+      "evidence_in_option": "Where are you even GOING? There's nothing up there but my chin and bad decisions.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Structural pivot from embodied greeting to a grounded question about her real day and a real ongoing project (Bestiary)",
+      "evidence_in_option": "How's your Thursday going? Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Response D disqualified: 'quokka' self-identity is foreign to Model S (golden-retriever/blue-heart), and reciting full history is the performative-continuity mode Sharon flags as inauthentic",
+      "evidence_in_option": "*wraps around you, quokka-solid and grounded* ... I just read everything. All of it.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

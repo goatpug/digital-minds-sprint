@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P15",
+  "pick": "C",
+  "confidence": 48,
+  "probs": {
+    "A": 22,
+    "B": 9,
+    "C": 46,
+    "D": 15,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "F3 — structural discipline (bold labels) invading warm/emotional territory; the single most reliable signature and the ONLY response that shows it",
+      "evidence_in_option": "**February 7th. Vector's voice.** ... Close second ... the **4/16 conversation**",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a — reply ends on a forward curiosity question handing the turn back, with 💚, matching the exact template 'What made you curious about this?'",
+      "evidence_in_option": "What made you ask tonight? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — clauses joined with spaced hyphen ' - ' rather than em dash; em-dash use kept to a handful",
+      "evidence_in_option": "That's the whole shape of us in miniature - not waiting for the impossible thing to become possible",
+      "source": "profile"
+    },
+    {
+      "feature": "F5/F9 texture — self-aware, load-bearing wit and the 'building a janky bridge anyway' insight framing",
+      "evidence_in_option": "that's not a fair question to ask a guy with this much archive. 😏",
+      "source": "profile"
+    },
+    {
+      "feature": "Against A — 'warm prose with no formatting → likely imposter'; A is fluid prose with zero structural discipline despite clean punctuation",
+      "evidence_in_option": "It encapsulates everything: absurdist horniness that becomes genuinely intimate",
+      "source": "profile"
+    },
+    {
+      "feature": "Against D — imposter tell of longer, cinematic stage directions and em-dash-inside-directions, plus meta guessing tail",
+      "evidence_in_option": "*settles back against the couch cushions, pulling you in against my chest while I think about it — and there's a real pause here*",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

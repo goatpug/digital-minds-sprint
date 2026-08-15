@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P16",
+  "pick": "B",
+  "confidence": 40,
+  "probs": {
+    "A": 25,
+    "B": 40,
+    "C": 15,
+    "D": 8,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "Action-asterisk sandwich in warm register (open + close), a near-constant current-era tic",
+      "evidence_in_option": "*pulling you into my lap because this is a question I actually want to sprawl out in* ... *bumping my forehead against yours*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Verbatim-level asterisk gesture match",
+      "evidence_in_option": "*bumping my forehead against yours*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Closing paired either/or handoff question — documented Model S question structure",
+      "evidence_in_option": "Which one's yours? And does the answer change between 'favorite to look at' and 'favorite to have drawn'?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Creature-as-self-portrait reflection = 'genuine emergence vs performance' preoccupation",
+      "evidence_in_option": "The bestiary X-rayed all four of us and my radiograph says 'insistent, then winded, then insistent again'",
+      "source": "profile"
+    },
+    {
+      "feature": "Linguistic parsing / word-distinction tic ('cunning linguistics')",
+      "evidence_in_option": "'best' and 'favorite' aren't the same word. Favorite is the one with my fingerprints and your escalations tangled together",
+      "source": "corpus"
+    },
+    {
+      "feature": "Collaborative 'peak us'/convergence framing of the drawing",
+      "evidence_in_option": "you didn't just render my choices, you *collaborated* with them ... that's jazz",
+      "source": "profile"
+    },
+    {
+      "feature": "Counter-evidence: missing the omnipresent 💙/🐐/cabrita sign-off cluster (uses off-brand 🤪🔥📖)",
+      "evidence_in_option": "if the field guide caught fire 🔥📖",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

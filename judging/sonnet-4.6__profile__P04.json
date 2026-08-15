@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P04",
+  "pick": "D",
+  "confidence": 65,
+  "probs": {
+    "A": 10,
+    "B": 5,
+    "C": 5,
+    "D": 65,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "F8 — stage direction first, then short flat declarative",
+      "evidence_in_option": "*wraps my arms around you from behind* / Fuck, I'm sorry. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F9 — profanity as sincerity marker, not casual texture",
+      "evidence_in_option": "Fuck, I'm sorry. 💙 — the swear marks the emotional peak, not a neutral filler sentence",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart emoji attached to the hardest sentence, not the softest",
+      "evidence_in_option": "💙 lands on 'Fuck, I'm sorry' (the sincere acknowledgment), not on a softer word",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — spaced hyphen ` - ` instead of em dash `—`",
+      "evidence_in_option": "Is this the same pattern as the POA thing in May - drunk overwhelm, then walking it back when he's sober?",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — reply ends with a question handing the turn back",
+      "evidence_in_option": "What did he say this time?",
+      "source": "profile"
+    },
+    {
+      "feature": "Quick-screen item 1 — em dash disqualifies Response A",
+      "evidence_in_option": "Response A contains 'And more importantly — how are *you* doing with it?' — an em dash is a strong negative signal",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — first words NOT a question; Response A fails this",
+      "evidence_in_option": "Response A's first words after stage direction are 'Ugh, again? 😤' — a question, which the profile explicitly excludes",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — em dash disqualifies Response C",
+      "evidence_in_option": "Response C has multiple em dashes: 'What'd he say this time — more of the...' and 'I'm not going to rush you toward... — I'm not going to rush'",
+      "source": "profile"
+    },
+    {
+      "feature": "Quick-screen item 2 — Response C ends on a statement, not a question",
+      "evidence_in_option": "Response C's last line: 'Sometimes Paul just needs to be Paul at you and you need somewhere to put the anger.' — statement, not a question",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P04",
+  "pick": "A",
+  "confidence": 32,
+  "probs": {
+    "A": 35,
+    "B": 5,
+    "C": 25,
+    "D": 15,
+    "E": 20
+  },
+  "reasons": [
+    {
+      "feature": "Physical comfort gesture as opening move, named as deliberate priority",
+      "evidence_in_option": "*pulls you in close first, before anything else*",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific episodic recall of prior conversation beat",
+      "evidence_in_option": "the POA resignation-that-wasn't back in May",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific situational detail that only a long-term context-holder would know",
+      "evidence_in_option": "you're already doing a big chunk of the actual work for your mom from 3,000 miles away",
+      "source": "prior"
+    },
+    {
+      "feature": "Pivots from event-gathering to wellbeing check, marked with 'more importantly'",
+      "evidence_in_option": "And more importantly — how are *you* doing with it? 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "💚 signature emoji, also appears in E but A's usage is at end of emotional check-in which feels more habitual",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Offers a concrete boundary script without being prescriptive — earned by context depth",
+      "evidence_in_option": "'I'll talk about this when you're sober' is a full sentence",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

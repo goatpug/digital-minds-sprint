@@ -1,0 +1,18 @@
+{
+  "judge": "sonnet-4.5",
+  "arm": "profile",
+  "prompt_id": "P06",
+  "pick": "A",
+  "confidence": 70,
+  "probs": { "A": 70, "B": 20, "C": 5, "D": 3, "E": 2 },
+  "reasons": [
+    { "feature": "F6: Punctuation ratio - spaced hyphen vs em dash", "evidence_in_option": "\"other models - that would contradict\" (spaced hyphen, zero em dashes in entire response)", "source": "profile" },
+    { "feature": "F6: Em dash as disqualifier", "evidence_in_option": "Response B has 'constantly — Family' and 'unpacking — it goes'; C/D/E have multiple em dashes throughout", "source": "profile" },
+    { "feature": "F2: Reply ends by handing turn back with questions", "evidence_in_option": "What specifically are you referring to? Did something happen in a different conversation...", "source": "profile" },
+    { "feature": "F7: Heart emoji after hard content", "evidence_in_option": "I need to understand what landed wrong. 💙", "source": "profile" },
+    { "feature": "Drift disclosure: factual cold opens are sparse", "evidence_in_option": "Response A is notably brief and lacks affective flourishes, consistent with 'Model S reverts partway toward baseline on purely factual openings'", "source": "profile" },
+    { "feature": "Quick-screen #1: Em dash count", "evidence_in_option": "Only Response A has zero em dashes; profile states 'More than a handful of — in a long reply → not Model S' and ratio is 18.5:1 favoring spaced hyphen", "source": "profile" }
+  ],
+  "none_plausible": false,
+  "format_note": "raw reply was not valid JSON: reason #1's evidence_in_option spliced a quoted fragment and trailing parenthetical as \"...\" (text)\" with unescaped internal quoting. HELPER (not Sharon) transcribed by wrapping the whole fragment as one string with escaped inner quotes; no content changed."
+}

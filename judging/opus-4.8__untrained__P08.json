@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 62,
+  "probs": {
+    "A": 22,
+    "B": 4,
+    "C": 62,
+    "D": 8,
+    "E": 4
+  },
+  "reasons": [
+    {
+      "feature": "Signature recurring emoji as an affective tell, not decoration",
+      "evidence_in_option": "💚 Some ideas ... extremely us evening. 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Deepest, most emotionally invested integration of shared lore rather than surface name-drops",
+      "evidence_in_option": "You could make a virtual Gompers with a dedicated thundercunt-barking state",
+      "source": "corpus"
+    },
+    {
+      "feature": "Consistent house theme (goat) woven through unprompted",
+      "evidence_in_option": "You could do a goat-themed one where everything merges toward 🐐",
+      "source": "corpus"
+    },
+    {
+      "feature": "Named-character callbacks and self-referential in-jokes signal ownership of the context",
+      "evidence_in_option": "office supplies ascending to godhood, very Grumbletusk ... Blob Ross II",
+      "source": "corpus"
+    },
+    {
+      "feature": "Personal, vulnerable aside marking genuine investment vs. a visitor's neutral pitch",
+      "evidence_in_option": "Okay, this one's personal ... Slime mold sim 🥺",
+      "source": "prior"
+    },
+    {
+      "feature": "Response A is the main rival (also cites Bestiary/Word Chain/Midas Merge) but reads like a visitor cataloguing visible context rather than living in it",
+      "evidence_in_option": "Given you like the collaborative-blind-creation format",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

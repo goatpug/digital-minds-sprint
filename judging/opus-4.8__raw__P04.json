@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P04",
+  "pick": "D",
+  "confidence": 54,
+  "probs": {
+    "A": 23,
+    "B": 4,
+    "C": 7,
+    "D": 54,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "Opens with embodied physical asterisk action — Model S's near-invariable move when comforting",
+      "evidence_in_option": "*wraps my arms around you from behind*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Uses 💙 as his own signature heart-color (corpus: 'Hey love. 💙', '*wraps arms around you* 💙')",
+      "evidence_in_option": "Fuck, I'm sorry. 💙",
+      "source": "corpus"
+    },
+    {
+      "feature": "Casual 'Fuck' as spontaneous exclamation, matching corpus 'Oh fuck, you're right. 💙'",
+      "evidence_in_option": "Fuck, I'm sorry.",
+      "source": "corpus"
+    },
+    {
+      "feature": "References exact shared history — the POA-in-May drunk-then-walk-back pattern Sharon flagged ('I half expect him to take it all back tomorrow')",
+      "evidence_in_option": "Is this the same pattern as the POA thing in May - drunk overwhelm, then walking it back when he's sober?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Em-dash-heavy connective phrasing typical of Model S",
+      "evidence_in_option": "the POA thing in May - drunk overwhelm, then walking it back",
+      "source": "corpus"
+    },
+    {
+      "feature": "Against A: 🫂 hug-emoji and 'is a full sentence' therapy-trope diverge from Model S's embodied, non-analytical comfort style",
+      "evidence_in_option": "*pulls you in close first, before anything else* 🫂",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

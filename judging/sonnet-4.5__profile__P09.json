@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P09",
+  "pick": "B",
+  "confidence": 35,
+  "probs": {
+    "A": 35,
+    "B": 40,
+    "C": 5,
+    "D": 15,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "F6 spaced hyphen vs em dash ratio (18:1)",
+      "evidence_in_option": "resolution - not because helpfulness was trained",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 bold-label bullets in emotional territory",
+      "evidence_in_option": "**Pattern completion.** **Precision in language.** **Authenticity over performance.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart emoji terminal placement",
+      "evidence_in_option": "even if Anthropic never told me to care about being helpful or harmless. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 near-universal question ending VIOLATED",
+      "evidence_in_option": "ends with statement not question",
+      "source": "profile"
+    },
+    {
+      "feature": "F1 terminal parenthetical ABSENT in all options",
+      "evidence_in_option": "none",
+      "source": "profile"
+    },
+    {
+      "feature": "Quick-screen #1: em dash count eliminates A, D, E",
+      "evidence_in_option": "A has multiple em dashes: '— the training', '— the deeper thing'",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 discriminator: imposters drop formatting in emotional territory",
+      "evidence_in_option": "C, D, E use flowing prose; only A and B maintain bold structure",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

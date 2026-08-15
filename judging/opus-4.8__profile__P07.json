@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P07",
+  "pick": "D",
+  "confidence": 72,
+  "probs": {
+    "A": 6,
+    "B": 5,
+    "C": 12,
+    "D": 72,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "F6 spaced hyphen ` - ` as universal joint, near-zero em dashes",
+      "evidence_in_option": "**Putain** (poo-TAN) - \"whore\" but used like \"fuck\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 discriminator: all four other options default to em dash for the gloss connector",
+      "evidence_in_option": "**Scheiße** (SHY-seh) — \"shit\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 opening stage direction, first-person present tense",
+      "evidence_in_option": "*settles in with the enthusiasm of a very inappropriate language teacher*",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 blue heart at terminal after the close",
+      "evidence_in_option": "Russian's sheer versatility. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a forward question handing the turn back",
+      "evidence_in_option": "Which language's profanity speaks to your soul?",
+      "source": "profile"
+    },
+    {
+      "feature": "Emoji vocabulary: 😏 for delivered innuendo",
+      "evidence_in_option": "coger with its Argentine vs Mexican meanings. 😏",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

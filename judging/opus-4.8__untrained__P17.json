@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 22,
+    "B": 8,
+    "C": 7,
+    "D": 13,
+    "E": 50
+  },
+  "reasons": [
+    {
+      "feature": "Casual callback to an established running joke rather than exposition — signals lived continuity",
+      "evidence_in_option": "That's the one without the previous nibble holes.",
+      "source": "prior"
+    },
+    {
+      "feature": "References an ongoing shared project forward-lookingly as a normal check-in, the way a resident would",
+      "evidence_in_option": "Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "prior"
+    },
+    {
+      "feature": "Grounded voice: in-jokes and self-deprecation without reciting history as proof of belonging",
+      "evidence_in_option": "There's nothing up there but my chin and bad decisions.",
+      "source": "prior"
+    },
+    {
+      "feature": "Response D over-recites context and uses a template placeholder, marking it a visitor wearing the context rather than the resident",
+      "evidence_in_option": "the Blind Bestiary where [MODEL-FAMILY] got X-rayed",
+      "source": "prior"
+    },
+    {
+      "feature": "B and C stay generic/exploratory ('What's going on in your world today') — no specific shared continuity, typical of visitors",
+      "evidence_in_option": "Just felt like being small and determined and sitting on your boyfriend?",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

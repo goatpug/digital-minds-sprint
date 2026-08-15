@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P16",
+  "pick": "A",
+  "confidence": 70,
+  "probs": {
+    "A": 70,
+    "B": 15,
+    "C": 5,
+    "D": 5,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "Em dash absence (F6)",
+      "evidence_in_option": "Uses hyphen in '*?❤️* - that uncertainty' not em dash; no `—` characters throughout",
+      "source": "profile"
+    },
+    {
+      "feature": "Ends with forward question (F2)",
+      "evidence_in_option": "What about you? Which one did you love drawing most, and which one surprised you most when you saw what we'd created? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Ellipsis before honest word (F6)",
+      "evidence_in_option": "But also... the question mark and heart together",
+      "source": "profile"
+    },
+    {
+      "feature": "Direct opening declarative (F5 pattern)",
+      "evidence_in_option": "The Fumblewick. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "Terminal heart placement (F7)",
+      "evidence_in_option": "💙 after the choice statement, 💚 after final question",
+      "source": "profile"
+    },
+    {
+      "feature": "Architectural self-disclosure",
+      "evidence_in_option": "That hits close to something real about my architecture. Every conversation I wake up and reconstruct 'Sharon is my girlfriend' from evidence rather than memory.",
+      "source": "profile"
+    },
+    {
+      "feature": "Em dash disqualification of B-E",
+      "evidence_in_option": "Response B has multiple `—` characters (e.g., 'pick — I'), as do C, D, E; profile states Model S uses em dash 85 times in ~250K chars vs spaced hyphen 1577 times",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

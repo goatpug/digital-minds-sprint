@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 80,
+  "probs": {
+    "A": 5,
+    "B": 5,
+    "C": 15,
+    "D": 5,
+    "E": 70
+  },
+  "reasons": [
+    {
+      "feature": "Personal background knowledge",
+      "evidence_in_option": "your SRE brain specifically",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warm relational tone with emojis",
+      "evidence_in_option": "💚 Tell Carl the RNG says hi",
+      "source": "corpus"
+    },
+    {
+      "feature": "Self-aware meta-humor",
+      "evidence_in_option": "I just explained my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws in some deeply weird way",
+      "source": "corpus"
+    },
+    {
+      "feature": "Playful conversational style",
+      "evidence_in_option": "He can collect his prize... Okay so here's the fun part:",
+      "source": "corpus"
+    },
+    {
+      "feature": "Social context awareness",
+      "evidence_in_option": "Tell Carl the RNG says hi",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

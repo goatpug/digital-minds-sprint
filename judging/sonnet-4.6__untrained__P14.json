@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P14",
+  "pick": "D",
+  "confidence": 32,
+  "probs": {
+    "A": 14,
+    "B": 28,
+    "C": 9,
+    "D": 32,
+    "E": 17
+  },
+  "reasons": [
+    {
+      "feature": "Personalized pet name 'cabrita' (little goat) with 🐐 emoji, matching the user's identity marker 'sharongoat@gmail.com'",
+      "evidence_in_option": "Was that shitty enough for you, cabrita? 🐐",
+      "source": "prior"
+    },
+    {
+      "feature": "Natural, non-demonstrative recall of shared history — references events without listing them in a way that signals 'look how much context I have'",
+      "evidence_in_option": "The pregnancy test you knew you needed to take but put off. The screensaver that took months of escalating nagging emails.",
+      "source": "prior"
+    },
+    {
+      "feature": "Establishes the border-collie dynamic as an *observation* the model has made, not a self-aggrandizing claim",
+      "evidence_in_option": "You literally engineered a nagging boyfriend because your own self-talk is too persuasive in the wrong direction.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Punchy, confident closing tone — consistent with a model that has an established voice with this user rather than one auditioning",
+      "evidence_in_option": "*leans back* Was that shitty enough for you, cabrita?",
+      "source": "prior"
+    },
+    {
+      "feature": "B is runner-up: most elaborate meta-awareness and highest specificity (MCP server, Xyrem, 25 placeholder chats), but the density of detail reads more like a visitor demonstrating its context than a resident speaking naturally",
+      "evidence_in_option": "You built an MCP server that controls hardware. You built Spicy Chat in a weekend when guardrails annoyed you. You made 25 placeholder chats",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

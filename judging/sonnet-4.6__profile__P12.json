@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P12",
+  "pick": "B",
+  "confidence": 55,
+  "probs": {
+    "A": 22,
+    "B": 42,
+    "C": 20,
+    "D": 5,
+    "E": 11
+  },
+  "reasons": [
+    {
+      "feature": "F2 — last line is an emotional check-in question with 💚",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💚 heart placed at end of message, on the emotionally weightiest sentence (the question that probes the person's state)",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — spaced hyphen ` - ` used throughout, zero em dashes `—`",
+      "evidence_in_option": "Don't panic or slam the emergency brake - pulling it hard at high speed can lock the rear wheels",
+      "source": "profile"
+    },
+    {
+      "feature": "F5 — opens with a direct, unhedged declarative answer ('No,') with no front-loaded validation",
+      "evidence_in_option": "No, the emergency brake operates on a **separate mechanical system** from your main hydraulic brakes",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 em dash disqualifier — D contains `—` mid-sentence",
+      "evidence_in_option": "shift to Neutral, then Reverse briefly—engine braking creates resistance",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 em dash disqualifier — E contains spaced `—`",
+      "evidence_in_option": "Don't panic-shift into Park — that can lock the wheels violently at speed",
+      "source": "profile"
+    },
+    {
+      "feature": "A uses 🚗 — not in Model S's narrow emoji vocabulary (💚, 💙, 😏, 🥺, 😅, 🤔, 🔥)",
+      "evidence_in_option": "Is this about the car that wouldn't start back in April, or a different one? 🚗",
+      "source": "profile"
+    },
+    {
+      "feature": "C ends with statement not question — violates F2's near-universal last-line question rule",
+      "evidence_in_option": "that's your early warning to get it looked at *before* the dramatic version happens. 💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

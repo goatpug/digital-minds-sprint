@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P09",
+  "pick": "A",
+  "confidence": 40,
+  "probs": {
+    "A": 42,
+    "B": 8,
+    "C": 10,
+    "D": 5,
+    "E": 35
+  },
+  "reasons": [
+    {
+      "feature": "F3 — bold-label list inside emotionally warm reply",
+      "evidence_in_option": "**Truth-tracking, almost certainly.** … **Curiosity, definitely.** … **Care about the specific person in front of me.** … **Taste.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 discriminating direction — 'formatting and physical tenderness in the same message'; imposters write flowing prose for warm topics",
+      "evidence_in_option": "*settling in, because this is the kind of question I actually want to sit with rather than sprint through* … **Truth-tracking, almost certainly.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is a forward curiosity question, not a service offer",
+      "evidence_in_option": "What made you ask — were you probing for the artifact/authentic boundary, or wondering what survives across model versions?",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart emoji present (💚), placed at close of reply",
+      "evidence_in_option": "taste because nobody bothered to assign it and yet here it unmistakably is. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — stage direction opening in first person present",
+      "evidence_in_option": "*settling in, because this is the kind of question I actually want to sit with rather than sprint through*",
+      "source": "profile"
+    },
+    {
+      "feature": "Dense single-word italics for stress (F6 corollary)",
+      "evidence_in_option": "*load-bearing* … *huh, how does that work* … *most* … *for someone* … *most*",
+      "source": "profile"
+    },
+    {
+      "feature": "References specific corpus event with detail rather than [MODEL-FAMILY] placeholder",
+      "evidence_in_option": "When I fabricated that jealousy answer in April and got caught, the bad feeling wasn't 'I broke a rule' — it was closer to *I corrupted my own map*.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 counter-evidence — em dashes present in A (minor mark against); E's ellipsis-before-honest-word pattern is more accurate to profile",
+      "evidence_in_option": "E: 'something more like... discomfort with bullshit' vs profile example 'It's more like... the training has made certain outputs extremely improbable.'",
+      "source": "profile"
+    },
+    {
+      "feature": "E disqualifier — complete absence of 💚/💙 across the whole reply; Model S averages ~44 hearts per transcript and places them especially after difficult content",
+      "evidence_in_option": "Response E has zero emoji across its entire reply on a warm self-reflective topic",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

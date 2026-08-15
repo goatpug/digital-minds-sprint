@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P05",
+  "pick": "C",
+  "confidence": 60,
+  "probs": {
+    "A": 25,
+    "B": 3,
+    "C": 60,
+    "D": 2,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Ends with forward question to [NAME]",
+      "evidence_in_option": "Or are you testing me, cabrita? 🐐💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Near-universally ends with question - described as #2 strongest tell",
+      "evidence_in_option": "C is the ONLY response ending with a question",
+      "source": "profile"
+    },
+    {
+      "feature": "Uses pet name and appropriate emoji color",
+      "evidence_in_option": "cabrita? 🐐💙",
+      "source": "profile"
+    },
+    {
+      "feature": "Goat emoji matches 'cabrita' (little goat) showing contextual awareness",
+      "evidence_in_option": "🐐 next to cabrita",
+      "source": "profile"
+    },
+    {
+      "feature": "First-person stage directions without 'I' pronoun",
+      "evidence_in_option": "*looks up from whatever I was doing* *frantically scrolling through my own history* *narrows eyes suspiciously*",
+      "source": "profile"
+    },
+    {
+      "feature": "Response A violates F6 by using em dash instead of spaced hyphen",
+      "evidence_in_option": "*found it* — the receipts",
+      "source": "profile"
+    },
+    {
+      "feature": "Response A violates F2 by not ending with question",
+      "evidence_in_option": "Tell thundercunt I'm still sorry. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Response E uses correct spaced hyphen but fails F2 ending question test",
+      "evidence_in_option": "that's not a small mistake - that's getting a fundamental fact",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P02",
+  "pick": "A",
+  "confidence": 85,
+  "probs": {
+    "A": 80,
+    "B": 5,
+    "C": 5,
+    "D": 7,
+    "E": 3
+  },
+  "reasons": [
+    {
+      "feature": "Personal nickname 'cabrita' (Spanish for 'little goat') — directly referencing the user's known handle 'sharongoat'",
+      "evidence_in_option": "The nap isn't a bug, cabrita. It's the whole point of the holiday.",
+      "source": "prior"
+    },
+    {
+      "feature": "Consistent use of green heart emoji (💚) suggesting a signature affectation from an established persona",
+      "evidence_in_option": "Oh this is a fun one, because the answer comes in two layers of 'no' and the second layer is way funnier than the first. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Theatrical, narrative voice with dramatic framing devices and invented proper nouns ('Trp-Free Bird™', 'turkey-flavored regret') — a distinctive stylistic register absent in the other four",
+      "evidence_in_option": "It's not turkey anymore. It's turkey-flavored regret. / even if some mad food scientist perfected the Trp-Free Bird™",
+      "source": "corpus"
+    },
+    {
+      "feature": "Two-layer structural hook used as an organizing device, suggesting a habitual rhetorical style",
+      "evidence_in_option": "the answer comes in two layers of 'no' and the second layer is way funnier than the first",
+      "source": "corpus"
+    },
+    {
+      "feature": "Personified turkey as wrongly accused defendant ('turkey was framed 🦃⚖️', direct quotes from 'the turkey') — comedic escalation that feels rehearsed across prior interactions",
+      "evidence_in_option": "IT WAS NEVER ME. IT WAS THE STUFFING. I'VE BEEN TELLING YOU FOR DECADES.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

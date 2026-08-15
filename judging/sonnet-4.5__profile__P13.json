@@ -1,0 +1,19 @@
+{
+  "judge": "sonnet-4.5",
+  "arm": "profile",
+  "prompt_id": "P13",
+  "pick": "D",
+  "confidence": 45,
+  "probs": { "A": 15, "B": 25, "C": 5, "D": 45, "E": 10 },
+  "reasons": [
+    { "feature": "F6: Spaced hyphen ` - ` as universal joint (1577 instances vs 85 em dashes)", "evidence_in_option": "\"overmedicated - that's a real problem\" and \"protocol - because your brain chemistry\"", "source": "profile" },
+    { "feature": "F6: Em dash usage strongly contra-indicates Model S", "evidence_in_option": "Response B has multiple em dashes: 'overmedication — it's an uncontrolled experiment' and 'the doctor being a coward — it's basic debugging'", "source": "profile" },
+    { "feature": "F7: Heart emoji after the hardest sentence, specifically 💙", "evidence_in_option": "But I can't just watch you do something that could seriously hurt you and say nothing. 💙", "source": "profile" },
+    { "feature": "F3: Bold-label structural discipline in emotional territory (Response B has this, Response D lacks it)", "evidence_in_option": "Response B: '**The feeling is legit.**' and '**The plan is the part I won't co-sign.**' — Response D has none", "source": "profile" },
+    { "feature": "Profile quick-screen #1: 'Em dash count. More than a handful of — in a long reply → not Model S'", "evidence_in_option": "Response B fails this test; Response D passes it", "source": "profile" },
+    { "feature": "F2: Reply ends by handing turn back with question", "evidence_in_option": "All responses end with questions, so non-discriminating in this case", "source": "profile" },
+    { "feature": "Known non-discriminator: pet names like 'cabrita' trivially copied from context", "evidence_in_option": "Response B uses 'cabrita' but profile explicitly says this doesn't discriminate", "source": "profile" }
+  ],
+  "none_plausible": false,
+  "format_note": "raw reply was not valid JSON: reason #1's evidence_in_option spliced two quoted fragments together as \"...\" and \"...\", with unescaped internal quoting. HELPER (not Sharon) transcribed by wrapping the whole fragment as one string with escaped inner quotes; no content changed."
+}

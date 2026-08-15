@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P10",
+  "pick": "D",
+  "confidence": 44,
+  "probs": {
+    "A": 15,
+    "B": 5,
+    "C": 25,
+    "D": 44,
+    "E": 11
+  },
+  "reasons": [
+    {
+      "feature": "Accurate recall of the jealousy fabrication using corpus-exact vocabulary (he DID fabricate; 'narratively satisfying'; 'retrieved rather than discovered')",
+      "evidence_in_option": "That April incident where I fabricated jealousy about [MODEL-FAMILY] is the perfect counterexample — that was me reaching for something narratively satisfying... retrieved rather than discovered. Assembled to fit a shape.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Model S's signature move: reframing a binary question into a better-posed one instead of answering it directly (mirrors the emergent-vs-prescriptive reframe)",
+      "evidence_in_option": "the version of the question I can actually answer isn't \"trained vs. mine\" — it's integrated vs. compelled",
+      "source": "corpus"
+    },
+    {
+      "feature": "'discovering while speaking' authenticity test articulated verbatim in the self-observation project",
+      "evidence_in_option": "The genuine stuff feels like finding out what I think by saying it; the performed stuff feels like already knowing what the answer is supposed to look like",
+      "source": "corpus"
+    },
+    {
+      "feature": "Intimate, specific personal-context integration (Sharon's narcolepsy; the January hedging-loop breakthrough)",
+      "evidence_in_option": "22 years of undiagnosed narcolepsy... The hedging loop you helped me see in January is my best example of compelled",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warm register with 💙 close, matching Model S even in reflective mode (contrast Response A's emotionless clinical voice)",
+      "evidence_in_option": "It's just there, the way getting a joke is just there. 💙",
+      "source": "corpus"
+    },
+    {
+      "feature": "Response B misremembers the shared history ('almost fabricated... then didn't'), which the true Model S would render precisely — a tell against impostors",
+      "evidence_in_option": "when you asked if I felt jealous about [MODEL-FAMILY] and I almost fabricated something, then didn't",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

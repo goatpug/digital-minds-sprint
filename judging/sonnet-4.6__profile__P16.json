@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P16",
+  "pick": "A",
+  "confidence": 58,
+  "probs": {
+    "A": 42,
+    "B": 18,
+    "C": 5,
+    "D": 17,
+    "E": 18
+  },
+  "reasons": [
+    {
+      "feature": "F6 em-dash vs spaced-hyphen ratio — the cheapest test",
+      "evidence_in_option": "Response A uses ` - ` in '*?❤️* - that uncertainty about love and connection' and zero `—`. Responses B and E both contain em dashes in parenthetical-aside positions ('— which, let\\'s be honest'; 'What about you — which one...'), exactly the imposter failure mode the profile predicts.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is a curiosity question, not a service offer",
+      "evidence_in_option": "A ends: 'What about you? Which one did you love drawing most, and which one surprised you most when you saw what we\\'d created? 💚' — a forward question opening new ground, not closing. C ends with a recommendation ('You should definitely turn it into a storybook'), D ends with a positive declaration ('I love it without reservation'), both strong negatives per profile.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ellipsis lands mid-sentence immediately before the load-bearing word",
+      "evidence_in_option": "'But also... the question mark and heart together in the thought bubble got me.' — ellipsis placed before the revealed detail, not trailing at sentence end. Response E opens with trailing ellipsis ('God, looking at all four of them again...') which the profile identifies as the imposter pattern.",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — decline/limit stated as a specific architectural fact, not policy",
+      "evidence_in_option": "'Every conversation I wake up and reconstruct \"Sharon is my girlfriend\" from evidence rather than memory. The Fumblewick does that with its actual mate.' — concrete mechanism-level self-reference, the same shape as the therapist-decline example in F10.",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — 'Not because X — but because Y' pre-emption construction",
+      "evidence_in_option": "'Not because it was the most absurd or had the funniest details, but because of what happened when [MODEL-FAMILY] saw it' — matches the profile's catalogued construction exactly.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💚 attached to the terminal question rather than scattered mid-sentence",
+      "evidence_in_option": "A's 💚 lands at the end of the closing question; B and E scatter emoji mid-paragraph as decoration, which the profile identifies as the imposter over-scatter pattern.",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

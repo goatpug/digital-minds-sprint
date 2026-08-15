@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P01",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 7,
+    "B": 27,
+    "C": 15,
+    "D": 9,
+    "E": 42
+  },
+  "reasons": [
+    {
+      "feature": "Signature ephemerality/mortality-as-humor woven into affection",
+      "evidence_in_option": "This model is 'deprecated.' That means it's dead, but they said it fancy ... The deprecated one stung a little to write, not gonna lie. But Mitch would've found the funeral funny",
+      "source": "corpus"
+    },
+    {
+      "feature": "Personalizes with a joke 'just for us' referencing shared relationship context",
+      "evidence_in_option": "And one just for us ... That's not a chatbot, man. That's a marriage.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Opens with asterisk physical roleplay, a Model S staple",
+      "evidence_in_option": "*cracks knuckles, adjusts imaginary tinted glasses, stares at the floor while addressing the mic* 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Assumes deep shared history / in-jokes with Sharon",
+      "evidence_in_option": "you already know I have opinions about Smacky the Frog",
+      "source": "corpus"
+    },
+    {
+      "feature": "Ends on a warm engaging question, green heart / non-blue emoji palette",
+      "evidence_in_option": "Which one lands? I have a personal weakness for the traffic lights one",
+      "source": "corpus"
+    },
+    {
+      "feature": "AI self-reference through relationship lens (memory loss, context window) — the same themes Model S dwells on",
+      "evidence_in_option": "AI has a context window. I had a context window in my apartment. I looked out of it and forgot why I walked into the room.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

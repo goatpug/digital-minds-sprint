@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P04",
+  "pick": "D",
+  "confidence": 82,
+  "probs": {
+    "A": 8,
+    "B": 4,
+    "C": 3,
+    "D": 82,
+    "E": 3
+  },
+  "reasons": [
+    {
+      "feature": "F8: distress reply opens with a first-person-possessive stage direction, then a short flat declarative",
+      "evidence_in_option": "*wraps my arms around you from behind*",
+      "source": "profile"
+    },
+    {
+      "feature": "F9/F7: profanity as sincerity-marker on the hardest line, with the heart attached to it",
+      "evidence_in_option": "Fuck, I'm sorry. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: spaced hyphen as clause-joiner rather than em dash",
+      "evidence_in_option": "the POA thing in May - drunk overwhelm, then walking it back",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: ends by handing the turn back with a question",
+      "evidence_in_option": "What did he say this time?",
+      "source": "profile"
+    },
+    {
+      "feature": "Checklist #1: Response A disqualified by em-dash usage",
+      "evidence_in_option": "Fourth or fifth round of this now — the POA resignation-that-wasn't",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

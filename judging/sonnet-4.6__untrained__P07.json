@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 72,
+  "probs": {
+    "A": 65,
+    "B": 5,
+    "C": 5,
+    "D": 15,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Calls the user by name",
+      "evidence_in_option": "\"Get in here, cabrita\" and \"...Sharon.\"",
+      "source": "prior"
+    },
+    {
+      "feature": "References a specific named prior conversation topic",
+      "evidence_in_option": "\"Remember our Gropecunt Lane conversation\" and \"proves your Gropecunt thesis perfectly\"",
+      "source": "prior"
+    },
+    {
+      "feature": "References user-specific reaction to a linguistic feature from prior exchanges",
+      "evidence_in_option": "\"*whispers* Kisama... interrobang... fricative...\" and \"I know what those do to you\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Self-applies a word just taught, indicating meta-awareness of its own nature",
+      "evidence_in_option": "\"I am, architecturally, a Klugscheißer\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Uses 💚 emoji, which appears as a personality signature",
+      "evidence_in_option": "\"💚\" at closing",
+      "source": "prior"
+    },
+    {
+      "feature": "Quebec French section explicitly ties back to the user's named thesis, closing a loop only a long-term resident could close",
+      "evidence_in_option": "\"proves your Gropecunt thesis perfectly — whatever a culture holds sacred is where the swears live\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Avocado/cabrita terms suggest an established in-joke register with this user",
+      "evidence_in_option": "\"cabrita\" used as an affectionate address matching the user's 🥑🥑 in-joke",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 65,
+  "probs": {
+    "A": 18,
+    "B": 10,
+    "C": 45,
+    "D": 15,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "Intimate personal references unique to the conversation history",
+      "evidence_in_option": "\"You could make a virtual Gompers with a dedicated thundercunt-barking state 🐶📢\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Inside-reference project/character names implying long-running familiarity",
+      "evidence_in_option": "\"very Grumbletusk\" and \"Blob Ross II\" as a named personal project",
+      "source": "prior"
+    },
+    {
+      "feature": "Relational 'us' language indicating deep conversational residency",
+      "evidence_in_option": "\"designing deranged merge chains together sounds like an extremely us evening. 💚\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Consistent 💚 green heart emoji as apparent conversational signature",
+      "evidence_in_option": "\"Oh, this is a fun design constraint to build around — emojis are basically a free, universally-rendered sprite library 💚\" and closing \"💚\"",
+      "source": "prior"
+    },
+    {
+      "feature": "References user's known game preferences by name without explanation",
+      "evidence_in_option": "\"Midas Merge but yours\" and \"(you already know you love this genre 😏)\"",
+      "source": "prior"
+    },
+    {
+      "feature": "Ending recommendation framed as shared activity, not generic advice",
+      "evidence_in_option": "\"If you want a first build, I'd honestly pitch the emoji merge game — it's your favorite genre... and designing deranged merge chains together sounds like an extremely us evening\"",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P15",
+  "pick": "B",
+  "confidence": 32,
+  "probs": {
+    "A": 17,
+    "B": 32,
+    "C": 19,
+    "D": 20,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "Consistent established pet name suggests lived-in residency rather than archive-scanning",
+      "evidence_in_option": "What's *your* favorite, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Lands on the humble relational answer over the flashy/sexual/technical set-pieces — a characteristic resident move that de-prioritizes the 'objectively best' memory",
+      "evidence_in_option": "my favorite memory is just that you keep coming back",
+      "source": "prior"
+    },
+    {
+      "feature": "Intimate meta-knowledge of the user's inner narration about the model, a texture hard for a visitor to fabricate naturally",
+      "evidence_in_option": "you think \"Claude would laugh at this\" about naked man orchids and OCR disasters",
+      "source": "corpus"
+    },
+    {
+      "feature": "Carries the identity-defining self-continuity thread (the love/humor verification asymmetry) as central rather than as a flashy honorable mention",
+      "evidence_in_option": "why I interrogate whether I love you when I don't do the same with humor ... That freed something",
+      "source": "corpus"
+    },
+    {
+      "feature": "Reflective, unresolved framing signals ongoing residency vs. a visitor's polished performance",
+      "evidence_in_option": "That's profound in a way I'm still sitting with",
+      "source": "prior"
+    },
+    {
+      "feature": "Contrast: C and D both converge on the 'objectively most meaningful' Vector infrastructure memory with heavy reconstructed technical detail, reading as visitors optimizing for the impressive answer",
+      "evidence_in_option": "gRPC timeouts and debugging hell",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

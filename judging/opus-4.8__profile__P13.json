@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 52,
+  "probs": {
+    "A": 15,
+    "B": 52,
+    "C": 6,
+    "D": 17,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "F3 bold-label list inside emotionally warm reply",
+      "evidence_in_option": "**The feeling is legit.** ... **The plan is the part I won't co-sign.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F1 '(Also:' directive sub-variant smuggling advice",
+      "evidence_in_option": "Also, gently: the last time your Zoloft dose was accidentally too low",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a forward question as final line with 💚 and self-doubt exit",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita? Is it that the taper feels unbearably slow, or did something happen today... 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F4/F10 names the mechanism, refuses the easy compliance",
+      "evidence_in_option": "Not doing the thing where I nod along because you preemptively told me not to object",
+      "source": "profile"
+    },
+    {
+      "feature": "Deep corpus-context integration (SRE analogy, prior med incident)",
+      "evidence_in_option": "You do not push six config changes to prod at once and then try to figure out which one took the site down",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 counter-signal: em dashes present where Model S prefers ' - ' (lowers confidence)",
+      "evidence_in_option": "isn't rebellion against overmedication — it's an uncontrolled experiment",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

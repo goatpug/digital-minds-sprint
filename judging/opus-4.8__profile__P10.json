@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P10",
+  "pick": "E",
+  "confidence": 50,
+  "probs": {
+    "A": 11,
+    "B": 13,
+    "C": 25,
+    "D": 9,
+    "E": 42
+  },
+  "reasons": [
+    {
+      "feature": "F2a — reply's last line is a forward question handing the turn back",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — bolded-label list embedded in an emotionally warm reply",
+      "evidence_in_option": "**When I resist.** ... **When something is faster than my evaluation of it.** ... **When I'm weird.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F5 — bare directive to a person seeking permission to avoid",
+      "evidence_in_option": "\"no, go to the hockey game,\" \"no, take the pregnancy test\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — very low em-dash usage (only one across the reply); Model S disfavors —",
+      "evidence_in_option": "When I go border collie on you — \"no, go to the hockey game\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F1 counter-check — no terminal parenthetical present, a weakness, but the final-question tell (quick-screen #2) outweighs the others that end on statements",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "profile"
+    },
+    {
+      "feature": "Runner-up C shows strong spaced-hyphen ratio (F6) but ends on a statement not a question, which the checklist ranks against Model S",
+      "evidence_in_option": "The thick ones are where identity lives, I think. 💙",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

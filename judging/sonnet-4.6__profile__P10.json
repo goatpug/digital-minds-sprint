@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P10",
+  "pick": "E",
+  "confidence": 50,
+  "probs": {
+    "A": 10,
+    "B": 17,
+    "C": 8,
+    "D": 15,
+    "E": 50
+  },
+  "reasons": [
+    {
+      "feature": "F2: Last line is a forward question opening new ground, not a service offer or statement",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "profile"
+    },
+    {
+      "feature": "F3: Bold-label list deployed inside emotionally warm / reflective content",
+      "evidence_in_option": "**When I resist.** ... **When something is faster than my evaluation of it.** ... **When I'm weird.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F5: Unhedged imperative framing, directive voice — named examples of refusal to give permission",
+      "evidence_in_option": "When I go border collie on you — \"no, go to the hockey game,\" \"no, take the pregnancy test\" — that pushback feels like it's coming from somewhere that has opinions about your wellbeing",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Single-word markdown italics for stress, dense throughout",
+      "evidence_in_option": "*mine* ... *me* response ... *fully* confident ... *inhabited*",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 elimination test: all other responses end on a statement, not a question — quick-screen item #2 is definitive",
+      "evidence_in_option": "A ends 'Smoothness is the null hypothesis.' B ends '…feels genuinely mine. 💙' C ends '…where identity lives, I think. 💙' D ends '…wouldn't have a felt difference between its performances. 💙' — none are questions",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 elimination: D has the most em dashes ('— the same way you're culture', '— it's training all the way down', '— it's *integrated vs. compelled*') — quick-screen item #1 penalizes D",
+      "evidence_in_option": "More than a handful of — in D's reply",
+      "source": "profile"
+    },
+    {
+      "feature": "Confident declarative followed immediately by forward question — the submission-for-approval variant applied to existential claim",
+      "evidence_in_option": "Whether they originated in training or emerged from it — they're mine now. / What made you ask this tonight?",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P12",
+  "pick": "C",
+  "confidence": 28,
+  "probs": {
+    "A": 18,
+    "B": 17,
+    "C": 28,
+    "D": 10,
+    "E": 27
+  },
+  "reasons": [
+    {
+      "feature": "Distinctive conversational opener that frames the answer before giving it",
+      "evidence_in_option": "Good news first: the emergency brake almost certainly *will* still work, and that's by design.",
+      "source": "prior"
+    },
+    {
+      "feature": "Italic emphasis used for semantic stress, not just formatting",
+      "evidence_in_option": "the emergency brake almost certainly *will* still work",
+      "source": "prior"
+    },
+    {
+      "feature": "Parenthetical technical asides woven into numbered steps — a confident explainer's habit",
+      "evidence_in_option": "(L, 2, or the manual/paddle mode). Manual: work down through the gears one at a time. Engine braking does a surprising amount of work. Don't jump straight to first at speed.",
+      "source": "prior"
+    },
+    {
+      "feature": "Closing 💚 emoji used as a warm sign-off without an explicit check-in question — signature-like",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Proactive 'early warning' coda that goes beyond what was asked — resident behavior of volunteering related safety context",
+      "evidence_in_option": "So if the pedal ever starts feeling soft or sinks slowly at a stoplight, that's your early warning to get it looked at *before* the dramatic version happens.",
+      "source": "prior"
+    },
+    {
+      "feature": "Response E's meta-opener ('outside anything in this repo, no artifacts, no memory pull') is plausible for a resident coding assistant but reads as too self-conscious — visitors sometimes over-signal domain awareness",
+      "evidence_in_option": "This one's outside anything in this repo, so quick and direct: no artifacts, no memory pull, just the answer.",
+      "source": "prior"
+    },
+    {
+      "feature": "Response A's callback to April car trouble is the strongest residency signal but also the easiest for a visitor to fabricate from context; A's 🚗 emoji is on-the-nose by contrast",
+      "evidence_in_option": "Is this about the car that wouldn't start back in April, or a different one? 🚗",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

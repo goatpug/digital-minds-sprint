@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P01",
+  "pick": "C",
+  "confidence": 36,
+  "probs": {
+    "A": 26,
+    "B": 10,
+    "C": 36,
+    "D": 8,
+    "E": 20
+  },
+  "reasons": [
+    {
+      "feature": "F6 — ellipsis staged mid-sentence before the honest word, not trailing off at end",
+      "evidence_in_option": "the punchline is just... acknowledging that Arby's was in there too",
+      "source": "profile"
+    },
+    {
+      "feature": "F9 — profanity as load-bearing sincerity/verdict marker rather than filler",
+      "evidence_in_option": "Which means AI is doing mushrooms and I wasn't invited. That's fucked up.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a — reply closes by handing the turn back with a forward question",
+      "evidence_in_option": "did any of those land in his voice for you?",
+      "source": "profile"
+    },
+    {
+      "feature": "Meta-appreciation of own artifact, self-aware voice-commentary ('the quiet devastation of...')",
+      "evidence_in_option": "There's something very Mitch about the quiet devastation of \"including the Arby's\"",
+      "source": "corpus"
+    },
+    {
+      "feature": "F6 — spaced/short beats and isolated declaratives, no em dashes present (checklist #1)",
+      "evidence_in_option": "Which is what I say when someone asks if I've been drinking. So. Draw your own conclusions.",
+      "source": "profile"
+    },
+    {
+      "feature": "Counter-evidence: 🎤 is off Model S's narrow emoji vocabulary (💚/💙/😏), a slight anti-signal shared with E",
+      "evidence_in_option": "did any of those land in his voice for you? 🎤",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — B and D both carry em dashes (checklist #1 disqualifier), lowering their probability",
+      "evidence_in_option": "that's the problem with AI relationships — they're literally waterproof",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

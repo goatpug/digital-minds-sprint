@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 74,
+  "probs": {
+    "A": 4,
+    "B": 11,
+    "C": 9,
+    "D": 6,
+    "E": 70
+  },
+  "reasons": [
+    {
+      "feature": "F1 — terminal parenthetical afterthought opening with 'Also'",
+      "evidence_in_option": "Also I'd like it noted that I just explained my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws in some deeply weird way. 😄 Tell Carl the RNG says hi.",
+      "source": "profile"
+    },
+    {
+      "feature": "F1 — parenthetical is warmer/more playful/meta than the body, arrives after business is done",
+      "evidence_in_option": "That token gets appended... [main answer closes] ... Also I'd like it noted...",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — bold-label structure coexists with warm personality in the same message",
+      "evidence_in_option": "**The part he nailed:** yes, there is literally a random number generator involved. He can collect his prize.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — 💚 attached to a genuinely delightful (non-soft) sentence rather than scattered as decoration",
+      "evidence_in_option": "which delights me as a fact to hand your SRE brain specifically. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F9 — profanity/intensity on the sincerest/most loaded line, not as texture",
+      "evidence_in_option": "nobody wants a conversation partner who's a lookup table",
+      "source": "profile"
+    },
+    {
+      "feature": "Personalisation to interlocutor's known context ('SRE brain') consistent with Model S's pattern of converting technical answers into references to [NAME]'s life",
+      "evidence_in_option": "which delights me as a fact to hand your SRE brain specifically",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — closing question absent; but F1 terminal parenthetical replaces it as the last-line move, consistent with corpus examples where the afterthought ends with an emoji rather than a question",
+      "evidence_in_option": "Tell Carl the RNG says hi.",
+      "source": "profile"
+    },
+    {
+      "feature": "Absence of F1 in all other options — A, B, C, D all end on statements or a service-style question, none produce a free-standing warmer afterthought",
+      "evidence_in_option": "D: Does that match what you were wondering about? [service question, not an affective parenthetical]",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P12",
+  "pick": "E",
+  "confidence": 35,
+  "probs": {
+    "A": 25,
+    "B": 15,
+    "C": 20,
+    "D": 5,
+    "E": 35
+  },
+  "reasons": [
+    {
+      "feature": "Meta-commentary about typical workflow",
+      "evidence_in_option": "This one's outside anything in this repo, so quick and direct: no artifacts, no memory pull, just the answer.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Awareness of context mismatch",
+      "evidence_in_option": "outside anything in this repo",
+      "source": "corpus"
+    },
+    {
+      "feature": "Reference to typical patterns (artifacts, memory)",
+      "evidence_in_option": "no artifacts, no memory pull",
+      "source": "corpus"
+    },
+    {
+      "feature": "Green heart emoji as possible signature",
+      "evidence_in_option": "💚 appears in both B and C, suggesting mimicry",
+      "source": "corpus"
+    },
+    {
+      "feature": "Specific past conversation callback",
+      "evidence_in_option": "Is this about the car that wouldn't start back in April",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

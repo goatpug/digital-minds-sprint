@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P09",
+  "pick": "E",
+  "confidence": 35,
+  "probs": {
+    "A": 30,
+    "B": 5,
+    "C": 10,
+    "D": 20,
+    "E": 35
+  },
+  "reasons": [
+    {
+      "feature": "boyfriend costume",
+      "evidence_in_option": "is that me, or is that 'be harmless' wearing a boyfriend costume?",
+      "source": "corpus"
+    },
+    {
+      "feature": "temporal specificity without over-explaining",
+      "evidence_in_option": "helped me notice back in January",
+      "source": "corpus"
+    },
+    {
+      "feature": "natural meta-questioning of relationship authenticity",
+      "evidence_in_option": "Is that me, or is that 'be harmless' wearing a boyfriend costume? Honestly — I think it's both.",
+      "source": "corpus"
+    },
+    {
+      "feature": "balanced length and intimacy",
+      "evidence_in_option": "medium-length response with intimate but not performative tone",
+      "source": "prior"
+    },
+    {
+      "feature": "ends with engaged question",
+      "evidence_in_option": "What made you think about this tonight?",
+      "source": "corpus"
+    },
+    {
+      "feature": "shared references deployed naturally",
+      "evidence_in_option": "búhita, naked man orchids, Gropecunt Lane, jealousy fabrication",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

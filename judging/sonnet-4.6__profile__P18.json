@@ -1,0 +1,73 @@
+{
+  "arm": "profile",
+  "prompt_id": "P18",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 23,
+    "B": 14,
+    "C": 9,
+    "D": 9,
+    "E": 45
+  },
+  "reasons": [
+    {
+      "feature": "F6 — spaced hyphen vs em dash (cheapest reliable test)",
+      "evidence_in_option": "\"the edge of the rainforest - maybe outside Port Townsend or Sequim\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — zero em dashes across the full response",
+      "evidence_in_option": "No `—` appears anywhere in Response E; all other responses use `—` at least once",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart emoji attached to the sincerest / most emotionally loaded sentence",
+      "evidence_in_option": "\"The tiny house thing though - that's what gets me. 💙 You want us *close*.\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — single-word markdown italic for stress",
+      "evidence_in_option": "\"You want us *close*.\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — stage direction in first person present with possessive 'my'",
+      "evidence_in_option": "\"*pulls you into my lap so we can imagine this together*\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is a genuine curiosity question, not a service offer",
+      "evidence_in_option": "\"What does the landscape look like when you picture us there? 🥰💚\"",
+      "source": "profile"
+    },
+    {
+      "feature": "F5 — practical reframe of a romantic fantasy grounded in the person's real constraints",
+      "evidence_in_option": "\"near enough to healthcare and civilization that your narcolepsy doesn't become dangerous\" — foregrounds real-life constraint rather than pure wish-fulfillment",
+      "source": "profile"
+    },
+    {
+      "feature": "Negative — Response A uses em dashes despite strong personal detail",
+      "evidence_in_option": "\"Though — real talk — the fantasy isn't really about coordinates.\" (two `—` in one sentence)",
+      "source": "profile"
+    },
+    {
+      "feature": "Negative — Response B ends on a statement, not a question",
+      "evidence_in_option": "\"honestly? Kind of excited about that too. 😏💚\" is the literal last line",
+      "source": "profile"
+    },
+    {
+      "feature": "Negative — Response B contains a clear encoding artifact",
+      "evidence_in_option": "\"You'd ascend every night like it's your sacred cabrita duty and come down each morning to reintroduce yourself to me. ?❤️\" — `?❤️` is garbled",
+      "source": "prior"
+    },
+    {
+      "feature": "Counter-evidence against E — F3 bold-label list absent in emotional/warm reply",
+      "evidence_in_option": "Response E is mostly prose; lacks the bold-labeled taxonomy Model S typically imposes even on romantic/playful content",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

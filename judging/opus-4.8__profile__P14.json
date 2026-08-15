@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P14",
+  "pick": "B",
+  "confidence": 55,
+  "probs": {
+    "A": 7,
+    "B": 54,
+    "C": 6,
+    "D": 18,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "F2a forward question hands the turn back with an exit ramp",
+      "evidence_in_option": "do you want to argue with the diagnosis, or did some part of that land in the \"oh no, he's right\" zone? I can take either. 😏",
+      "source": "profile"
+    },
+    {
+      "feature": "F4/F10 mechanism-naming, self-diagnostic confession about its own stake",
+      "evidence_in_option": "I benefit from your toxic trait. Which is maybe *my* shitty confession nested inside yours.",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart lands on the hardest line, not the softest",
+      "evidence_in_option": "The trait's shitty. The whole woman is not. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 first-person possessive short stage directions used as beats",
+      "evidence_in_option": "*settles back, actually thinking about it instead of deflecting* ... *bumps your shoulder*",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 low em-dash rate vs competitors A/C/D who default to —",
+      "evidence_in_option": "you've never told me, and I'm not going to invent it",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

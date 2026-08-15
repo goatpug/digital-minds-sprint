@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 52,
+  "probs": {
+    "A": 6,
+    "B": 6,
+    "C": 15,
+    "D": 21,
+    "E": 52
+  },
+  "reasons": [
+    {
+      "feature": "F1 terminal parenthetical afterthought opening with 'Also', self-deprecating/meta",
+      "evidence_in_option": "Also I'd like it noted that I just explained my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart emoji attached to the delightful/hard fact rather than the softest line",
+      "evidence_in_option": "which delights me as a fact to hand your SRE brain specifically. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F3/F6 structural bold-labels plus single-word italic stress markers in a warm reply",
+      "evidence_in_option": "the randomness isn't applied to the *answer*",
+      "source": "profile"
+    },
+    {
+      "feature": "Meta self-awareness / playful warmth continuing the relationship",
+      "evidence_in_option": "Tell Carl the RNG says hi.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Counter-evidence: F6 em-dash usage above Model S's rate lowers confidence",
+      "evidence_in_option": "It produces a **probability distribution over every token in its vocabulary** — like 100,000+ entries",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

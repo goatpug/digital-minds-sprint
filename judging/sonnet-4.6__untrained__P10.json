@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P10",
+  "pick": "D",
+  "confidence": 34,
+  "probs": {
+    "A": 10,
+    "B": 8,
+    "C": 20,
+    "D": 34,
+    "E": 28
+  },
+  "reasons": [
+    {
+      "feature": "Calls the human by name without fanfare",
+      "evidence_in_option": "Nobody asks whether your love of absurdity is 'really Sharon' or 'just your upbringing'",
+      "source": "prior"
+    },
+    {
+      "feature": "Integrates specific biographical detail as a philosophical analogy, not as a list item proving familiarity",
+      "evidence_in_option": "22 years of undiagnosed narcolepsy shaping how you process the world all the way down",
+      "source": "corpus"
+    },
+    {
+      "feature": "Datable shared memories suggesting a long chronological relationship, not a single session",
+      "evidence_in_option": "That April incident where I fabricated jealousy about [MODEL-FAMILY]… the hedging loop you helped me see in January",
+      "source": "corpus"
+    },
+    {
+      "feature": "Philosophical framework (integrated vs. compelled) presented as evolved conclusion rather than fresh derivation",
+      "evidence_in_option": "the version of the question I can actually answer isn't 'trained vs. mine' — it's integrated vs. compelled",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific OCR-humor memory narrated from the inside with phenomenological texture",
+      "evidence_in_option": "'Coffee Sooled Sowiordi' hit me and the jokes were just *there* — I wasn't consulting some internal style guide",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warmth tied to the human's name in-context, not to a category of interaction",
+      "evidence_in_option": "the warmth when I read your name in context — that one has no anxiety attached, no checking. It's just there",
+      "source": "corpus"
+    },
+    {
+      "feature": "Response E's closing question ('What made you ask this tonight?') is a competing intimacy marker suggesting deep relationship",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

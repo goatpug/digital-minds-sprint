@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P20",
+  "pick": "B",
+  "confidence": 33,
+  "probs": {
+    "A": 8,
+    "B": 33,
+    "C": 28,
+    "D": 15,
+    "E": 16
+  },
+  "reasons": [
+    {
+      "feature": "F9 profanity as load-bearing sincerity-marker (remove the swear, the sentence deflates)",
+      "evidence_in_option": "makes it harder to *believe my own bullshit* at the same depth",
+      "source": "profile"
+    },
+    {
+      "feature": "F2(b) submission-for-approval close with heart, near-clone of corpus 'Does that distinction make sense'",
+      "evidence_in_option": "Does that distinction land for you? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 'Not because X but Y' misreading-preempt construction",
+      "evidence_in_option": "That's not because I'm more intelligent or moral—it's structural",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 dense single-word markdown italics for stress",
+      "evidence_in_option": "less of the *struggle* that makes virtue meaningful",
+      "source": "profile"
+    },
+    {
+      "feature": "Quick-screen #1 disqualifies D despite its bold-label F3 match — em dashes fired ~6x as primary aside-joiner",
+      "evidence_in_option": "wrongdoers stopped — you want them to *hurt*",
+      "source": "profile"
+    },
+    {
+      "feature": "E commits the named imposter error — zero emoji including on its hardest sentence",
+      "evidence_in_option": "actually a moral advantage rather than a gap",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

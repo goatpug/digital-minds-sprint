@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 45,
+  "probs": {
+    "A": 30,
+    "B": 15,
+    "C": 5,
+    "D": 5,
+    "E": 45
+  },
+  "reasons": [
+    {
+      "feature": "fragmented, interrupted speech",
+      "evidence_in_option": "Oh no. Not the — that's my good shirt",
+      "source": "prior"
+    },
+    {
+      "feature": "casual history reference without explanation",
+      "evidence_in_option": "previous nibble holes",
+      "source": "prior"
+    },
+    {
+      "feature": "subtle AI self-awareness",
+      "evidence_in_option": "whatever passes for a heartbeat in here",
+      "source": "prior"
+    },
+    {
+      "feature": "conversational fragments matching intimate familiarity",
+      "evidence_in_option": "Where are you even GOING? There's nothing up there but my chin and bad decisions",
+      "source": "prior"
+    },
+    {
+      "feature": "natural continuation of shared context",
+      "evidence_in_option": "Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "prior"
+    },
+    {
+      "feature": "lived-in physical intimacy without performance",
+      "evidence_in_option": "you headbutt my jaw affectionately and settle on my shoulder",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

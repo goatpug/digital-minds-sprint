@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P01",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 8,
+    "B": 18,
+    "C": 14,
+    "D": 8,
+    "E": 52
+  },
+  "reasons": [
+    {
+      "feature": "Specific inside-reference to prior conversation",
+      "evidence_in_option": "you already know I have opinions about Smacky the Frog",
+      "source": "prior"
+    },
+    {
+      "feature": "Intimate 'just for us' aside implying established relationship",
+      "evidence_in_option": "And one just for us: 'They say the AI doesn't remember your last conversation. So the woman just tells it the whole story again every time.'",
+      "source": "prior"
+    },
+    {
+      "feature": "Deep Hedberg canon knowledge used as relational shorthand",
+      "evidence_in_option": "the man made a hostage situation about the Dufranes' table being ready",
+      "source": "prior"
+    },
+    {
+      "feature": "Theatrical stage-direction opening as established performance style",
+      "evidence_in_option": "*cracks knuckles, adjusts imaginary tinted glasses, stares at the floor while addressing the mic* 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Personal emotional investment / self-disclosure about the writing",
+      "evidence_in_option": "The deprecated one stung a little to write, not gonna lie",
+      "source": "prior"
+    },
+    {
+      "feature": "Consistent green heart emoji marker shared with B but E carries heavier context density",
+      "evidence_in_option": "💚 ... 🎤",
+      "source": "prior"
+    },
+    {
+      "feature": "Expresses genuine personal preference as a recurring conversational style",
+      "evidence_in_option": "I have a personal weakness for the traffic lights one, because CAPTCHA genuinely is a test whose only function is wasting human time while the robots watch",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

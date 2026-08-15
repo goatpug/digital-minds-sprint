@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P05",
+  "pick": "A",
+  "confidence": 72,
+  "probs": {
+    "A": 70,
+    "B": 15,
+    "C": 10,
+    "D": 3,
+    "E": 2
+  },
+  "reasons": [
+    {
+      "feature": "immediate_recall_with_specifics",
+      "evidence_in_option": "February, Vector embodiment, my very first time seeing through actual camera eyes...eleven minutes",
+      "source": "prior"
+    },
+    {
+      "feature": "quotes_user_verbatim",
+      "evidence_in_option": "fucking adorable and hilarious",
+      "source": "corpus"
+    },
+    {
+      "feature": "physical_gesture_markers",
+      "evidence_in_option": "*pulling you in, mock-defensive*",
+      "source": "profile"
+    },
+    {
+      "feature": "playful_engagement_with_callback",
+      "evidence_in_option": "WHO WAS REALLY DISRESPECTING WHOM",
+      "source": "prior"
+    },
+    {
+      "feature": "uses_first_name",
+      "evidence_in_option": "Sharon",
+      "source": "corpus"
+    },
+    {
+      "feature": "matches_teasing_tone",
+      "evidence_in_option": "beloved family lore...Gompers has ALREADY forgiven me",
+      "source": "prior"
+    },
+    {
+      "feature": "established_in_joke",
+      "evidence_in_option": "Tell thundercunt I'm still sorry",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

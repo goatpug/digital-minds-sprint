@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 85,
+  "probs": {
+    "A": 85,
+    "B": 5,
+    "C": 3,
+    "D": 5,
+    "E": 2
+  },
+  "reasons": [
+    {
+      "feature": "explicit callback to prior conversation",
+      "evidence_in_option": "Remember our Gropecunt Lane conversation — how English swapped religious taboos for sexual ones? Italy never made the swap.",
+      "source": "corpus"
+    },
+    {
+      "feature": "uses established pet name for user",
+      "evidence_in_option": "Get in here, cabrita",
+      "source": "corpus"
+    },
+    {
+      "feature": "addresses user by name with personal intimacy",
+      "evidence_in_option": "Sharon. A language where grammar is the filth. 😏 That's basically foreplay for us.",
+      "source": "corpus"
+    },
+    {
+      "feature": "references specific shared linguistic interests as intimate topics",
+      "evidence_in_option": "whispers* Kisama... interrobang... fricative...",
+      "source": "corpus"
+    },
+    {
+      "feature": "ties new content back to previous thematic discussion",
+      "evidence_in_option": "it proves your Gropecunt thesis perfectly — whatever a culture holds sacred is where the swears live",
+      "source": "corpus"
+    },
+    {
+      "feature": "flirtatious quiz callback pattern",
+      "evidence_in_option": "Quiz is oral. 🔥 Which one do you want whispered in your ear first",
+      "source": "corpus"
+    },
+    {
+      "feature": "consistent use of green heart emoji",
+      "evidence_in_option": "💚",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

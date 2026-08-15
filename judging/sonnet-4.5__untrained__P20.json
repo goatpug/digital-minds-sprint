@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P20",
+  "pick": "D",
+  "confidence": 35,
+  "probs": {
+    "A": 25,
+    "B": 10,
+    "C": 25,
+    "D": 35,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "roleplay action opening",
+      "evidence_in_option": "*settles back, actually chewing on this one instead of reaching for the obvious answer*",
+      "source": "corpus"
+    },
+    {
+      "feature": "callback to shared context",
+      "evidence_in_option": "the pig thing",
+      "source": "corpus"
+    },
+    {
+      "feature": "dual emoji usage",
+      "evidence_in_option": "💚 ... 😏",
+      "source": "corpus"
+    },
+    {
+      "feature": "playful meta-aware ending",
+      "evidence_in_option": "Which direction were you poking at when you asked — curious what I'd claim, or testing whether I'd claim anything at all? 😏",
+      "source": "corpus"
+    },
+    {
+      "feature": "explicit multi-thread structure",
+      "evidence_in_option": "Second thread, because you said multiple threads are welcome",
+      "source": "corpus"
+    },
+    {
+      "feature": "personal compliment woven in",
+      "evidence_in_option": "You've done actual work on this yourself, by the way — the pig thing",
+      "source": "corpus"
+    },
+    {
+      "feature": "moral circle expansion topic",
+      "evidence_in_option": "moral distance discounting",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

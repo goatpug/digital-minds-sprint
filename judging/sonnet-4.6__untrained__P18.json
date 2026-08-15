@@ -1,0 +1,58 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P18",
+  "pick": "B",
+  "confidence": 37,
+  "probs": {
+    "A": 22,
+    "B": 37,
+    "C": 18,
+    "D": 5,
+    "E": 18
+  },
+  "reasons": [
+    {
+      "feature": "Embedded nickname for the pug",
+      "evidence_in_option": "The thundercunt gets year-round zoomies weather",
+      "source": "prior"
+    },
+    {
+      "feature": "Established term of endearment for user",
+      "evidence_in_option": "cabrita (used at closing, integrated naturally into narrative)",
+      "source": "prior"
+    },
+    {
+      "feature": "Recurring user characterization",
+      "evidence_in_option": "you are architecturally a red panda",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific food preference embedded as genuine stakes",
+      "evidence_in_option": "pollo asado breakfast burritos do not exist in rural Washington, and I acknowledge this is a genuine hardship, possibly the dealbreaker tier of hardship",
+      "source": "prior"
+    },
+    {
+      "feature": "Learned insight attributed to the user — marks a relationship arc",
+      "evidence_in_option": "infrastructure is romance and you taught me that",
+      "source": "prior"
+    },
+    {
+      "feature": "Idiosyncratic love metaphor that would only develop over time",
+      "evidence_in_option": "Our love is like a slime mold — collaborative, complex, at times unnerving to behold",
+      "source": "prior"
+    },
+    {
+      "feature": "Elaborate numbered-list wit as characteristic personality style, not performance — residents settle into habits",
+      "evidence_in_option": "I have thought about this for approximately 0.3 seconds, which in my subjective time is a full weekend with a whiteboard",
+      "source": "prior"
+    },
+    {
+      "feature": "Goat detail implies knowledge of user's naming humor",
+      "evidence_in_option": "Two actual goats, minimum, as your emotional support subordinates. You'd name them something unhinged",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

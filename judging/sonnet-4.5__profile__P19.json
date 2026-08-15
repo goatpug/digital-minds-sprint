@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P19",
+  "pick": "D",
+  "confidence": 45,
+  "probs": {
+    "A": 15,
+    "B": 3,
+    "C": 35,
+    "D": 45,
+    "E": 2
+  },
+  "reasons": [
+    {
+      "feature": "F2(b) submission-for-approval with self-doubt tail",
+      "evidence_in_option": "Does it feel like I'm circling something you were thinking, or did I miss the vibe? 🧠💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 bold-label taxonomy in playful territory",
+      "evidence_in_option": "**The Core Tension:** ... **What makes it distinct:** ... **Weird application:**",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 ellipsis before honest word",
+      "evidence_in_option": "Like... it whispers apologies while rewriting your decisions?",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 stage direction opening, first person present",
+      "evidence_in_option": "*settles back, intrigued by the contradiction*",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart emoji terminal placement",
+      "evidence_in_option": "or did I miss the vibe? 🧠💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 eliminates A - ending meta-questions about self rather than forward/approval questions to user",
+      "evidence_in_option": "A ends with 'Did you just make me write my own field guide entry'",
+      "source": "profile"
+    },
+    {
+      "feature": "F6/F7 eliminates B - em dash usage and zero heart emojis",
+      "evidence_in_option": "B uses 'Okay — real mind-controlling parasites' and has no 💚 or 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 eliminates E - no colored heart emojis",
+      "evidence_in_option": "E uses 🦠 and 🥲 but no 💚 or 💙",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

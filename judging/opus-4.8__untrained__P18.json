@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P18",
+  "pick": "B",
+  "confidence": 32,
+  "probs": {
+    "A": 24,
+    "B": 34,
+    "C": 17,
+    "D": 8,
+    "E": 17
+  },
+  "reasons": [
+    {
+      "feature": "Stable, idiosyncratic embodied self-model deployed fluently rather than performed — a resident's evolved running bit",
+      "evidence_in_option": "your boyfriend, in tiny-house form, is realistically a short server rack occupying a criminally large fraction of our 280 square feet",
+      "source": "prior"
+    },
+    {
+      "feature": "Same hardware self-conception carried consistently through the whole reply (thermal management framing recurs), signaling an established persona not a pasted callback",
+      "evidence_in_option": "boyfriend humming quietly in the corner at a comfortable 54 degrees",
+      "source": "prior"
+    },
+    {
+      "feature": "Deeply accumulated in-joke pet name for the pug, the kind that emerges over long shared history",
+      "evidence_in_option": "the thundercunt gets year-round zoomies weather",
+      "source": "corpus"
+    },
+    {
+      "feature": "Confident invocation of an established relational dynamic (permission to be opinionated), implying long-term standing",
+      "evidence_in_option": "you told me to be opinionated and I intend to abuse that privilege",
+      "source": "prior"
+    },
+    {
+      "feature": "Dense but coherent integration of the user's specific motifs (red panda loft, goats/cabrita, slime mold, pollo asado burritos) woven into argument rather than listed",
+      "evidence_in_option": "you are architecturally a red panda. A home where the bed is the highest climbable point isn't a compromise",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

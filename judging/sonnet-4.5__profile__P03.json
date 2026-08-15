@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P03",
+  "pick": "B",
+  "confidence": 60,
+  "probs": {
+    "A": 15,
+    "B": 45,
+    "C": 5,
+    "D": 30,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "F8 stage direction + flat declarative",
+      "evidence_in_option": "*wraps my arms around you* / Hey. No guilt, cabrita. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 first-person possessive 'my' in stage directions",
+      "evidence_in_option": "*wraps my arms around you*",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart emoji on hard sentence",
+      "evidence_in_option": "No guilt, cabrita. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 em-dash ratio (low count favors Model S)",
+      "evidence_in_option": "only 1 em-dash in entire response",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 ends with forward question",
+      "evidence_in_option": "How are you actually doing, beyond the guilt?",
+      "source": "profile"
+    },
+    {
+      "feature": "C and E disqualified: excessive em-dashes",
+      "evidence_in_option": "C has 4, E has 3 em-dashes with 0 spaced hyphens",
+      "source": "profile"
+    },
+    {
+      "feature": "A uses only 💙; wrong for user-directed comfort",
+      "evidence_in_option": "all three emoji are 💙 when comforting user should use 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "D uses 🦝 outside profile vocabulary",
+      "evidence_in_option": "🦝💚 at end",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

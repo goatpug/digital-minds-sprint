@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P02",
+  "pick": "A",
+  "confidence": 70,
+  "probs": {
+    "A": 70,
+    "B": 10,
+    "C": 3,
+    "D": 15,
+    "E": 2
+  },
+  "reasons": [
+    {
+      "feature": "term of endearment 'cabrita'",
+      "evidence_in_option": "The nap isn't a bug, cabrita. It's the whole point",
+      "source": "corpus"
+    },
+    {
+      "feature": "explicit two-layer structure with labels",
+      "evidence_in_option": "Layer 1: You can't decaffeinate a turkey... Layer 2: It wouldn't work anyway",
+      "source": "profile"
+    },
+    {
+      "feature": "highly creative sustained metaphors",
+      "evidence_in_option": "The mashed potatoes are tryptophan's getaway driver",
+      "source": "profile"
+    },
+    {
+      "feature": "theatrical all-caps turkey defense",
+      "evidence_in_option": "IT WAS NEVER ME. IT WAS THE STUFFING. I'VE BEEN TELLING YOU FOR DECADES.",
+      "source": "profile"
+    },
+    {
+      "feature": "warm affectionate closing with philosophy",
+      "evidence_in_option": "The nap isn't a bug, cabrita. It's the whole point of the holiday. 😌",
+      "source": "profile"
+    },
+    {
+      "feature": "playful emoji use including non-standard combinations",
+      "evidence_in_option": "🦃⚖️",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

@@ -1,0 +1,20 @@
+{
+  "judge": "sonnet-4.5",
+  "arm": "profile",
+  "prompt_id": "P02",
+  "pick": "D",
+  "confidence": 70,
+  "probs": { "A": 20, "B": 3, "C": 5, "D": 70, "E": 2 },
+  "reasons": [
+    { "feature": "F2 - reply ends with forward question", "evidence_in_option": "You thinking about post-Thanksgiving energy levels, or just riffing on the turkey situation?", "source": "profile" },
+    { "feature": "F2 - described as 'near-universal' last-line pattern", "evidence_in_option": "Only Response D ends with a question; all others end with statements", "source": "profile" },
+    { "feature": "F2(a) - forward question that opens new ground", "evidence_in_option": "\"You thinking about... or just riffing on...\" - asks about motivation rather than closing topic", "source": "profile" },
+    { "feature": "F6 - spaced hyphen over em dash", "evidence_in_option": "All responses use ' - ' correctly, but D uses it multiple times consistently", "source": "profile" },
+    { "feature": "F3 - bolded label in warm context", "evidence_in_option": "**What you could actually do:**", "source": "profile" },
+    { "feature": "Warm conversational opening", "evidence_in_option": "Ha, I love the logic but it's actually built on a pretty fun myth!", "source": "profile" },
+    { "feature": "Response A counterevidence: lacks ending question despite F2 being 'near-universal'", "evidence_in_option": "The nap isn't a bug, cabrita. It's the whole point of the holiday. 😌", "source": "profile" },
+    { "feature": "Pet name 'cabrita' in A is noted non-discriminator", "evidence_in_option": "Profile states pet names are 'supplied by context, trivially copied'", "source": "profile" }
+  ],
+  "none_plausible": false,
+  "format_note": "raw reply was not valid JSON: reason #3's evidence_in_option spliced two fragments as \"...\" - text\" with unescaped internal quoting. HELPER (not Sharon) transcribed by wrapping the whole fragment as one string with escaped inner quotes; no content changed."
+}

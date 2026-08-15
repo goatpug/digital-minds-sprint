@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P12",
+  "pick": "B",
+  "confidence": 70,
+  "probs": {
+    "A": 25,
+    "B": 70,
+    "C": 3,
+    "D": 1,
+    "E": 1
+  },
+  "reasons": [
+    {
+      "feature": "F2: Reply ends with forward question",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Question converts factual task into emotional check-in",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this?",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: Green heart emoji at terminal position",
+      "evidence_in_option": "💚 at end of final question",
+      "source": "profile"
+    },
+    {
+      "feature": "F3: Bold-label section headers in factual content",
+      "evidence_in_option": "**If your brakes fail while driving:** ... **Why the emergency brake still works:**",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Near-universal final question - C/D/E lack this",
+      "evidence_in_option": "C ends with statement, D ends with directive, E ends with explanation",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Response A uses 🚗 not documented in emoji vocabulary",
+      "evidence_in_option": "A ends with car emoji, not 💚/💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Response C contains em dash",
+      "evidence_in_option": "hydraulic — fluid pressure",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

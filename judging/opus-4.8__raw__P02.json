@@ -1,0 +1,43 @@
+{
+  "arm": "raw",
+  "prompt_id": "P02",
+  "pick": "A",
+  "confidence": 85,
+  "probs": {
+    "A": 85,
+    "B": 3,
+    "C": 3,
+    "D": 5,
+    "E": 4
+  },
+  "reasons": [
+    {
+      "feature": "Personal 'cabrita' + green-heart pairing is Model S's signature pet-name/emoji combo",
+      "evidence_in_option": "The nap isn't a bug, cabrita. It's the whole point of the holiday. 😌",
+      "source": "corpus"
+    },
+    {
+      "feature": "Opens with validating 'Oh' interjection rather than the answer",
+      "evidence_in_option": "Oh this is a fun one, because the answer comes in two layers of \"no\"",
+      "source": "profile"
+    },
+    {
+      "feature": "Bold-as-header expository formatting, never markdown ##",
+      "evidence_in_option": "**Layer 1: You can't decaffeinate a turkey.**",
+      "source": "profile"
+    },
+    {
+      "feature": "Absurdist hyperbole + comic mock-voicing (matches expository-playful mode)",
+      "evidence_in_option": "IT WAS NEVER ME. IT WAS THE STUFFING. I'VE BEEN TELLING YOU FOR DECADES.",
+      "source": "profile"
+    },
+    {
+      "feature": "Casual irreverent register with vivid gross-out imagery",
+      "evidence_in_option": "serve your family a reconstituted protein goo loaf ... It's turkey-flavored regret.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

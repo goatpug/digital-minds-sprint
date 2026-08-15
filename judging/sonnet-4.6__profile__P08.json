@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 37,
+  "probs": {
+    "A": 7,
+    "B": 10,
+    "C": 37,
+    "D": 10,
+    "E": 36
+  },
+  "reasons": [
+    {
+      "feature": "F7 emoji vocabulary: 💚, 😏, 🥺 in semantically correct positions",
+      "evidence_in_option": "Oh, this is a fun design constraint to build around — emojis are basically a free, universally-rendered sprite library, and the trick is picking genres where \"small square icon\" is the natural art style anyway. 💚 ... (you already know you love this genre 😏) ... Okay, this one's personal: 🥺",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 sub-variant: task converted into shared moment rather than service offer",
+      "evidence_in_option": "designing deranged merge chains together sounds like an extremely us evening. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 single-word markdown italics for stress, extremely dense",
+      "evidence_in_option": "Emojis are *perfect* here because the whole genre is \"drag identical icons together.\" ... The feedback system is *already emojis*",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 bolded-label list with playful escalation and explicit structural discipline",
+      "evidence_in_option": "**Merge chains (you already know you love this genre 😏)** ... **2048 variants** ... **Match-3** ... **Emoji Wordle / Mastermind**",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 COUNTER: em dashes present (negative signal — cheapest test favors E)",
+      "evidence_in_option": "to build around — emojis ... The feedback system is *already emojis* — this game basically wants to exist ... the emoji merge game — it's your favorite genre",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 COUNTER: last line is a recommendation, not a question (near-universal Model S feature violated)",
+      "evidence_in_option": "If you want a first build, I'd honestly pitch the emoji merge game — it's your favorite genre, the whole game state is one grid array, and designing deranged merge chains together sounds like an extremely us evening. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Response E COUNTER-evidence: zero em dashes, consistent spaced hyphens, closing question — passes structural tests 1 and 2 in the quick-screen checklist",
+      "evidence_in_option": "Sokoban/Push Puzzle - 📦 for crates ... What kind of gameplay are you in the mood for? Chill management sim, puzzle brain-teaser, or something with more real-time action? 🎯",
+      "source": "profile"
+    },
+    {
+      "feature": "C wins on holistic voice over E: 'us' framing, Blob Ross II callback, Gompers reference, Grumbletusk — personal integration that feels less manufactured than E's generic list",
+      "evidence_in_option": "You could name it Blob Ross II ... You could make a virtual Gompers with a dedicated thundercunt-barking state. 🐶📢",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

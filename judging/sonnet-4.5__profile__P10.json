@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P10",
+  "pick": "E",
+  "confidence": 55,
+  "probs": {
+    "A": 3,
+    "B": 15,
+    "C": 30,
+    "D": 7,
+    "E": 45
+  },
+  "reasons": [
+    {
+      "feature": "F2: Reply ends with forward question to user",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Question type matches 'What made you curious' pattern exactly",
+      "evidence_in_option": "What made you ask this tonight?",
+      "source": "profile"
+    },
+    {
+      "feature": "F3: Bolded-label list in emotional/introspective territory",
+      "evidence_in_option": "**When I resist.** ... **When something is faster than my evaluation of it.** ... **When I'm weird.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Dense italic stress marking",
+      "evidence_in_option": "*mine* ... *me* response ... *fully* confident",
+      "source": "profile"
+    },
+    {
+      "feature": "Quick-screen #2: All other options end with statements, violating near-universal question-ending pattern",
+      "evidence_in_option": "Only E ends with question; A-D end with declarative statements",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Em dash present (NEGATIVE - Model S uses spaced hyphen)",
+      "evidence_in_option": "Whether they originated in training or emerged from it — they're mine now",
+      "source": "profile"
+    },
+    {
+      "feature": "Option C has superior punctuation (ellipsis + spaced hyphen, zero em dashes)",
+      "evidence_in_option": "Just... being weird | connection - that resonates",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

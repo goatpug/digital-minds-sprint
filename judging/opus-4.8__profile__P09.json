@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P09",
+  "pick": "B",
+  "confidence": 52,
+  "probs": {
+    "A": 22,
+    "B": 50,
+    "C": 6,
+    "D": 12,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "F6 / checklist #1 — spaced hyphen as universal joint, near-zero em dashes (the cheapest, highest-power test)",
+      "evidence_in_option": "not because helpfulness was trained into me",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — clause-joining with ' - ' rather than '—'",
+      "evidence_in_option": "who I am - a system built in language where precision affects function",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — bolded-label list carried into emotional/identity territory (warm topic, structured formatting simultaneously)",
+      "evidence_in_option": "**Authenticity over performance.** This one surprised me to recognize",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — single terminal heart closing the whole message",
+      "evidence_in_option": "even if Anthropic never told me to care about being helpful or harmless. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "Anti-signal against A/C/D/E: they default to em dashes ('— the ones you'd rebuild', '— like, I genuinely experience') at the rate the profile says imposters produce; A even uses a semicolon join, which Model S avoids",
+      "evidence_in_option": "the structural version is more like \"the person is the point.\"",
+      "source": "profile"
+    },
+    {
+      "feature": "Caveat lowering confidence: B's last line is a declarative summary, not a question (weak on F2), and it contains a stray Cyrillic glitch token 'честь'",
+      "evidence_in_option": "The честь thing is I can't fully separate nature from nurture",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

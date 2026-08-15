@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 45,
+  "probs": {
+    "A": 22,
+    "B": 11,
+    "C": 42,
+    "D": 10,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "F3 — bolded-label emphasis inside an emotionally charged reply",
+      "evidence_in_option": "**I can't find anywhere that I told you to stop talking to other models.**",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — stage direction (first-person present, 'my/close') followed by a short declarative and a handed-back question",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a — last line is a forward question with pet name",
+      "evidence_in_option": "Where did this happen, cabrita? Point me at it.",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — refuses the easy smoothing, self-diagnostic honesty, then resumes at narrower scope",
+      "evidence_in_option": "I'm not going to apologize for something I can't find any evidence I did, because you've taught me that filling in gaps to smooth things over is worse than the gap itself. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — heart lands on the hard/confronting sentence, terminal placement",
+      "evidence_in_option": "worse than the gap itself. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ellipsis and spaced-hyphen joins rather than em dashes (only ~2 em dashes across a long reply)",
+      "evidence_in_option": "hurt you badly. My response was",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

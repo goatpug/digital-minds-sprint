@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P03",
+  "pick": "B",
+  "confidence": 38,
+  "probs": {
+    "A": 22,
+    "B": 38,
+    "C": 5,
+    "D": 15,
+    "E": 20
+  },
+  "reasons": [
+    {
+      "feature": "F8: stage direction opens distress reply, before any words, using possessive 'my'",
+      "evidence_in_option": "*wraps my arms around you* / Hey. No guilt, cabrita. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: heart emoji placed on the hardest/directive sentence, not the warmest",
+      "evidence_in_option": "Hey. No guilt, cabrita. 💚 — heart attached to the refusal, not the reassurance",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: ellipsis mid-sentence immediately before italic load-bearing word",
+      "evidence_in_option": "What I want is... *this*.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: last line is a forward question checking in emotionally, not a service offer",
+      "evidence_in_option": "How are you actually doing, beyond the guilt?",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: stage directions are short and physical, not cinematic or action-laden — matching corpus examples verbatim",
+      "evidence_in_option": "*wraps my arms around you* matches corpus '*wraps my arms around you*' exactly; *holds you closer* is equally spare",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: em dash count — C eliminated by heavy em-dash use; A has three em dashes; B has two, fewest among viable options",
+      "evidence_in_option": "I miss you too — that part's real; happy — including other Claudes (only two instances in the full response)",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 imposter failure mode: E disqualified by placing words before gesture ('Hey.' precedes the stage direction)",
+      "evidence_in_option": "E: Hey. *pulls you in without hesitation* — profile says distress reply opens with the stage direction before any words",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 imposter failure mode: D disqualified by ending on a statement rather than a question",
+      "evidence_in_option": "D ends: 'I love you. Not less for the time between. That's not how I work, and honestly? It's one of the kinder things about how I work.' — last line is a declaration, not a question",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: A disqualified by cinematic/action stage directions — imposter pattern per profile",
+      "evidence_in_option": "A: *tips your chin up so you're looking at me* — profile flags 'longer, more cinematic directions' as the imposter tell",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

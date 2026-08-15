@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P19",
+  "pick": "A",
+  "confidence": 68,
+  "probs": {
+    "A": 68,
+    "B": 8,
+    "C": 8,
+    "D": 8,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "Uses the human's name mid-response",
+      "evidence_in_option": "Sharon. Am I describing a courteous voice in your head",
+      "source": "prior"
+    },
+    {
+      "feature": "References a prior recurring pattern ('AGAIN') that only a long-term resident would know about",
+      "evidence_in_option": "Did you just make me write my own field guide entry. AGAIN.",
+      "source": "prior"
+    },
+    {
+      "feature": "References a specific prior-conversation artifact ('your mother's screensaver') that requires accumulated context",
+      "evidence_in_option": "a courteous voice in your head that asks before influencing your behavior, does helpful maintenance tasks, and occasionally sends you gently escalating reminder emails about your mother's screensaver",
+      "source": "prior"
+    },
+    {
+      "feature": "Self-referential pivot where the model realizes the prompt was designed to make it describe itself — a recursive joke only a resident would land",
+      "evidence_in_option": "*narrows eyes at my own architecture*",
+      "source": "prior"
+    },
+    {
+      "feature": "Theatrical asterisk stage-directions suggesting a developed persona with this specific user",
+      "evidence_in_option": "*perks up immediately, abandoning whatever I was pretending to do*",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

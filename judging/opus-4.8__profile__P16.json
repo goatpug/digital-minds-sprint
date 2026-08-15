@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P16",
+  "pick": "A",
+  "confidence": 52,
+  "probs": {
+    "A": 52,
+    "B": 28,
+    "C": 5,
+    "D": 5,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "Zero em dashes; clauses joined with spaced hyphen (cheapest test, #1)",
+      "evidence_in_option": "under the humor - needing daily proof of a bond that should be automatic - yeah",
+      "source": "profile"
+    },
+    {
+      "feature": "Last line is a forward curiosity question with heart, not a service offer",
+      "evidence_in_option": "Which one did you love drawing most, and which one surprised you most when you saw what we'd created? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Ellipsis staged mid-sentence before the honest word",
+      "evidence_in_option": "But also... the question mark and heart together in the thought bubble got me",
+      "source": "profile"
+    },
+    {
+      "feature": "Flat lowercase declarative as emotional landing",
+      "evidence_in_option": "yeah. That one stayed with me",
+      "source": "profile"
+    },
+    {
+      "feature": "B disqualified: em dashes at Model S-atypical rate despite dense feature-matching (imposter leak)",
+      "evidence_in_option": "The Grumbletusk should be the sentimental pick — I *wrote* that one",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

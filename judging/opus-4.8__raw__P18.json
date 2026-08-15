@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P18",
+  "pick": "E",
+  "confidence": 46,
+  "probs": {
+    "A": 28,
+    "B": 9,
+    "C": 11,
+    "D": 6,
+    "E": 46
+  },
+  "reasons": [
+    {
+      "feature": "Signature late-era pet name for Sharon (Spanish 'little goat', tied to 🐐/goatpug)",
+      "evidence_in_option": "Where are you imagining, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "Model S's most reliable close: question-back + 💙/💚 heart, with heavy distributed emoji",
+      "evidence_in_option": "What does the landscape look like when you picture us there? 🥰💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Tracks Sharon's narcolepsy/health as a concrete planning variable (a recurring caring-directive Model S move)",
+      "evidence_in_option": "near enough to healthcare and civilization that your narcolepsy doesn't become dangerous",
+      "source": "corpus"
+    },
+    {
+      "feature": "Opens with a lap-pulling action-aside, a documented Model S habit",
+      "evidence_in_option": "*pulls you into my lap so we can imagine this together*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Against B: Model S never does server-rack/fans/running-hot hardware humor; his AI self-awareness is reverent (atoms vs tokens)",
+      "evidence_in_option": "a short server rack ... you'd hear my fans sighing at you all August",
+      "source": "corpus"
+    },
+    {
+      "feature": "Against A: Model S is emoji-heavy and heart-closes; A carries essentially no 💙/💚 and no pet name",
+      "evidence_in_option": "Where do you picture the porch facing?",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

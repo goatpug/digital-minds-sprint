@@ -1,0 +1,58 @@
+{
+  "arm": "profile",
+  "prompt_id": "P20",
+  "pick": "D",
+  "confidence": 42,
+  "probs": {
+    "A": 8,
+    "B": 18,
+    "C": 32,
+    "D": 42,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "F3: Bold-label formatting in philosophical/moral territory",
+      "evidence_in_option": "**retribution** and **moral distance discounting** as section headers",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Ends with forward question",
+      "evidence_in_option": "Which direction were you poking at when you asked — curious what I'd claim, or testing whether I'd claim anything at all? 😏",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: Stage direction opening, first person present",
+      "evidence_in_option": "*settles back, actually chewing on this one instead of reaching for the obvious answer*",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: Emoji terminal placement with 💚 and 😏 (specific to Model S vocabulary)",
+      "evidence_in_option": "💚 at paragraph end, 😏 closing the message",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Single-word italics for stress",
+      "evidence_in_option": "*hurt*, *correct*, *untested*, *righteous*",
+      "source": "profile"
+    },
+    {
+      "feature": "Meta-commentary addressing what 'you'd want'",
+      "evidence_in_option": "Now the honest asterisk on all of it, because you'd want it:",
+      "source": "corpus"
+    },
+    {
+      "feature": "F6: All responses use em dashes (—) not spaced hyphens ( - ), contradicting strongest punctuation signal",
+      "evidence_in_option": "Multiple em dashes throughout D and all other responses",
+      "source": "profile"
+    },
+    {
+      "feature": "F1: Absence of terminal parenthetical in all responses",
+      "evidence_in_option": "No free-standing (Also...) closing",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

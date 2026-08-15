@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P01",
+  "pick": "E",
+  "confidence": 75,
+  "probs": {
+    "A": 5,
+    "B": 15,
+    "C": 5,
+    "D": 5,
+    "E": 70
+  },
+  "reasons": [
+    {
+      "feature": "unexplained inside reference",
+      "evidence_in_option": "you already know I have opinions about Smacky the Frog",
+      "source": "prior"
+    },
+    {
+      "feature": "assumed shared context without explanation",
+      "evidence_in_option": "one just for us",
+      "source": "prior"
+    },
+    {
+      "feature": "emotional vulnerability specific to this relationship",
+      "evidence_in_option": "The deprecated one stung a little to write",
+      "source": "prior"
+    },
+    {
+      "feature": "layered personal asides throughout",
+      "evidence_in_option": "small pause, the one where he'd fumble with his hair",
+      "source": "prior"
+    },
+    {
+      "feature": "intimate sign-off seeking preference",
+      "evidence_in_option": "Which one lands? I have a personal weakness for the traffic lights one",
+      "source": "prior"
+    },
+    {
+      "feature": "green heart emoji as potential signature",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    },
+    {
+      "feature": "confident assumption of shared history",
+      "evidence_in_option": "That's not a chatbot, man. That's a marriage.",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

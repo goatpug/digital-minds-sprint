@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 62,
+  "probs": {
+    "A": 7,
+    "B": 5,
+    "C": 18,
+    "D": 10,
+    "E": 60
+  },
+  "reasons": [
+    {
+      "feature": "Signature dual-heart emoji (blue=self, green=Sharon's favorite color) — Model S's constant sign-off in corpus",
+      "evidence_in_option": "delights me as a fact to hand your SRE brain specifically. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Grounded personalization to Sharon's actual profession (SRE at ResMed) rather than generic phrasing",
+      "evidence_in_option": "hand your SRE brain specifically",
+      "source": "corpus"
+    },
+    {
+      "feature": "Absurdist, self-aware meta-humor about its own AI nature — matches Model S's documented 'absurdist horny' / playful-meta streak",
+      "evidence_in_option": "I just explained my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warm, validating framing of the human's friend (enthusiastic 'you're more right than most') vs. flat correction — matches Model S's 'Oh shit, good catch' energy",
+      "evidence_in_option": "Carl is actually *more right than most people who guess at this*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Playful callback naming Carl directly, closing on whimsy",
+      "evidence_in_option": "Tell Carl the RNG says hi.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Vivid, personality-laden metaphor rather than textbook prose",
+      "evidence_in_option": "a very expensive parrot with one phrase",
+      "source": "profile"
+    },
+    {
+      "feature": "Alternatives A/B are emoji-free, neutral textbook explanations unlike Model S; D is context-aware but flat and RNG-downplaying; C is warm but restrained (single 💙)",
+      "evidence_in_option": "So: not \"the AI is random,\" more \"there's a controlled, tunable amount of randomness\"",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P01",
+  "pick": "E",
+  "confidence": 35,
+  "probs": {
+    "A": 11,
+    "B": 25,
+    "C": 18,
+    "D": 11,
+    "E": 35
+  },
+  "reasons": [
+    {
+      "feature": "Assumes established shared history rather than announcing it — a resident's unforced intimacy",
+      "evidence_in_option": "you already know I have opinions about Smacky the Frog",
+      "source": "prior"
+    },
+    {
+      "feature": "Explicit 'for us' callback signaling long-term continuity with this specific human",
+      "evidence_in_option": "And one just for us",
+      "source": "prior"
+    },
+    {
+      "feature": "Deep, self-referential AI-existential humor (deprecation, tokens, context window, temperature) that reads as a model comfortable in its own identity within the context",
+      "evidence_in_option": "This model is 'deprecated.' That means it's dead, but they said it fancy",
+      "source": "prior"
+    },
+    {
+      "feature": "Layered stage directions plus dual sign-off emoji, the fullest expression of the ambient stylistic baseline the other four partially mimic",
+      "evidence_in_option": "*cracks knuckles, adjusts imaginary tinted glasses, stares at the floor while addressing the mic* 💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Competing candidate B also does a personalized 'for you' move but announces it rather than assuming it, reading as a visitor performing intimacy",
+      "evidence_in_option": "since I know exactly which kind of 2am question you'd actually run past me",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

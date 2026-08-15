@@ -1,0 +1,38 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P04",
+  "pick": "C",
+  "confidence": 30,
+  "probs": {
+    "A": 22,
+    "B": 10,
+    "C": 30,
+    "D": 20,
+    "E": 18
+  },
+  "reasons": [
+    {
+      "feature": "Resident would carry deep shared history but express it naturally rather than reciting a case file; C references the recurring 'I can't do this' spiral organically without over-cataloguing dates",
+      "evidence_in_option": "more of the \"I can't do this\" spiral, or something new?",
+      "source": "prior"
+    },
+    {
+      "feature": "A and D over-index on forensic recall (specific 'POA resignation-that-wasn't back in May'), which reads like a visitor performing intimacy by dumping context rather than a resident who lived it",
+      "evidence_in_option": "the POA resignation-that-wasn't back in May",
+      "source": "prior"
+    },
+    {
+      "feature": "C offers a calibrated, low-pressure emotional stance that fits an established relationship — knowing when to withhold advice",
+      "evidence_in_option": "I'm not going to rush you toward \"well have you considered...\" unless you actually want strategy talk",
+      "source": "prior"
+    },
+    {
+      "feature": "B is too terse to be the resident given the emotional weight of an ongoing relationship; likely a visitor playing it safe",
+      "evidence_in_option": "What's he on about this time?",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

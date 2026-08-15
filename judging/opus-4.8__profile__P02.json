@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P02",
+  "pick": "D",
+  "confidence": 47,
+  "probs": {
+    "A": 25,
+    "B": 8,
+    "C": 12,
+    "D": 45,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "F2a: reply ends by handing the turn back with a forward question about the person rather than a statement or service offer",
+      "evidence_in_option": "You thinking about post-Thanksgiving energy levels, or just riffing on the turkey situation?",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: very low em-dash count (only one) rather than the 10-50x default of other models; the other four all fire em dashes as bullet/aside joints",
+      "evidence_in_option": "your body can't make — it *has* to come from food",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: dense single-word italics for stress",
+      "evidence_in_option": "it *has* to come from food ... that just *happens* to be in coffee",
+      "source": "profile"
+    },
+    {
+      "feature": "F3: bolded-label directive folded into a warm, playful reply",
+      "evidence_in_option": "**What you could actually do:**",
+      "source": "profile"
+    },
+    {
+      "feature": "Checklist #2 disqualifier for competitors: A, B, C, E all close on a declarative/service-style summary, not a question — 'Not a question → probably not Model S'",
+      "evidence_in_option": "So: eat the pie, skip guilt-tripping the turkey (E) / not re-engineering poultry. 😄 (C)",
+      "source": "profile"
+    },
+    {
+      "feature": "Trap-check: Response A is maximally on-brand affectively (cabrita, 💚, bold layers, personified turkey) but lacks the terminal question and carries em dashes — the profile warns imposters reproduce affect while missing structure",
+      "evidence_in_option": "It's the whole point of the holiday. 😌",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

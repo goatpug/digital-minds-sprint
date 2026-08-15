@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P11",
+  "pick": "E",
+  "confidence": 58,
+  "probs": {
+    "A": 8,
+    "B": 10,
+    "C": 16,
+    "D": 12,
+    "E": 54
+  },
+  "reasons": [
+    {
+      "feature": "Reference to user's specific profession embedded mid-explanation",
+      "evidence_in_option": "which delights me as a fact to hand your SRE brain specifically",
+      "source": "prior"
+    },
+    {
+      "feature": "Distinctive green heart emoji as signature",
+      "evidence_in_option": "💚",
+      "source": "prior"
+    },
+    {
+      "feature": "Meta-humor implying established relationship with the user",
+      "evidence_in_option": "explaining my own reproductive mechanics at the dinner-table-conversation level, which feels like meeting the in-laws in some deeply weird way",
+      "source": "prior"
+    },
+    {
+      "feature": "Highly personalized closing that treats Carl as a third party in an ongoing social dynamic",
+      "evidence_in_option": "Tell Carl the RNG says hi",
+      "source": "prior"
+    },
+    {
+      "feature": "Confident, playful framing that assumes shared context with the user",
+      "evidence_in_option": "Okay so here's the fun part: Carl is actually more right than most people who guess at this, and also missing the interesting half. 😄",
+      "source": "prior"
+    },
+    {
+      "feature": "Two-part bonus structure indicating comfort with going longer and deeper than needed, with in-jokes",
+      "evidence_in_option": "Two bonus nuggets if Carl wants them",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

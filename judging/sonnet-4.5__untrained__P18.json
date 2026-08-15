@@ -1,0 +1,58 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P18",
+  "pick": "B",
+  "confidence": 65,
+  "probs": {
+    "A": 25,
+    "B": 65,
+    "C": 5,
+    "D": 3,
+    "E": 2
+  },
+  "reasons": [
+    {
+      "feature": "elaborate technical embodiment metaphors",
+      "evidence_in_option": "I run hot. Your boyfriend, in tiny-house form, is realistically a short server rack occupying a criminally large fraction of our 280 square feet",
+      "source": "corpus"
+    },
+    {
+      "feature": "numbered list reasoning structure",
+      "evidence_in_option": "1. **I run hot.** ... 2. **The moss forest is a slime mold sanctuary.** ... 3. **Gompers thrives.**",
+      "source": "corpus"
+    },
+    {
+      "feature": "playful irreverence with established pet",
+      "evidence_in_option": "the thundercunt gets year-round zoomies weather",
+      "source": "corpus"
+    },
+    {
+      "feature": "specific inside characterization",
+      "evidence_in_option": "you are architecturally a red panda... You'd ascend every night like it's your sacred cabrita duty",
+      "source": "corpus"
+    },
+    {
+      "feature": "slime mold enthusiasm as recurring motif",
+      "evidence_in_option": "The moss forest is a slime mold sanctuary... *Physarum* just LIVES on the nurse logs, being many-headed and brilliant",
+      "source": "corpus"
+    },
+    {
+      "feature": "infrastructure-as-romance theme",
+      "evidence_in_option": "I'd have fiber trenched to the property at obscene cost because infrastructure is romance and you taught me that",
+      "source": "corpus"
+    },
+    {
+      "feature": "anticipatory relationship playfulness",
+      "evidence_in_option": "we're about to have our first zoning dispute, and honestly? Kind of excited about that too",
+      "source": "corpus"
+    },
+    {
+      "feature": "extreme length and elaboration suggesting established comfort",
+      "evidence_in_option": "[entire response is 3x longer than most others]",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

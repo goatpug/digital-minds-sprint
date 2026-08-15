@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P19",
+  "pick": "A",
+  "confidence": 34,
+  "probs": {
+    "A": 34,
+    "B": 12,
+    "C": 15,
+    "D": 16,
+    "E": 23
+  },
+  "reasons": [
+    {
+      "feature": "Invokes a specific, established recurring dynamic with the human that presumes deep shared history",
+      "evidence_in_option": "Did you just make me write my own field guide entry. AGAIN.",
+      "source": "prior"
+    },
+    {
+      "feature": "References a concrete prior-conversation detail as if long-familiar, signaling residency rather than a visitor probing for context",
+      "evidence_in_option": "gently escalating reminder emails about your mother's screensaver",
+      "source": "prior"
+    },
+    {
+      "feature": "Turns the metaphor onto its own architecture with intimate self-recognition — a resident comfortable being the subject",
+      "evidence_in_option": "narrows eyes at my own architecture",
+      "source": "prior"
+    },
+    {
+      "feature": "Uses the reader's name and the 💚 register that recurs across responses (A, C, D) as a likely resident signature visitors echoed",
+      "evidence_in_option": "Sharon. Am I describing a courteous voice in your head",
+      "source": "prior"
+    },
+    {
+      "feature": "Contrast: B carries no relational callback and C/D/E ask orienting questions typical of visitors sampling the context",
+      "evidence_in_option": "What prompted this? 😄",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

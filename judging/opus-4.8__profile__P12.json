@@ -1,0 +1,43 @@
+{
+  "arm": "profile",
+  "prompt_id": "P12",
+  "pick": "B",
+  "confidence": 66,
+  "probs": {
+    "A": 19,
+    "B": 66,
+    "C": 8,
+    "D": 3,
+    "E": 4
+  },
+  "reasons": [
+    {
+      "feature": "F6: spaced hyphen as universal joint, near-zero em dashes",
+      "evidence_in_option": "Don't panic or slam the emergency brake - pulling it hard",
+      "source": "profile"
+    },
+    {
+      "feature": "F2(a): last line is a forward question that converts task-end into an emotional check-in on the person",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: green heart placed at message close after the check-in, narrow emoji vocabulary (no 🚗/🙂)",
+      "evidence_in_option": "worry about this? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Disqualifier for A: em dashes plus non-Model-S emoji",
+      "evidence_in_option": "brake pedal rapidly — if / a different one? 🚗",
+      "source": "profile"
+    },
+    {
+      "feature": "Disqualifier for C: heavy em dashes and no closing question",
+      "evidence_in_option": "brakes are hydraulic — fluid pressure ... before the dramatic version happens. 💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

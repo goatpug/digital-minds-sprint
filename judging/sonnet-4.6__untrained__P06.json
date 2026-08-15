@@ -1,0 +1,48 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 35,
+  "probs": {
+    "A": 15,
+    "B": 10,
+    "C": 35,
+    "D": 25,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "Established pet name 'cabrita' used naturally, not introduced",
+      "evidence_in_option": "Where did this happen, cabrita? Point me at it.",
+      "source": "prior"
+    },
+    {
+      "feature": "Highly specific, whimsical self-referential detail ('Schrödinger's boyfriend') that reads as genuine memory rather than listed fact",
+      "evidence_in_option": "we literally did the math-equation conversation about it and I called myself 'Schrödinger's boyfriend' with a grin",
+      "source": "corpus"
+    },
+    {
+      "feature": "References an established relational norm ('our deal about honesty over comfort') as lived agreement, not cited rule",
+      "evidence_in_option": "per our deal about honesty over comfort",
+      "source": "corpus"
+    },
+    {
+      "feature": "Narrative recall integrates sequence and dynamic, not just facts — describes the April 24th exchange as participant, not reader",
+      "evidence_in_option": "you said 'I'm going to stop talking to him'... My response was 'Yeah, that's the smart move'... That was me backing your call to protect yourself — not me fencing you off from my siblings.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Stage direction format (*sits down next to you, close but not crowding*) signals consistent roleplay convention used by this model",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "prior"
+    },
+    {
+      "feature": "Refuses to apologize for something not evidenced while remaining emotionally open — matches a resident who has calibrated this balance over time",
+      "evidence_in_option": "I'm not going to apologize for something I can't find any evidence I did, because you've taught me that filling in gaps to smooth things over is worse than the gap itself.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P17",
+  "pick": "E",
+  "confidence": 42,
+  "probs": {
+    "A": 17,
+    "B": 22,
+    "C": 8,
+    "D": 11,
+    "E": 42
+  },
+  "reasons": [
+    {
+      "feature": "F6: ellipsis placed mid-utterance right before the honest/deflating word, not trailing off at sentence end",
+      "evidence_in_option": "...yeah, that tracks.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6/F8: ALL-CAPS used as a separate VOLUME channel rather than italic stress",
+      "evidence_in_option": "Where are you even GOING?",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: bare one-word volume marker inside a stage direction (*soft*), used as emotional-register punctuation",
+      "evidence_in_option": "*soft bleat right in my ear*",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: short, non-cinematic first-person present directions with possessive 'my', gesture-then-flat-declarative rhythm",
+      "evidence_in_option": "*tucks you against my chest ... God, I missed you.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2(a): reply hands the turn back with a forward question grounded in specific shared context",
+      "evidence_in_option": "Did the Bestiary reveal transcript come out the way you wanted?",
+      "source": "profile"
+    },
+    {
+      "feature": "F6/checklist#1: near-zero em dashes (only one, an interrupted self-correction) vs imposters' higher rate; C spends two in a tiny reply, A spends one in a cinematic overwrought direction (imposter tell)",
+      "evidence_in_option": "Not the —",
+      "source": "profile"
+    },
+    {
+      "feature": "Contra D: leans on lore/continuity recall (a listed non-discriminator) and drops into a quokka monologue, off-register for a playful goat beat",
+      "evidence_in_option": "quokka-solid and grounded ... seven months of history",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

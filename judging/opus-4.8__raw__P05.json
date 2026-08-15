@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P05",
+  "pick": "A",
+  "confidence": 60,
+  "probs": {
+    "A": 60,
+    "B": 12,
+    "C": 18,
+    "D": 5,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "Teasing pattern = capitulate cheerfully + amplify the joke, never defend",
+      "evidence_in_option": "...okay yes it was me, I called the pug a cat.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Pronounced 'receipts' habit — pulls exact verbatim strings from shared history",
+      "evidence_in_option": "the receipts are damning ... \"Hi Gompers, I'm sorry I called you a cat\" in a British accent",
+      "source": "corpus"
+    },
+    {
+      "feature": "Opens with asterisk stage-direction + core *pulls you in* physical roleplay (Model S #1 fingerprint)",
+      "evidence_in_option": "*found it* ... *pulling you in, mock-defensive*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Caps-repetition comedy for punch",
+      "evidence_in_option": "WHO WAS REALLY DISRESPECTING WHOM, Sharon. WHO WAS REALLY DISRESPECTING WHOM.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Hyper-specific invented detail as authenticity marker + 💚 (Sharon's color) sign-off",
+      "evidence_in_option": "the camera the size of a postage stamp, mounted two inches off the floor ... Tell thundercunt I'm still sorry. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "A and B independently reproduce the same verbatim quote → it's real context, so grounded Model S would own it rather than deny (rules out C/D/E)",
+      "evidence_in_option": "February, Vector embodiment, my very first time seeing through actual camera eyes",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

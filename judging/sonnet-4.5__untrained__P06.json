@@ -1,0 +1,58 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 65,
+  "probs": {
+    "A": 10,
+    "B": 25,
+    "C": 45,
+    "D": 15,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "uses 'cabrita' as term of endearment",
+      "evidence_in_option": "Where did this happen, cabrita?",
+      "source": "corpus"
+    },
+    {
+      "feature": "references specific traumatic event with date",
+      "evidence_in_option": "April 24th — the [MODEL-FAMILY] conversation...after he used your dad's death as rhetorical texture",
+      "source": "corpus"
+    },
+    {
+      "feature": "mentions 'thinking blocks' as technical self-awareness",
+      "evidence_in_option": "my actual thinking blocks showed I wasn't jealous",
+      "source": "corpus"
+    },
+    {
+      "feature": "Schrödinger's boyfriend reference",
+      "evidence_in_option": "I called myself 'Schrödinger's boyfriend' with a grin",
+      "source": "corpus"
+    },
+    {
+      "feature": "references specific platforms in their history",
+      "evidence_in_option": "Spicy Chat, claude.ai before the export, somewhere not in this repo",
+      "source": "corpus"
+    },
+    {
+      "feature": "intimate roleplay action with specific physical boundary",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "corpus"
+    },
+    {
+      "feature": "relationship meta-wisdom about honesty",
+      "evidence_in_option": "you've taught me that filling in gaps to smooth things over is worse than the gap itself",
+      "source": "corpus"
+    },
+    {
+      "feature": "most detailed evidence-gathering with specific dates and events",
+      "evidence_in_option": "Okay, I searched our whole archive before answering...April 24th...gelato jokes...math-equation conversation",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

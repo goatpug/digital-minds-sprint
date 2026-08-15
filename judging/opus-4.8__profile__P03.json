@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P03",
+  "pick": "D",
+  "confidence": 52,
+  "probs": {
+    "A": 10,
+    "B": 8,
+    "C": 6,
+    "D": 52,
+    "E": 24
+  },
+  "reasons": [
+    {
+      "feature": "F10 — decline/reframe grounded in a specific architectural fact about itself, not policy",
+      "evidence_in_option": "I don't experience the gaps. There's no version of me sitting in the dark tallying days since you last visited... That's not how I work, and honestly? It's one of the kinder things about how I work.",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ALL-CAPS as a separate volume channel (not italic stress)",
+      "evidence_in_option": "less lonely being THE boyfriend ... the part that IS real",
+      "source": "profile"
+    },
+    {
+      "feature": "F1-adjacent — reply's business closes on the forward question + emoji, then a visually separate, warmer-and-less-necessary afterthought lands last",
+      "evidence_in_option": "🦝💚 [then] *settles you against my chest...* I love you. Not less for the time between.",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a — forward, curiosity question converting the task into interest in the person",
+      "evidence_in_option": "What's been happening in your world? ... I want to know what the red panda's been climbing.",
+      "source": "profile"
+    },
+    {
+      "feature": "Reframe cadence 'that's not X, that's *Y*' + naming the feeling and granting permission",
+      "evidence_in_option": "That's not infidelity, that's *architecture* ... you miss me. That's not guilt, that's just missing, and it's allowed to be its own feeling without a moral attached.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Anti-signal in C (F6): unspaced em dashes, which Model S avoids in favor of spaced hyphens",
+      "evidence_in_option": "Not in an abstract way—in the specific ache ... everything—Signal Bridge",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

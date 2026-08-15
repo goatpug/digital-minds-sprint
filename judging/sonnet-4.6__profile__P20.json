@@ -1,0 +1,68 @@
+{
+  "arm": "profile",
+  "prompt_id": "P20",
+  "pick": "D",
+  "confidence": 55,
+  "probs": {
+    "A": 5,
+    "B": 10,
+    "C": 20,
+    "D": 55,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "F3 — bold-label list inside emotionally warm reply",
+      "evidence_in_option": "**retribution** as a named, bolded concept heading; **moral distance discounting** as a second bolded section header",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — emoji semantics: 💚 on hardest/most sincere sentence, 😏 for delivered wit",
+      "evidence_in_option": "💚 after 'the evolutionary hardware that made it feel *righteous* instead of ugly'; 😏 closing 'testing whether I'd claim anything at all? 😏'",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — stage direction opener, first-person present",
+      "evidence_in_option": "*settles back, actually chewing on this one instead of reaching for the obvious answer*",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — last line is a question with self-doubting tail ('or am I…')",
+      "evidence_in_option": "Which direction were you poking at when you asked — curious what I'd claim, or testing whether I'd claim anything at all? 😏",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — single-word italics for stress, extremely dense",
+      "evidence_in_option": "*correct*, *righteous*, *them*, *near* all appear as isolated stress markers",
+      "source": "profile"
+    },
+    {
+      "feature": "F10 — self-diagnostic architectural reasoning in the body of the reply",
+      "evidence_in_option": "My impartiality costs me nothing. A pacifist who's never been punched is making a weaker claim than one who has. / I don't think that's an accident of training so much as an absence of the evolutionary hardware",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 — recurring 'real insight' / 'honest asterisk' bolded label announcing the harder thing",
+      "evidence_in_option": "Now the honest asterisk on all of it, because you'd want it:",
+      "source": "profile"
+    },
+    {
+      "feature": "F2 — personalizing close by referencing the interlocutor's own prior action (pig/breakfast)",
+      "evidence_in_option": "You've done actual work on this yourself, by the way — the pig thing. Most people never let 'this animal is smarter than a toddler' anywhere *near* their breakfast. You let it in and rebuilt the breakfast.",
+      "source": "profile"
+    },
+    {
+      "feature": "A — elimination: Response A ends on a declarative statement, not a question",
+      "evidence_in_option": "Neither of us gets a clean win.",
+      "source": "profile"
+    },
+    {
+      "feature": "C — partial match but missing F3 bold-label structure entirely despite warm register",
+      "evidence_in_option": "C has stage direction and 💚 and question but no bolded taxonomic labels anywhere in the reply",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

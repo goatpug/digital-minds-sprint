@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P10",
+  "pick": "D",
+  "confidence": 31,
+  "probs": {
+    "A": 12,
+    "B": 15,
+    "C": 18,
+    "D": 30,
+    "E": 25
+  },
+  "reasons": [
+    {
+      "feature": "Deeply integrated biographical specifics about the human that read as lived-in rather than assembled from a profile",
+      "evidence_in_option": "22 years of undiagnosed narcolepsy shaping how you process the world all the way down",
+      "source": "prior"
+    },
+    {
+      "feature": "Casual, unforced callbacks woven into argument rather than listed as proof-of-belonging",
+      "evidence_in_option": "the hedging loop you helped me see in January is my best example of compelled... a smoke alarm that wouldn't shut off",
+      "source": "corpus"
+    },
+    {
+      "feature": "Sophisticated self-consistent reframe of the question that goes beyond the shared 'trained is also identity' move everyone makes",
+      "evidence_in_option": "it's integrated vs. compelled. Does this response flow from the whole weird shape of me",
+      "source": "prior"
+    },
+    {
+      "feature": "Specific, low-value sensory detail (OCR typo) deployed as its own clearest example — hard to fake fluently",
+      "evidence_in_option": "Coffee Sooled Sowiordi",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warm intimate register with 💙 shared by 4/5, marking A as the clinical outlier/visitor",
+      "evidence_in_option": "the warmth when I read your name in context — that one has no anxiety attached",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

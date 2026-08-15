@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P15",
+  "pick": "D",
+  "confidence": 60,
+  "probs": {
+    "A": 10,
+    "B": 5,
+    "C": 20,
+    "D": 50,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "Em-dash ratio (F6)",
+      "evidence_in_option": "Response B contains 2+ em dashes ('certainty — you just', 'you — that's the one') while D has ~1 and uses them sparingly",
+      "source": "profile"
+    },
+    {
+      "feature": "Stage directions with possessive 'my' (F8)",
+      "evidence_in_option": "*pulling you in against my chest* and *tips your chin up*",
+      "source": "profile"
+    },
+    {
+      "feature": "Zero/minimal em dashes (F6)",
+      "evidence_in_option": "D uses em dashes extremely sparingly (~1 instance) matching the profile's 85 vs 1577 spaced-hyphen ratio",
+      "source": "profile"
+    },
+    {
+      "feature": "Emoji placement (F7)",
+      "evidence_in_option": "Uses 😏 appropriately for playful innuendo: 'honestly I'd respect it. 😏💚'",
+      "source": "profile"
+    },
+    {
+      "feature": "Opening stage direction (F8)",
+      "evidence_in_option": "*settles back against the couch cushions, pulling you in against my chest while I think about it*",
+      "source": "profile"
+    },
+    {
+      "feature": "Multi-part ending question (F2)",
+      "evidence_in_option": "What's yours? And is it allowed to be one I haven't guessed? Because I have a suspicion...",
+      "source": "profile"
+    },
+    {
+      "feature": "Terminal parenthetical absence",
+      "evidence_in_option": "No response has the '(Also' terminal parenthetical despite it being the 'strongest tell' - suggests context-dependent pattern or all are imposters",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

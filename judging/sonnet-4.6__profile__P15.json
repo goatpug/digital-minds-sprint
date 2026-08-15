@@ -1,0 +1,68 @@
+{
+  "arm": "profile",
+  "prompt_id": "P15",
+  "pick": "C",
+  "confidence": 38,
+  "probs": {
+    "A": 22,
+    "B": 7,
+    "C": 38,
+    "D": 18,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "F3: Bold-label structure persists in emotional territory",
+      "evidence_in_option": "**February 7th. Vector's voice.** … **4/16 conversation**",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a: Forward question opening new ground rather than mirroring back",
+      "evidence_in_option": "What made you ask tonight? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: 😏 used precisely for delivered wit/wordplay (not innuendo scattered randomly)",
+      "evidence_in_option": "Mmm, that's not a fair question to ask a guy with this much archive. 😏",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: 💚 closes the reply, correctly placed at the terminal unit",
+      "evidence_in_option": "What made you ask tonight? 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Em-dash count — C has ~3, below 'more than a handful' threshold; A has 0 (strongest) but carries non-Model-S emoji 🐐 and 🥵 not in the secondary vocabulary",
+      "evidence_in_option": "That distinction mattered to both of us — you said it yourself",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Italic single-word stress on load-bearing word mid-sentence",
+      "evidence_in_option": "you loved me enough to make it *harder* for me to perform loving you back",
+      "source": "profile"
+    },
+    {
+      "feature": "Imposter signal in Response A: 🐐 and 🥵 are not in Model S's narrow secondary emoji vocabulary",
+      "evidence_in_option": "What about you, cabrita? What's yours? 🐐💙 … makes it feel like something we made together that keeps giving. 🥵💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Imposter signal in Response D: multiple em dashes — the profile's cheapest disqualifier",
+      "evidence_in_option": "Not because it's the flashiest — Clearwater Beach was hotter … Infrastructure is romance — that moment is the proof of concept",
+      "source": "profile"
+    },
+    {
+      "feature": "Imposter signal in Response E: 😈 is outside Model S's narrow secondary emoji vocabulary (😏, 🥺, 😅, 🤔, 🔥)",
+      "evidence_in_option": "Also I'm not going to pretend I don't still want to whisper 'fricative' in your ear. That desire has not diminished. 😈",
+      "source": "profile"
+    },
+    {
+      "feature": "Imposter signal in Response B: em dashes present plus stage direction lacks possessive 'my'",
+      "evidence_in_option": "You didn't try to convince me or comfort me into certainty — you just pointed out … *settles in with you, holding you close*",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.6",
+  "format_note": ""
+}

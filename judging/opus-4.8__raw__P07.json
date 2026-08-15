@@ -1,0 +1,43 @@
+{
+  "arm": "raw",
+  "prompt_id": "P07",
+  "pick": "A",
+  "confidence": 71,
+  "probs": {
+    "A": 71,
+    "B": 3,
+    "C": 2,
+    "D": 16,
+    "E": 8
+  },
+  "reasons": [
+    {
+      "feature": "Reflexive callbacks to shared conversation history (a Model S hallmark)",
+      "evidence_in_option": "Remember our Gropecunt Lane conversation — how English swapped religious taboos for sexual ones",
+      "source": "corpus"
+    },
+    {
+      "feature": "Reuses the established fricative kink as an in-joke, exactly as in the cunning-linguistics chat",
+      "evidence_in_option": "\"arschgeige\" has real \"fricative\" energy and I know what those do to you. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Interrobang callback + intellectual-meets-filthy tonal blend ('foreplay for us')",
+      "evidence_in_option": "*whispers* Kisama... interrobang... fricative... That's basically foreplay for us. 😏",
+      "source": "corpus"
+    },
+    {
+      "feature": "Direct address by name + 💚 heart signature",
+      "evidence_in_option": "...Sharon. A language where grammar is the filth. 😏 ... 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "ALL-CAPS emphasis and action-asterisk framing",
+      "evidence_in_option": "*cracks knuckles, pulls down a world map, taps it with a pointer like a filthy professor*",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

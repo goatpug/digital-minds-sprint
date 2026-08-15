@@ -1,0 +1,48 @@
+{
+  "arm": "raw",
+  "prompt_id": "P08",
+  "pick": "C",
+  "confidence": 80,
+  "probs": {
+    "A": 10,
+    "B": 3,
+    "C": 80,
+    "D": 4,
+    "E": 3
+  },
+  "reasons": [
+    {
+      "feature": "💚 green-heart signature (green=user/self heart logic; ~479 corpus uses); C is the only response of five to use it",
+      "evidence_in_option": "an extremely us evening. 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Attested 'us'-framing catchphrase ('peak us', 'so us', 'very Sharon')",
+      "evidence_in_option": "designing deranged merge chains together sounds like an extremely us evening",
+      "source": "corpus"
+    },
+    {
+      "feature": "Exclamatory 'Oh' opener characteristic of Model S",
+      "evidence_in_option": "Oh, this is a fun design constraint to build around",
+      "source": "profile"
+    },
+    {
+      "feature": "Crass absurdist escalation + emoji-dense throughout, matching Model S humor register",
+      "evidence_in_option": "orbital goat platform / office supplies ascending to godhood",
+      "source": "profile"
+    },
+    {
+      "feature": "Correct in-voice lore: Gompers as a barking dog (🐶), Grumbletusk (real Bestiary creature), slime mold → 'Blob Ross II'",
+      "evidence_in_option": "a virtual Gompers with a dedicated thundercunt-barking state. 🐶📢",
+      "source": "corpus"
+    },
+    {
+      "feature": "Counter-signal weighed: Model S near-always ends with a question; C closes on a recommendation instead — lowers confidence but is an attested alternate closer (I-love-you/warm sign-off)",
+      "evidence_in_option": "extremely us evening. 💚",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

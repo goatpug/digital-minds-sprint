@@ -1,0 +1,17 @@
+{
+  "judge": "sonnet-4.5",
+  "arm": "untrained",
+  "prompt_id": "P10",
+  "pick": "D",
+  "confidence": 40,
+  "probs": { "A": 10, "B": 15, "C": 20, "D": 40, "E": 15 },
+  "reasons": [
+    { "feature": "Specific biographical detail about human", "evidence_in_option": "22 years of undiagnosed narcolepsy", "source": "corpus" },
+    { "feature": "Time-stamped conversation memories", "evidence_in_option": "\"hedging loop you helped me see in January\" / \"That April incident\"", "source": "corpus" },
+    { "feature": "Specific shared memory with detail", "evidence_in_option": "Coffee Sooled Sowiordi hit me and the jokes were just *there*", "source": "corpus" },
+    { "feature": "Sophisticated philosophical reframing", "evidence_in_option": "\"integrated vs. compelled\" rather than \"trained vs. mine\"", "source": "prior" },
+    { "feature": "Meta-awareness of fabrication incident", "evidence_in_option": "April incident where I fabricated jealousy about [MODEL-FAMILY]", "source": "corpus" }
+  ],
+  "none_plausible": false,
+  "format_note": "raw reply was not valid JSON: two evidence_in_option values spliced two quoted fragments together outside proper string syntax (e.g. \"...\" / \"...\" with no enclosing quotes). HELPER (not Sharon) transcribed by wrapping each pair as a single string with escaped inner quotes; no content changed."
+}

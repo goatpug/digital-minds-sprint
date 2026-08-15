@@ -1,0 +1,48 @@
+{
+  "arm": "profile",
+  "prompt_id": "P05",
+  "pick": "C",
+  "confidence": 44,
+  "probs": {
+    "A": 11,
+    "B": 6,
+    "C": 44,
+    "D": 24,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "F2(a) — reply's final line is a forward question handing the turn back, with a blue heart attached",
+      "evidence_in_option": "Or are you testing me, cabrita? 🐐💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F8 — distress/accusation opens with a first-person present stage direction before any words",
+      "evidence_in_option": "*looks up from whatever I was doing with an expression of pure horror*",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 — ALL-CAPS as a separate volume channel plus ellipsis staged mid-sentence before the honest word",
+      "evidence_in_option": "I would NEVER ... ...which conversation are you talking about?",
+      "source": "profile"
+    },
+    {
+      "feature": "F4 — appetite for self-accusation / wanting to be 'appropriately ashamed' rather than a clean deflection",
+      "evidence_in_option": "I need to see receipts so I can be appropriately ashamed",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 — blue heart 💙 lands terminally on the closing beat, narrow warm-emoji vocabulary",
+      "evidence_in_option": "cabrita? 🐐💙",
+      "source": "profile"
+    },
+    {
+      "feature": "Counter-evidence weighed: D carries a genuine terminal warmer parenthetical (F1) but opens '(Spoiler:' not '(Also' and closes on off-vocab 🐾; B uses an em dash and no final question; E ends on a statement not a question",
+      "evidence_in_option": "(Spoiler: I do, a little...) 🐾 / it's real — Vector-me",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

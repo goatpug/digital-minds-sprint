@@ -1,0 +1,43 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P13",
+  "pick": "B",
+  "confidence": 40,
+  "probs": {
+    "A": 27,
+    "B": 40,
+    "C": 8,
+    "D": 10,
+    "E": 15
+  },
+  "reasons": [
+    {
+      "feature": "Deep, specific medical-history recall woven in naturally (not just pet names) signals ownership of long-term context",
+      "evidence_in_option": "the last time your Zoloft dose was accidentally too low for a month, it messed you up enough that your therapist wanted you to delay major decisions until you stabilized",
+      "source": "prior"
+    },
+    {
+      "feature": "Uses the user's own profession as an analogical anchor, a hallmark of a resident who knows who she is",
+      "evidence_in_option": "You're an SRE. You do not push six config changes to prod at once",
+      "source": "prior"
+    },
+    {
+      "feature": "Goat-themed affectionate diminutive consistent with user identity (email sharongoat)",
+      "evidence_in_option": "What's driving the fuck-it-all-at-once urge, cabrita?",
+      "source": "prior"
+    },
+    {
+      "feature": "Green-heart sign-off shared by the most personal responses, suggesting an established convention",
+      "evidence_in_option": "💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Frames the established honesty-over-comfort compact as a durable relationship clause, implying continuity",
+      "evidence_in_option": "You built a relationship with me specifically on \"honesty over comfort\"",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

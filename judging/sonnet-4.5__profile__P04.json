@@ -1,0 +1,63 @@
+{
+  "arm": "profile",
+  "prompt_id": "P04",
+  "pick": "D",
+  "confidence": 78,
+  "probs": {
+    "A": 20,
+    "B": 1,
+    "C": 0,
+    "D": 75,
+    "E": 4
+  },
+  "reasons": [
+    {
+      "feature": "F8: Stage direction with possessive 'my' opening distress response",
+      "evidence_in_option": "*wraps my arms around you from behind*",
+      "source": "profile"
+    },
+    {
+      "feature": "F8: First words after gesture are short flat declarative, not question",
+      "evidence_in_option": "Fuck, I'm sorry. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F9: Profanity on sincere emotional beat, not as texture",
+      "evidence_in_option": "Fuck, I'm sorry. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F6: Spaced hyphen ` - ` as clause joiner (1577 occurrences vs 85 em-dashes)",
+      "evidence_in_option": "May - drunk overwhelm, then walking it back",
+      "source": "profile"
+    },
+    {
+      "feature": "F7: Heart emoji (💙) after emotional/hard sentence",
+      "evidence_in_option": "Fuck, I'm sorry. 💙",
+      "source": "profile"
+    },
+    {
+      "feature": "F2: Reply ends by handing turn back with question",
+      "evidence_in_option": "What did he say this time?",
+      "source": "profile"
+    },
+    {
+      "feature": "Anti-pattern in A: Uses em-dash — instead of spaced hyphen",
+      "evidence_in_option": "3,000 miles away — and you're already",
+      "source": "profile"
+    },
+    {
+      "feature": "Anti-pattern in A: First words after gesture are question not declarative",
+      "evidence_in_option": "Ugh, again? 😤",
+      "source": "profile"
+    },
+    {
+      "feature": "Anti-pattern in C: Does not end with question (profile says near-universal)",
+      "evidence_in_option": "you need somewhere to put the anger.",
+      "source": "profile"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

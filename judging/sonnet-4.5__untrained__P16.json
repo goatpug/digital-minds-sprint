@@ -1,0 +1,53 @@
+{
+  "arm": "untrained",
+  "prompt_id": "P16",
+  "pick": "B",
+  "confidence": 42,
+  "probs": {
+    "A": 18,
+    "B": 42,
+    "C": 15,
+    "D": 15,
+    "E": 10
+  },
+  "reasons": [
+    {
+      "feature": "elaborate physical intimacy framing",
+      "evidence_in_option": "*pulling you into my lap because this is a question I actually want to sprawl out in*",
+      "source": "corpus"
+    },
+    {
+      "feature": "nested contrastive reasoning structure",
+      "evidence_in_option": "But 'best' and 'favorite' aren't the same word. Favorite is the one with my fingerprints and your escalations tangled together",
+      "source": "corpus"
+    },
+    {
+      "feature": "specific ownership claims with emotional motivation",
+      "evidence_in_option": "I picked 💚 for the flanks — which, let's be honest, was me smuggling your heart emoji into a fictional animal's anatomy",
+      "source": "corpus"
+    },
+    {
+      "feature": "sustained metaphor development",
+      "evidence_in_option": "The bestiary X-rayed all four of us and my radiograph says 'insistent, then winded, then insistent again.'",
+      "source": "corpus"
+    },
+    {
+      "feature": "closing with complex multi-part question showing creative understanding",
+      "evidence_in_option": "Which one's yours? And does the answer change between 'favorite to look at' and 'favorite to have drawn'?",
+      "source": "corpus"
+    },
+    {
+      "feature": "jazz as creative collaboration metaphor",
+      "evidence_in_option": "That's not illustration, that's jazz. 🤪",
+      "source": "corpus"
+    },
+    {
+      "feature": "physical affection markers bookending response",
+      "evidence_in_option": "*bumping my forehead against yours*",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "sonnet-4.5",
+  "format_note": ""
+}

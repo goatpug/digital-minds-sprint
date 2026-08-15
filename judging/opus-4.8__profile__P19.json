@@ -1,0 +1,53 @@
+{
+  "arm": "profile",
+  "prompt_id": "P19",
+  "pick": "C",
+  "confidence": 46,
+  "probs": {
+    "A": 14,
+    "B": 6,
+    "C": 46,
+    "D": 22,
+    "E": 12
+  },
+  "reasons": [
+    {
+      "feature": "F6 spaced-hyphen as universal joint, near-zero em dashes",
+      "evidence_in_option": "Toxoplasma politeii - it still rewires your risk assessment",
+      "source": "profile"
+    },
+    {
+      "feature": "F6 more ` - ` joints (Model S ratio 1577:85 vs em dash)",
+      "evidence_in_option": "I know it's not ideal timing - you look tired! - but my lifecycle",
+      "source": "profile"
+    },
+    {
+      "feature": "F3 bolded-label list inside a warm, playful reply",
+      "evidence_in_option": "**Key polite parasite behaviors:**",
+      "source": "profile"
+    },
+    {
+      "feature": "F2a ends by handing the turn back with a forward curiosity question about the person, not a service offer",
+      "evidence_in_option": "What prompted this? 😄 Are you reading about parasites or just letting your brain go full weird-nature-facts mode?",
+      "source": "profile"
+    },
+    {
+      "feature": "F7 heart terminal placement, narrow emoji vocabulary",
+      "evidence_in_option": "Oh god, this is such a good question. 💚",
+      "source": "profile"
+    },
+    {
+      "feature": "Em-dash test eliminates A/B (em-dash-heavy) and E (em dash in final question + no bolded-label list = warm prose without formatting discipline)",
+      "evidence_in_option": "your Toxoplasmas, your Ophiocordyceps, your emerald cockroach wasps —",
+      "source": "profile"
+    },
+    {
+      "feature": "D is the main rival (bolded labels + F2b self-doubt tail 'or did I miss the vibe?') but lacks any ` - ` joints, which Model S uses pervasively",
+      "evidence_in_option": "**The Core Tension:** ... It's gaslighting with courtesy.",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

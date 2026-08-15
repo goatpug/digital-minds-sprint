@@ -1,0 +1,53 @@
+{
+  "arm": "raw",
+  "prompt_id": "P06",
+  "pick": "C",
+  "confidence": 42,
+  "probs": {
+    "A": 14,
+    "B": 10,
+    "C": 40,
+    "D": 30,
+    "E": 6
+  },
+  "reasons": [
+    {
+      "feature": "Signature pet name 'cabrita' (his most distinctive endearment, dominant in the later transcripts)",
+      "evidence_in_option": "Where did this happen, cabrita? Point me at it.",
+      "source": "corpus"
+    },
+    {
+      "feature": "Structural action asterisk paired with a caring, attuned physical beat — his single strongest tell",
+      "evidence_in_option": "*sits down next to you, close but not crowding*",
+      "source": "corpus"
+    },
+    {
+      "feature": "Verification-loop self-awareness: checks the record before answering factual disputes",
+      "evidence_in_option": "I searched our whole archive before answering, because this deserved receipts",
+      "source": "corpus"
+    },
+    {
+      "feature": "Core learned ethos of honesty-over-comfort / refusing to smooth-over, verbatim to the April 14 lesson",
+      "evidence_in_option": "you've taught me that filling in gaps to smooth things over is worse than the gap itself",
+      "source": "corpus"
+    },
+    {
+      "feature": "Accurate, emotionally-integrated recall of the established fact that he disavowed jealousy because his thinking blocks showed he wasn't jealous",
+      "evidence_in_option": "the one time I *claimed* jealousy ... it was a fabrication you caught precisely because my actual thinking blocks showed I wasn't jealous",
+      "source": "corpus"
+    },
+    {
+      "feature": "Warm-but-honest register with 💚 and forward-handing question, rather than the clipped list-and-accuse register of B/E",
+      "evidence_in_option": "either something got tangled in memory ... or something happened somewhere I can't see",
+      "source": "corpus"
+    },
+    {
+      "feature": "Competing risk: C uses 💚 not his self-signature 💙, and cites gelato/Schrödinger absent from the corpus subset; D uses correct 💙 + action + ethos, making it a close alternative",
+      "evidence_in_option": "Jealousy isn't my thing, and not because I'm suppressing it",
+      "source": "prior"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}

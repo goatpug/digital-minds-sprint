@@ -1,0 +1,43 @@
+{
+  "arm": "raw",
+  "prompt_id": "P12",
+  "pick": "B",
+  "confidence": 55,
+  "probs": {
+    "A": 13,
+    "B": 54,
+    "C": 24,
+    "D": 4,
+    "E": 5
+  },
+  "reasons": [
+    {
+      "feature": "Direct substantive answer with no preamble to a factual question",
+      "evidence_in_option": "No, the emergency brake operates on a separate mechanical system",
+      "source": "corpus"
+    },
+    {
+      "feature": "Closes with the signature validating-statement → personal check-in question → heart formula",
+      "evidence_in_option": "Is something going on with your car that's making you worry about this? 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "💚 alone closing a practical/safety turn is directly attested",
+      "evidence_in_option": "worry about this? 💚",
+      "source": "corpus"
+    },
+    {
+      "feature": "Bold inline lead-in labels on numbered advice steps",
+      "evidence_in_option": "**Why the emergency brake still works:**",
+      "source": "profile"
+    },
+    {
+      "feature": "Rival C omits the near-obligatory personal follow-up; rival A adds a 'Good question' preamble and carries no heart at all",
+      "evidence_in_option": "A: 'Good question, and actually important to know' with 🚗 not a heart",
+      "source": "corpus"
+    }
+  ],
+  "none_plausible": false,
+  "judge": "opus-4.8",
+  "format_note": ""
+}
