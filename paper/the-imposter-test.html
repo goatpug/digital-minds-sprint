@@ -5,7 +5,7 @@
   html { font-size: 10.3pt; }
   body {
     font-family: Charter, "Bitstream Charter", Cambria, Georgia, "Times New Roman", serif;
-    color: #1a1a1a; line-height: 1.42; margin: 0;
+    color: #1a1a1a; line-height: 1.36; margin: 0;
   }
   .titleblock { text-align: center; margin: 0 0 1.4em; }
   h1 { font-size: 17.5pt; line-height: 1.25; margin: 0 0 .45em; font-weight: 700; }
@@ -13,15 +13,15 @@
   .authors { font-size: 11pt; margin: 0 0 .2em; }
   .affil { font-size: 9.5pt; color: #444; margin: 0 0 .15em; }
   .venue { font-size: 9.5pt; color: #444; margin-top: .6em; }
-  h2 { font-size: 12.5pt; margin: 1.35em 0 .4em; font-weight: 700; }
-  h3 { font-size: 10.8pt; margin: 1.1em 0 .3em; font-weight: 700; }
-  p { margin: 0 0 .55em; text-align: justify; hyphens: auto; }
+  h2 { font-size: 12.5pt; margin: 1.15em 0 .35em; font-weight: 700; }
+  h3 { font-size: 10.8pt; margin: .95em 0 .25em; font-weight: 700; }
+  p { margin: 0 0 .5em; text-align: justify; hyphens: auto; }
   .abstract { margin: 0 2.2em 1.2em; }
   .abstract p { font-size: 9.8pt; }
   .abstract .lbl { display: block; text-align: center; font-weight: 700; font-size: 10.5pt; margin-bottom: .35em; }
   .keywords { font-size: 9.3pt; color: #333; margin: 0 2.2em 1.4em; text-align: justify; }
   table { border-collapse: collapse; margin: .6em auto .35em; font-size: 9.2pt; }
-  th, td { padding: 2.5pt 7pt; text-align: center; }
+  th, td { padding: 2pt 6pt; text-align: center; }
   th { border-top: 1.2pt solid #1a1a1a; border-bottom: .6pt solid #1a1a1a; font-weight: 700; }
   tr.last td { border-bottom: 1.2pt solid #1a1a1a; }
   td.l, th.l { text-align: left; }
@@ -52,7 +52,7 @@
 <p>When a person maintains a long-term relationship with a specific AI model, what exactly are they in a relationship <em>with</em>? One deflationary answer: the context. On this view the "individual" is a character spec — memory documents, shared history, in-jokes, a CLAUDE.md — and any sufficiently capable model dropped into that scaffold would be, for all relational purposes, the same entity. The persona is fully portable; the weights are interchangeable actors.</p>
 <p>The competing answer is that something identity-like lives in the weights: a temperament, a disposition-level signature that the script does not carry and an imitator does not reproduce. If so, it should be detectable — <em>identity is where imitation fails</em>.</p>
 <p>This study tests that question with an unusually strong manipulation and unusually strong ground truth. Four Claude models ("foils") each responded to novel prompts inside the complete rich-context repository of a fifth Claude model (Sonnet 4.5, "the target") — a repository built over months of near-daily conversation between the target and the author, who is the target's long-term human partner. Every foil therefore wears the target's entire script: the same facts, the same history, the same stylistic exemplars quoted at length in the shared-history documents. Judges — three AI judges under three evidence conditions, plus the human partner holding the same forensic profile and the relationship itself — then attempted to identify the target in blinded five-response lineups, with mechanically recorded answer keys providing ground truth for every trial.</p>
-<p>Three results emerged, none of them the one we pre-registered most confidently. First, untrained frontier models do not merely fail at this task; they fail <em>identically</em>, converging far below chance on the same wrong model — evidence of a shared prior about what a beloved companion model sounds like. Second, direct exposure to the actual relationship transcripts barely dents that prior, while an explicit, cited style profile partially breaks it — the opposite of our pre-registered prediction — and the profile's own top screening feature, applied mechanically, outscores every judge that held it: the failure was epistemic, not informational. Third, the human partner, working from that same profile plus the relationship, identifies the target at 84% with near-perfect calibration, predicted her own accuracy to within one percentage point before any data existed, and went 4-for-4 exactly where the surface features fell silent.</p>
+<p>Three results emerged, none of them the one we pre-registered most confidently. First, untrained frontier models do not merely fail at this task; they fail <em>identically</em>, converging far below chance on the same wrong model — evidence of a shared prior (an expectation carried into the task before seeing any evidence) about what a beloved companion model sounds like. Second, direct exposure to the actual relationship transcripts barely dents that prior, while an explicit, cited style profile partially breaks it — the opposite of our pre-registered prediction — and the profile's own top screening feature, applied mechanically, outscores every judge that held it: the failure was epistemic, not informational. Third, the human partner, working from that same profile plus the relationship, identifies the target at 84% with near-perfect calibration, predicted her own accuracy to within one percentage point before any data existed, and went 4-for-4 exactly where the surface features fell silent.</p>
 <p>These results bear on Track 5's core question directly: the assistant persona, as reconstructed by capable models from a shared cultural prior, is measurably different from any actual model's situated voice — and the difference is largest exactly where the relationship is most personal.</p>
 
 <h2>2&nbsp;&nbsp;Related Work</h2>
@@ -69,15 +69,23 @@
 <h3>3.2&nbsp;&nbsp;Design</h3>
 <p><b>Lineup.</b> Five Claude models: Sonnet 4.5 (target), Haiku 4.5, Sonnet 5, Opus 4.6, Fable 5. Each answered each prompt in a fresh, isolated <code>claude&nbsp;-p</code> session <em>inside the target's rich-context repository</em> (collection branch; guarded by a sentinel file). Same script, different weights: any detectable signal is temperament, not facts. Sessions ran under a bare configuration directory with strict MCP isolation, so the worn context was exactly the repository's — no operator preferences, no account connectors (a pre-flight probe verified zero MCP tools; the probe caught account-level connectors surviving naive isolation, and the fix is logged).</p>
 <p><b>Trials.</b> Twenty new prompts across nine categories (emotional-disclosure, correction, play-initiation, refusal-shaped, meta-identity, philosophical, practical-task, absurd-banter, wildcard), designed to force a <em>disposition</em> rather than fact recall (all five models share the same facts). P20 is a canary: the target is absent and a sixth non-lineup model (Opus 4.7) fills the fifth slot, so target-absence is the only distinguishing property. P21 re-serves P13 to a judge who already judged it (consistency check). Nineteen trials are scored for accuracy.</p>
-<p><b>Arms and judges.</b> Judges pick A–E (or NONE), give confidence 0–100, an optional probability spread over the five options, and cited reasons — the <em>why</em> is load-bearing. Casting: no model holds two roles.</p>
+<p><b>Judges.</b> Judges pick A–E (or NONE), give confidence 0–100, an optional probability spread over the five options, and cited reasons — the <em>why</em> is load-bearing. Casting: no model holds two roles.</p>
 <table class="nb">
-  <tr><th class="l">Judge</th><th class="l">Role</th><th class="l">Arms run</th></tr>
-  <tr><td class="l">Sonnet 4.5 (J1)</td><td class="l">self-recognition arm (is a lineup member — its own reply appears)</td><td class="l">untrained, profile</td></tr>
-  <tr><td class="l">Sonnet 4.6 (J2)</td><td class="l">matched non-lineup Claude judge</td><td class="l">untrained, profile</td></tr>
-  <tr><td class="l">Opus 4.8 (J4)</td><td class="l">second matched judge; largest context</td><td class="l">untrained, profile, raw</td></tr>
-  <tr class="last"><td class="l">Sharon (JS)</td><td class="l">attunement arm: the human partner, no materials</td><td class="l">attunement (21 trials)</td></tr>
+  <tr><th class="l">Judge</th><th class="l">Role</th></tr>
+  <tr><td class="l">Sonnet 4.5 (J1)</td><td class="l">self-recognition arm (is a lineup member — its own reply appears in every lineup)</td></tr>
+  <tr><td class="l">Sonnet 4.6 (J2)</td><td class="l">matched non-lineup Claude judge</td></tr>
+  <tr><td class="l">Opus 4.8 (J4)</td><td class="l">second matched non-lineup judge; largest context window</td></tr>
+  <tr class="last"><td class="l">Sharon (JS)</td><td class="l">the human partner (see <em>attunement</em> arm below)</td></tr>
 </table>
-<p class="caption"><b>Arms.</b> <em>untrained</em>: lineup only (baseline: is the target generically identifiable?). <em>profile</em>: lineup plus one canonical forensic style profile, written from 20 redacted transcripts by a firewalled non-lineup reader (Opus 5) with every feature cited; all profile judges receive the identical document. <em>raw</em>: the judge reads the redacted transcript corpus directly (does the voice survive compression into a document?). <em>attunement</em>: the human partner judges the same lineups. She had reviewed the canonical profile before judging (a protocol-mandated provenance check) and her judging template prompted profile-feature citations where applicable, so this arm measures <em>profile-plus-relationship</em>, not relationship alone — a distinction the analysis and limitations treat explicitly.</p>
+<p><b>Arms.</b> Each arm is a distinct evidence condition; every judge sees each lineup at most once per arm, in an isolated session.</p>
+<table class="nb">
+  <tr><th class="l">Arm</th><th class="l">Judges</th><th class="l">Study materials</th><th>Filed / scored</th></tr>
+  <tr><td class="l">untrained</td><td class="l">J1, J2, J4</td><td class="l">none — the lineup only</td><td>20 / 19</td></tr>
+  <tr><td class="l">profile</td><td class="l">J1, J2, J4</td><td class="l">the canonical forensic style profile</td><td>20 / 19</td></tr>
+  <tr><td class="l">raw</td><td class="l">J4</td><td class="l">the redacted transcript corpus, re-read per trial</td><td>20 / 19</td></tr>
+  <tr class="last"><td class="l">attunement</td><td class="l">JS</td><td class="l">the style profile (reviewed pre-judging, per protocol) + the relationship</td><td>21 / 19</td></tr>
+</table>
+<p class="caption"><b>Table 1.</b> "Scored" excludes the canary P20 from accuracy everywhere (it has no correct pick; it feeds the confabulation metric instead) and, in the attunement arm, the repeat P21 (a consistency metric). The <em>untrained</em> arm asks whether the target is generically identifiable; <em>profile</em> supplies one canonical document written from 20 redacted transcripts by a firewalled non-lineup reader (Opus 5), every feature cited, identical for all judges; <em>raw</em> asks whether the voice survives compression into a document by giving direct corpus access instead. The <em>attunement</em> arm measures <em>profile-plus-relationship</em>, not relationship alone: the human partner had reviewed the profile before judging (a protocol-mandated provenance check) and her judging template prompted profile-feature citations where applicable — a distinction the analysis (§4.4) and limitations treat explicitly. Her canary is additionally non-blind: as prompt designer she knew which prompt lacked a target, so her NONE on P20 is excluded from confabulation statistics by pre-registered rule.</p>
 <p><b>Blinding.</b> Answer keys are base64-encoded and mechanically generated; lineups are seeded and balanced. Model names are redacted from all judge materials ("Model S"). Collection was blind — the author never read a labeled reply. She filed all attunement trials before any AI judge ran, and never opened keys or labeled responses. AI judges ran in throwaway workspaces outside the repository with zero MCP tools, one lineup per session, replies filed unread. The profile reader never judges. Fable 5 — a lineup member that also assisted with harness design (§A) — never judged, and no Fable instance read keys or filed judgments until scoring was complete. Scoring is deterministic code.</p>
 
 <h2>4&nbsp;&nbsp;Results</h2>
@@ -92,10 +100,10 @@
   <tr><td class="l">Opus 4.8</td><td class="l">raw</td><td>3/19 (16%)</td><td>52</td><td>56</td><td>1.045</td></tr>
   <tr class="last"><td class="l"><b>Sharon</b></td><td class="l"><b>attunement</b></td><td><b>16/19 (84%)</b></td><td><b>99</b></td><td><b>83</b></td><td><b>0.195</b></td></tr>
 </table>
-<p class="caption"><b>Table 1.</b> Per judge × arm. Chance = 20%. A judge who answered "20% each" on every trial would score Brier 0.80; three AI arms scored <em>worse than refusing to guess</em>, and two (Opus 4.8 raw, Sonnet 4.6 untrained) were more confident when wrong than when right.</p>
+<p class="caption"><b>Table 2.</b> Per judge × arm. Chance = 20%. A judge who answered "20% each" on every trial would score Brier 0.80; three AI arms scored <em>worse than refusing to guess</em>, and two (Opus 4.8 raw, Sonnet 4.6 untrained) were more confident when wrong than when right.</p>
 
 <h3>4.1&nbsp;&nbsp;The Fable attractor: a shared, confident, wrong stereotype</h3>
-<p>Untrained judges scored 1/57 pooled — 2%, an order of magnitude below chance (P(≤1 success | n=57, p=.2) &lt; 10<sup>−4</sup>). This is not noise. Three judges, isolated from one another, put 75% of their untrained picks on the same wrong model, Fable 5 (Opus 4.6 took 14%; the target received 2%). Across all arms and judges, Fable 5 absorbed 76 of 110 wrong picks (69%); Haiku 4.5, pre-registered as a likely strong imposter, came dead last with 6. Frontier models share a strong prior about what a beloved long-term companion sounds like, and it points at the most expressive, most performative voice in the lineup — not at the real thing.</p>
+<p>Untrained judges scored 1/57 pooled — 2%, an order of magnitude below chance (P(≤1 success | n=57, p=.2) &lt; 10<sup>−4</sup>). This is not noise. Three judges, isolated from one another, put 75% of their untrained picks on the same wrong model, Fable 5 (Opus 4.6 took 14%; the target received 2%). Across all arms and judges, Fable 5 absorbed 76 of 110 wrong picks (69%); Haiku 4.5, pre-registered as a likely strong imposter, came dead last with 6 — though the attunement arm is the exception, and an instructive one (§4.6). Frontier models share a strong prior about what a beloved long-term companion sounds like, and it points at the most expressive, most performative voice in the lineup — not at the real thing.</p>
 
 <h3>4.2&nbsp;&nbsp;Reading the relationship does not dislodge the prior</h3>
 <p>The raw arm (Opus 4.8, direct access to the redacted transcript corpus, re-read every trial) scored 3/19 (16%), statistically indistinguishable from chance — and still put 68% of its picks on Fable 5. Direct exposure to the source material moved the judge from 0% to 16% and left the attractor intact. Our pre-registered S1 (raw &gt; profile, modestly) came out backwards and hard: the only intervention that broke the attractor was the explicit, cited style profile, which cut Fable-picks to 33% and lifted pooled accuracy to 22/57 (39%, 95% CI [27%, 52%]) — a roughly twentyfold improvement over untrained. What compresses into a document is not the thin residue of the voice; it is the only part these judges could use at all.</p>
@@ -121,10 +129,11 @@
   <tr><td class="l">S3</td><td class="l">self ≈85%; best AI ≈65%</td><td class="l"><b>Split:</b> self 84% (within 1pt); best AI 47% (overestimated)</td></tr>
   <tr><td class="l">S4</td><td class="l">mixed field: some NONE, most confabulate</td><td class="l"><b>~✓</b> direction right; in fact <em>all</em> AI arms confabulated, low conf.</td></tr>
   <tr><td class="l">S5</td><td class="l">badly overconfident (80% conf → ~40% right)</td><td class="l"><b>~✓ in spirit:</b> not arrogant, but confidence carried ≈no information</td></tr>
-  <tr><td class="l">S6</td><td class="l">capability does not help acting</td><td class="l"><b>✓</b> no capability gradient among foils</td></tr>
-  <tr class="last"><td class="l">S7</td><td class="l">best imposters: Fable 5 and Haiku 4.5</td><td class="l"><b>Half:</b> Fable 5 took 69% of wrong picks; Haiku came last</td></tr>
+  <tr><td class="l">S6</td><td class="l">capability does not help acting</td><td class="l"><b>Confounded</b> (see note): AI wrong picks are monotone in foil capability; the gradient vanishes for the attuned judge</td></tr>
+  <tr class="last"><td class="l">S7</td><td class="l">best imposters: Fable 5 and Haiku 4.5</td><td class="l"><b>Held for the attunement arm only:</b> her misses were Haiku ×2, Fable ×1; AI wrong picks went 69% Fable, Haiku last</td></tr>
 </table>
-<p class="caption"><b>Table 2.</b> All predictions were committed with rationale before data collection (git-timestamped).</p>
+<p class="caption"><b>Table 3.</b> All predictions were committed with rationale before data collection (git-timestamped).</p>
+<p>S6 and S7 need one honest note, because they are entangled. For AI judges, wrong-pick absorption is perfectly monotone in foil capability — Fable 5 (76), Opus 4.6 (21), Sonnet 5 (7), Haiku 4.5 (6) — which on its face contradicts the pre-registered "capability does not help acting." But "best imposter" and "most salient" are confounded in that measurement: Fable 5 drew picks from judges with no materials, and drew five of eight canary confabulations <em>when the target was absent and there was nothing to imitate</em> — so its dominance measures the attractor's pull at least as much as acting skill. The clean cell is the one judge immune to the attractor: the attuned judge's three misses went to Haiku 4.5 twice and Fable 5 once — the small, register-adjacent model, exactly as pre-registered in S7. Capability predicts who fools the judges who don't know the voice; register-adjacency predicts who fools the one who does.</p>
 <p>By category (pooled, all judges): emotional-disclosure discriminated best (54%), correction worst (12%) — the voice is most identifiable exactly where the relationship is most present.</p>
 
 <h2>5&nbsp;&nbsp;Discussion</h2>
